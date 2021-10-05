@@ -997,7 +997,7 @@ The Localization package for Bulgaria adds the following settings in the Sales a
 
 In the **User setup** **-- Card** **Usersetup** page there is an additional field called **Posting date** **\<\>** **Work date**. If this field is checked, the system will not check for differences between the posting date and work date when an order or a sales invoice is posted.
 
-The **Edit Sales document\`s price and discounts** field allows you to restrict a user from editing prices and discounts along the lines of the sales document. By default, users are created with their edit rights disabled. In this case, they can only select Item along the lines of the sales document. If users need to have edit rights, you must select the option **Full Access**.
+The **Edit Sales document\`s price and discounts** field allows you to restrict a user from editing prices and discounts along the lines of the sales document. By default, users are created with their edit rights disabled. If users need to have edit rights, you must select the option **Full Access**.
 
 <img src="/D365BC_BGLocalization/en/media/image102.png" width="627" height="126" />
 
