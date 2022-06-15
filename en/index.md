@@ -67,6 +67,11 @@ The localization package includes the following functionalities:
 -   Fixed assets reports (depreciation plan for corporate tax and accounting purposes)
 -   Sales invoices and credit memos print forms
 
+When creating a new company, it is necessary to activate the localization package for Bulgaria. Activation is performed in the **General Ledger Setup** page from the menu **Actions**, **Functions** - **Change BG Localization Activation Status**.
+After activation it is necessary to check the status in the **BG localization Settings** section.
+
+<img src="/D365BC_BGLocalization/en/media/image126.png" width="684" height="535" />
+
 # VAT functionality
 
 The VAT functionality, as part of the localization package for Bulgaria, meets the requirements for VAT statutory reporting.
@@ -234,9 +239,9 @@ The VAT combination defines in which columns of the VAT ledgers the protocol wil
 
 <img src="/D365BC_BGLocalization/en/media/image17.png" width="627" height="172" />
 
-When the combination is with classification code 08, the protocol is included in the VAT purchase ledger in columns 10 and 11, and in VAT sales ledger in columns 9, 10, 14, 15.
+When the combination is with classification code 08, the protocol is included in the VAT purchase ledger in columns 10 and 11, and in VAT sales ledger in columns 9, 10, 13, 15.
 
-When the combination is with classification code 02, the protocol is included in the VAT purchase ledger in columns 10 and 11, and in VAT sales ledger in columns 9, 10, 13, 15.
+When the combination is with classification code 02, the protocol is included in the VAT purchase ledger in columns 10 and 11, and in VAT sales ledger in columns 9, 10, 14, 15.
 
 <img src="/D365BC_BGLocalization/en/media/image18.png" width="627" height="184" />
 
@@ -703,9 +708,9 @@ In the **VAT Reports Configuration** page, you need to set the relevant settings
 
 -   **VAT Report Type** -- Intrastat Report
 -   **VAT Report Version** -- 2020
--   **Suggest Lines Codeunit ID** -- XXXXX (FTS Get Intrastat Entries)
--   **Content Codeunit ID** -- XXXXX (FTS Export Intrastat XML)
--   **Validate Codeunit ID --** XXXXX (FTS Check Intrastat Error)
+-   **Suggest Lines Codeunit ID** -- 46026517 or 60013 (FTS Get Intrastat Entries)
+-   **Content Codeunit ID** -- 46026519 or 60015 (FTS Export Intrastat XML)
+-   **Validate Codeunit ID** -- 46026518 or 60014 (FTS Check Intrastat Error)
 
 In the **Intrastat Setup** page, the following settings are set:
 
@@ -1120,7 +1125,7 @@ The localization fields are displayed in the Sales return order and Sales credit
 
 **Foreign trade tab**
 
-In this tab you must fill in data for the Intrastat transactions if the document is a sale to the EU and contains items. The system displays warning messages if data is not present. This data can be specified in the **Customer card** and populated by default in the sales credit memo.
+In this tab you must fill in data for the transactions if the document is a sale to the EU and contains items. The system displays warning messages if data is not present. This data can be specified in the **Customer card** and populated by default in the sales credit memo.
 
 <img src="/D365BC_BGLocalization/en/media/image115.png" width="624" height="144" />
 
