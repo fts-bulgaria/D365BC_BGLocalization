@@ -70,7 +70,7 @@ The localization package includes the following functionalities:
 When creating a new company, it is necessary to activate the localization package for Bulgaria. Activation is performed in the **General Ledger Setup** page from the menu **Actions**, **Functions** - **Change BG Localization Activation Status**.
 After activation it is necessary to check the status in the **BG localization Settings** section.
 
-<img src="/D365BC_BGLocalization/en/media/image126.png" width="684" height="535" />
+<img src="/D365BC_BGLocalization/en/media/image126.png" width="517" height="396" />
 
 # VAT functionality
 
