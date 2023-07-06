@@ -37,7 +37,9 @@ redirect_from:
 [5.2. Vendor card](#vendor-card)\
 [5.3. Purchase invoice](#purchase-invoice)\
 [5.4. Purchase credit memos](#purchase-credit-memos)\
-[5.5. Void posted invoices and credit memos](#void-posted-invoices-and-credit-memos)
+[5.5. Void posted invoices and credit memos](#void-posted-invoices-and-credit-memos)\
+[5.6. Change data in posted purchase documents](#change-data-in-posted-purchase-documents)\
+[5.7. Void a purchase invoice in next tax period](#void-a-purchase-invoice-in-next-tax-period)
 
 [6. Sales - localization settings](#sales-localization-settings)\
 [6.1. User setup](#user-setup)\
@@ -49,7 +51,9 @@ redirect_from:
 [6.7. Sales credit memos](#sales-credit-memos)\
 [6.8. Print Sales invoices and credit memos](#print-sales-invoices-and-credit-memos)\
 [6.9. Sales protocol](#sales-protocol)\
-[6.10. Cancel Sales invoices or credit memos](#cancel-sales-invoices-or-credit-memos)
+[6.10. Cancel Sales invoices or credit memos](#cancel-sales-invoices-or-credit-memos)\
+[6.11. Change data in posted sales documents](#change-data-in-posted-sales-documents)
+
 
 # Executive summary
 
@@ -97,6 +101,7 @@ This table contains data on specific localization setup regarding: checks of VAT
     -   **Skip Check for Identification No -** check this field, if the check for Identification No. should not be activated.
     -   **Foreigner VAT reg. No. -** enter a standard foreigner VAT reg. number (999999999999999). The system checks if the VAT number, entered in the vendor or customer card, is the same as the number, entered in this field.
     -   **Foreigner Identification No. -** enter a standard foreigner Identification No. (9999999999). The system checks if the identification number, entered in the vendor or customer card, is the same as the number, entered in this field.
+    -   **Posting Purchase Invoice -** Specifies whether it is allowed posting a purchase invoice with the same document number and different date.
 
 -   **VAT export setup**
     -   **Sales VAT subject -** define the standard VAT sales subject for the purposes of the VAT sales ledger (length: 30 symbols). If no specific VAT subject is entered in the sales document before posting (invoice/credit memo/sales protocol), the VAT subject for the VAT sales ledger is taken from this field.
@@ -157,6 +162,11 @@ The main fields for the setup of the VAT combinations for the Bulgarian localiza
 |      |                                                                            | In the purchase ledger, when it is entitled to a partial tax credit in column 12 (TO the received deliveries, VAT, the received deliveries Art. 82, para 2-5 of the VAT Act, the import, as well as TO the received deliveries, used for making of supplies under Article 69, paragraph 2 of the VAT Act with the right to a partial tax credit) and column 13 (VAT with the right to a partial tax credit) |
 | 12   | Intermediary in triangular operations                                      | For deliveries as Intermediary in triangular operations                                                                                                                                                                                                                                                                                                                                                     |
 | 13   | Intra-community sales                                                      | Related to sales ledger and column 20 (TO supplies with 0% Intra-community sales)                                                                                                                                                                                                                                                                                                                           |
+| 50   | VAT protocol for fuel compensation	                                        | In the page VAT posting setup, in the Edit mode of the VAT combination for the compensation, in the General section there is a field Compensation protocol, which must be checked. Based on this check, when a VAT ledger is generated, a VAT protocol with these combination will enter with code 50.                                                                                                      |
+| 83   | Fuel compensation sales	                                                | In the page of BG, VAT and VIES settings in the VAT label section, a field "Compensation customer code" has been added. In this field, you must indicate the client for whom the invoices will be issued with the fuel that will be compensated. The sales of this customer in the VAT ledger will be entered with code 83, they will be entered document by document, because they use invoice numbering.  |
+| 84   | Delivery of bread                                                          | In the VAT classification code, 00 is filled in for the VAT combination, and in the column "Specific purchase par. 163a" code 07 is filled in. In this case, the type of the document will be changed to 84 in the VAT ledger                                                                                                                                                                               |
+| 85   | Delivery of flour                                                          | In the VAT classification code, 00 is filled in for the VAT combination, and in the column " Specific purchase par. 163a ", code 08 is filled in. In this case, the type of document will be changed to 85 in the VAT ledger                                                                                                                                                                                |
+| 90   | Only in VAT Sales Ledger                                                   | When posting a VAT Sales protocol with the relevant VAT combination - this record will be entered only in a sales ledger with code 09 and only the amount of VAT is recorded in column 12 (VAT charged for purchases on c.11 and (20%) according to other cases), without base.                                                                                                                             |
 | 92   | Purchases according to art. 82, p.2-5                                      | Used in the VAT protocols described below                                                                                                                                                                                                                                                                                                                                                                   |
 | 98   | Intra-community purchases                                                  | Used in the VAT protocols described below                                                                                                                                                                                                                                                                                                                                                                   |
 
@@ -210,9 +220,11 @@ Choose **Copy document**, and choose the document, from which the protocol shoul
 
 After the document is selected, press OK and the data is filled in the protocol.
 
-<img src="./media/image14.png" width="627" height="473" />
+<img src="./media/image14.png" width="520" height="400" />
 
 In the VAT protocol header, fill in **Composed by** and **Ground for issue.**
+
+You can also fill a **VAT description** field. The description is filled in which is reflected in the VAT Ledgers in the column VAT description. If left blank, it will be populated with the value of Sales VAT Subject/Purchase Vat Subjest VAT fields from page BG, VAT and VIES setup;
 
 VAT protocols can be created for several documents. In order to use this functionality, from the list of the protocols choose the button Create Purch. VAT protocol.
 
@@ -251,6 +263,8 @@ When the protocol has to be included in the VAT purchase ledger with no VAT refu
 ### VAT protocol included only in the VAT Sales Ledger
 
 When a VAT protocol should be registered only in the VAT Sales Ledger we can use the functionality of VAT for private use of assets, described in this document. The protocol will be included only in the VAT Sales Ledger. It is necessary to set a new VAT combination, which should be marked for personal use, as well as the protocol itself to be marked as a protocol for personal use of assets.
+
+Vat Classification code 90 is also used for these cases. When posting a VAT Sales protocol with the relevant VAT combination, this record will be entered only in a sales ledger with code 09 and only the amount of VAT is recorded in column 12 (VAT charged for purchases on c.11 and (20%) according to other cases), without base.
 
 ### Voiding VAT Protocol
 
@@ -416,7 +430,7 @@ The fields for the file names are filled in automatically with values, according
 -   DEKLAR.TXT - VAT declaration
 -   VIES.TXT - VIES Declaration
 
-By selecting the OK button for each ledger or declaration specified for export, separate files are created. A message for successful creation of each of the files is displayed and they can be found in the download folder of the user's computer:
+By selecting the OK button, one archive file is created that contains all marked diaries and declarations.
 
 <img src="./media/image41.png" width="627" height="309" />
 
@@ -574,7 +588,7 @@ After you enter the date and number, you must close the screen. The protocol dat
 
 ## VAT Setup when carrying out activities under Art. 163
 
-According to the Bulgarian legislation, special VAT reverse charge schemes have been introduced when reflecting transactions involving waste and cereals and industrial crops. Reverse charging is a specific tax tool in which tax is charged by the recipient and not by the vendor. The mechanism requires that the tax is chargeable to the recipient in the transaction, who must be a VAT registered person, regardless of whether the vendor is a VAT registered person or not. In connection with these requirements in Dynamics 365 Business central, you need to make the following settings.
+According to the Bulgarian legislation, special VAT reverse charge schemes have been introduced when reflecting transactions involving waste and cereals and industrial crops. Reverse charging is a specific tax tool in which tax is charged by the recipient and not by the vendor. The mechanism requires that the tax is chargeable to the recipient in the transaction, who must be a VAT registered person, regardless of whether the vendor is a VAT registered person or not. In connection with these requirements in Dynamics 365 Business central, you need to make the following settings.
 
 ### Create new VAT Product Posting Groups 
 
@@ -659,14 +673,14 @@ A new **\"Ground for Issue\"** of a reverse charge protocol is entered - **\"VAT
 
 # Intrastat
 
-Intrastat is the system for collecting information on Intra-Community dispatches and / or arrivals of goods made between the Republic of Bulgaria and the EU Member States. Companies obliged to submit Intrastat declarations, namely, Intrastat operators, are those companies registered under the Value Added Tax Act, who carry out Intra-European Union trade with goods in annual volumes of  a value above the declaration thresholds. Intrastat operators are obliged to submit a monthly Intrastat declaration.
+Intrastat is the system for collecting information on Intra-Community dispatches and / or arrivals of goods made between the Republic of Bulgaria and the EU Member States. Companies obliged to submit Intrastat declarations, namely, Intrastat operators, are those companies registered under the Value Added Tax Act, who carry out Intra-European Union trade with goods in annual volumes of  a value above the declaration thresholds. Intrastat operators are obliged to submit a monthly Intrastat declaration.
 
 Below are some standard features of the system, as well as additions to the Localization package for Bulgaria, which help with Intrastat reporting.
 
 ## Intrastat Setup
 
 The data required for Intrastat declarations are reduced to the fields below. Some of the data can be set in advance and filled in by default in the documents.
-  
+  
 
 Example:
 
@@ -695,13 +709,13 @@ In the **Item** card, the following fields are filled in:
 
 In the **Purchase Order**, the following fields are filled in:
 -   **Area** -- for arrivals, this is a region (district) in Bulgaria
--   **Transport Country/Region Code -** Nationality of the means of transport (You must specify the 2-character alphabetical  codе of the country whose carrier is used to transport the goods. The specified code may be that of any of the countries in the Geonomenclature.)
+-   **Transport Country/Region Code -** Nationality of the means of transport (You must specify the 2-character alphabetical  codе of the country whose carrier is used to transport the goods. The specified code may be that of any of the countries in the Geonomenclature.)
 
 It is advisable that these fields be filled in the purchase order before its posting. The data can be found in the **Foreign Trade** tab of the Purchase Order.
- 
+ 
 
 <img src="./media/image66.png" width="627" height="406" />
- 
+ 
 
 In the **VAT Reports Configuration** page, you need to set the relevant settings once.
 
@@ -783,7 +797,7 @@ After the journal is created, the **Suggest Lines** action is selected. The syst
 
 <img src="./media/image76.png" width="627" height="161" />
 
- 
+ 
 It is necessary to check for missing data. If there are any, they can be filled in manually in the journal. The other option is to fill them in the relevant cards (items, vendors, etc.), and then run the Suggest Line action again. It is recommended for the items to be filled in with net weights and tariff numbers (in their cards) in advance. Without these fields, the declaration will not be submitted correctly.
 
 In the table Item Ledger Entries there are some additional fields related to Intrastat transactions such as - tariff number, customs declaration, net weight, country of origin, country of transport, method of transport, etc. They can be used for additional reporting.
@@ -849,7 +863,7 @@ The following fields have been added to the General Journal:
 
 The Trial Balance Register report is a further developed report, which serves to present the data on accounts in a way that makes it easy to track the opening balance, the turnover for the respective period (debit and credit) and the closing balance.
 
-You can start the report from the main screen of the Accountant Role Center:
+You can start the report from the main screen of the Accountant Role Center:
 
 <img src="./media/image82.png" width="627" height="172" />
 
@@ -878,7 +892,7 @@ Upon confirmation by pressing the View button, the report is displayed on the sc
 
 In addition to the reports in the Fixed Asset module, the Localization package for Bulgaria also provides reports developed for tax and accounting depreciation plans.
 
-The **Changes in Fixed Asset** report contains all the information needed for Tax depreciation plan and Accounting depreciation plan. It is found in the main screen of the Accountant Role Center:
+The **Changes in Fixed Asset** report contains all the information needed for Tax depreciation plan and Accounting depreciation plan. It is found in the main screen of the Accountant Role Center:
 
 <img src="./media/image86.png" width="627" height="171" />
 
@@ -908,12 +922,13 @@ The localization package for Bulgaria has some additional settings in the Purcha
 
 ## Purchases & Payables Setup
 
-In the **Purchase & Payables Setup** there are some additional fields related to VAT protocols for purchases and Intrastat.
+In the **Purchase & Payables Setup** there are some additional fields related to VAT protocols for purchases and Intrastat and also a setting for mandatory payment method code.
 
 <img src="./media/image90.png" width="562" height="331" />
 
 -   **EU VAT Bus. posting group** -- VAT business posting group linked to VAT protocols is filled in;
 -   **Intr. Jnl. Incl. Item charges** -- it has to be checked if you want to include the additional charges in the Intrastat declaration
+-   **Payment Metod mandatory** - specifies whether the Payment Method Code is mandatory for posting.
 
 ## Vendor card
 
@@ -993,6 +1008,88 @@ The system displays the following message:
 
 Upon pressing the **Yes** button, the document is marked as voided by the system. It will appear in the VAT ledger with zero value. To reverse the G/L postings, you must issue a Credit memo or Invoice which you must also void.
 
+## Change data in posted purchase documents
+
+It is possible to change data in a posted purchase invoice and in a
+posted purchase credit memo.
+
+The change is made from the posted document page
+
+### Update a posted purchase invoice
+
+If you need to update a document, you must open the posted purchase
+invoice. Under the **Actions -- Other** menu you have to select **Update
+Document**.
+
+<img src="./media/image102_2.png" width="626" height="282" />
+
+On the Posted Purch. Invoice - Update page, you can update the data in
+the following fields:
+
+Invoice Details tab
+
+• Payment Reference -- you can update the Payment Reference field in the
+posted invoice
+
+• Payment Method Code -- you can update the Payment Method Code field
+
+• Creditor No. -- you can update the field Creditor No.
+
+• Vendor Invoice №. -- you can update the invoice number in the posted
+invoice
+
+• Document date -- you can update Document Date in the posted invoice
+
+• Do not include in VAT Ledgers - you can update the field Do not
+include in VAT Ledgers
+
+Shipping tab
+
+• Ship-to address code -- you can update the shipping address code
+
+<img src="./media/image103_2.png" width="626" height="282" />
+
+Confirm with **OK** to update the data.
+
+### Update a posted purchase credit memo
+
+If you need to update a document, you must open the posted purchase
+credit memo. Under the **Actions -- Other** menu you have to select
+**Update Document**.
+
+<img src="./media/image104_2.png" width="626" height="282" />
+
+In the page Posted Purch. Cr.Memo - Update the data in the following
+fields can be updated:
+
+• Payment method code -- you can update the Payment Method Code field
+
+• Vendor Cr.Memo No -- you can update Vendor Cr.Memo No
+
+• Document date -- you can update Document Date
+
+• Do not include in VAT Ledgers - you can update Do not include in VAT
+Ledgers
+
+<img src="./media/image105_2.png" width="626" height="282" />
+
+Confirm with **OK** to update the data.
+
+## Void a purchase invoice in next tax period
+
+When a vendor void an invoice that has been posted and data was exported
+in files for submission to the tax administration , the cancellation
+must be reflected in a next tax period.
+
+It is necessary to issue a new Purchase Credit Memo. Enter the number of
+the posted invoice that has been canceled in Vendor Cr. Memo No and
+check the \"Credit Memo for Invoice Voiding\".
+
+In this way, the posted credit memo will be reflected in the VAT ledger
+entries with code 01.
+
+<img src="./media/image106_2.png" width="626" height="282" />
+
 # Sales -- localization settings
 
 The Localization package for Bulgaria adds the following settings in the Sales and Marketing module.
@@ -1021,6 +1118,7 @@ They are included in the VAT Sales journal under code 81.
 **Specific Settings** tab
 
 -   **Intr. Jnl. Incl. Item charges**. - If item charges need to be included in the Intrastat journal for shipments, you must check this option
+-   **Payment Metod mandatory** - specifies whether the Payment Method Code is mandatory for posting.
 
 <img src="./media/image103.png" width="627" height="294" />
 
@@ -1227,3 +1325,71 @@ The system displays the following message:
 
 Upon pressing the **Yes** button, the document is marked as cancelled by the system. It will appear in the VAT Sales Ledger with zero value. To reverse the G/L postings, you must issue a Credit memo or Invoice which you must also cancel.
 
+## Change data in posted sales documents
+
+It is possible to change data in a posted sales invoice and in a posted
+sales credit memo.
+
+The change is made from the posted document page.
+
+### Update a posted sales invoice
+
+If you need to update a document, you must open the posted sales
+invoice. Under the **Actions -- Other** menu you have to select **Update
+Document**.
+
+<img src="./media/image132.png" width="494" height="177" />
+
+On the Posted Sales Inv.- Update page, you can update the data in the
+following fields:
+
+Invoice Details tab
+
+• Do not include in VAT Ledgers -- you can update the field Do not
+include in VAT Ledgers
+
+Payment tab
+
+• Payment Method Code -- you can update the Payment Method Code field
+
+• Payment Reference -- you can update the field Payment Reference
+
+• Company Bank Account Code -- you can update the Company Bank Account
+Code
+
+<img src="./media/image133.png" width="494" height="177" />
+
+Confirm with **OK** to update the data.
+
+### Update a posted sales credit memo
+
+If you need to update a document, you must open the posted sales credit
+memo. Under the **Actions -- Other** menu you have to select **Update
+Document**.
+
+<img src="./media/image134.png" width="494" height="177" />
+
+In the page Posted Sales. Cr.Memo - Update, the data in the following
+fields can be updated:
+
+Invoice Details tab
+
+• Do not include in VAT Ledgers -- you can update the field Do not
+include in VAT Ledgers
+
+Shipping tab
+
+• Agent -- you can update the field Agent
+
+• Agent Service -- you can update the field Agent Service
+
+• Package Tracking No-- you can update the field Package Tracking No
+
+Payment tab
+
+• Company Bank Account Code -- you can update the Company Bank Account
+Code
+
+<img src="./media/image135.png" width="494" height="177" />
+
+Confirm with **OK** to update the data.
