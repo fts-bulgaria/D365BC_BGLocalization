@@ -15,7 +15,7 @@ redirect_from:
 
 [2. VAT functionality](#vat-functionality)\
 [2.1. VAT setup](#vat-setup)\
-[2.2. VAT protocols]()\
+[2.2. VAT protocols](#vat-protocols)\
 [2.3. VAT on customs declaration](#vat-on-customs-declaration)\
 [2.4. VAT ledgers and VAT declaration](#vat-ledgers-and-vat-declaration)\
 [2.5. VAT for private use of assets](#vat-for-private-use-of-assets)\
