@@ -20,7 +20,8 @@ redirect_from:
 [2.4. VAT ledgers and VAT declaration](#vat-ledgers-and-vat-declaration)\
 [2.5. VAT for private use of assets](#vat-for-private-use-of-assets)\
 [2.6. Set up VAT Cash Regime](#set-up-vat-cash-regime)\
-[2.7. VAT Setup when carrying out activities under Art. 163](#vat-setup-when-carrying-out-activities-under-art.-163)
+[2.7. VAT Setup when carrying out activities under Art. 163](#vat-setup-when-carrying-out-activities-under-art.-163)\
+[2.8. Postpone tax credit within the permitted 12-month period](#postpone-tax-credit-within-the-permitted-12-month-period)
 
 [3. Intrastat](#intrastat)\
 [3.1. Intrastat Setup](#intrastat-setup)\
@@ -30,7 +31,8 @@ redirect_from:
 [4.1. Automatic Create Default Dimensions](#automatic-create-default-dimensions)\
 [4.2. General Journal](#general-journal)\
 [4.3. Trial Balance Register](#trial-balance-register)\
-[4.4. Fixed assets](#fixed-assets)
+[4.4. Fixed assets](#fixed-assets)\
+[4.5. Промени при осчетоводяване на разсрочването на приходи/разходи](#промени-при-осчетоводяване-на-разсрочването-на-приходиразходи)]
 
 [5. Purchases - localization settings](#purchases-localization-settings)\
 [5.1. Purchases & Payables Setup](#purchases-payables-setup)\
@@ -52,8 +54,17 @@ redirect_from:
 [6.8. Print Sales invoices and credit memos](#print-sales-invoices-and-credit-memos)\
 [6.9. Sales protocol](#sales-protocol)\
 [6.10. Cancel Sales invoices or credit memos](#cancel-sales-invoices-or-credit-memos)\
-[6.11. Change data in posted sales documents](#change-data-in-posted-sales-documents)
-
+[6.11. Change data in posted sales documents](#change-data-in-posted-sales-documents)\
+[7. Inventory -- localization settings](#inventory-localization-settings)\
+[7.1. Assembly Setup](#assembly-setup)\
+[7.2. Inventory Setup](#inventory-setup)\
+[7.3. Item Journal ](#item-journal)\
+[7.4. Default Dimension in Item Category](#default-dimension-in-item-category)\
+[8. Irrecoverable Receivable](#irrecoverable-receivable)\
+[8.1. Irrecoverable Receivable for purchases](#irrecoverable-receivable-for-purchases)\
+[8.2. Irrecoverable Receivable for sales](#irrecoverable-receivable-for-sales)\
+[9. Service](#service)\
+[9.1. Function Copy Document in Service Credit Memo](#function-copy-document-in-service-credit-memo)
 
 # Executive summary
 
@@ -671,6 +682,110 @@ A new **\"Ground for Issue\"** of a reverse charge protocol is entered - **\"VAT
 
 <img src="./media/image63.png" width="476" height="232" />
 
+## Postpone tax credit within the permitted 12-month period
+
+### Setup
+
+In BG, VAT and VIES Setup, the Postponed VAT Account is replenished, as
+well as a template and batch for a general journal:
+
+![A screenshot of a computer Description automatically
+generated](.\media/image201.png){width="5.283085083114611in"
+height="3.5396555118110236in"}
+
+### Postponed VAT before posting invoice
+
+Enter the invoice and place a check mark in the Postponed VAT field in
+the Invoice Details tab:
+
+![A screenshot of a computer Description automatically
+generated](.\media/image202.png){width="6.531944444444444in"
+height="3.807638888888889in"}
+
+If the Postponed VAT field is marked, a check mark is automatically
+placed in the Do Not Include in VAT field.
+
+If the check mark in the Postponed VAT field is removed, the check mark
+in the Do Not Include in VAT field is also automatically removed.
+
+When the invoice is posted, the tax credit will be reflected in the G/L
+account in the Postponed VAT Account field in BG, VAT and VIES Setup. In
+the VAT Entries filtered by the document number, there is a check mark
+in the Postponed VAT field and Do Not Include in VAT Ledgers.
+
+### Postponed VAT on a posted invoice
+
+A purchase VAT ledger opens and the invoices that must enter the Journal
+for the selected month are generated. After generation, the Postponed
+VAT function can be started:
+
+![A screenshot of a computer Description automatically
+generated](.\media/image203.png){width="6.531944444444444in"
+height="4.572916666666667in"}
+
+After this action on a screen, the VAT journal lines are displayed and
+by placing a check mark for the invoices to be included in the VAT
+ledger of purchases in the next period:
+
+![A screenshot of a computer Description automatically
+generated](.\media/image204.png){width="6.531944444444444in"
+height="2.0881944444444445in"}
+
+When postponed VAT invoices are marked, the Approve Postpone VAT
+function is selected. In this action, the following occurs:
+
+-   For the selected invoices, an general ledger entry is made
+    automatically, through which the amount of VAT on an invoice is
+    transferred with an operation
+
+    -   Debit account VAT purchases / Credit account Postponed VAT
+        (minus sign)
+
+-   Selected invoices are removed from the purchase journal
+
+-   Place a check mark automatically in the postponed VAT and Do Not
+    Include in VAT Ledger field on VAT Entries and the posted purchase
+    invoice.
+
+### Use of postponed tax credit
+
+To include a purchase invoice whose VAT has been postponed with the
+function described above, you must start the Change VAT Period page by
+selecting Change VAT Period from the Search button:
+
+![A screenshot of a computer Description automatically
+generated](.\media/image205.png){width="4.299818460192476in"
+height="2.1255971128608926in"}
+
+A list of documents marked with Postponed VAT that are not yet included
+in the VAT Ledgers is displayed on the screen.
+
+![A screenshot of a computer Description automatically
+generated](.\media/image206.png){width="6.531944444444444in"
+height="1.8243055555555556in"}
+
+By placing a check mark in the Change VAT Period field (first column),
+select the documents to include in a selected VAT period. The selection
+is confirmed by the Change VAT Period function in the ribbon above. The
+following window appears on the screen:
+
+![A screenshot of a computer Description automatically
+generated](.\media/image207.png){width="6.531944444444444in"
+height="3.966666666666667in"}
+
+The first day of the month in which the marked invoice is to be included
+should be indicated here.
+
+The system includes the invoice in the relevant month and creates
+entries for the transfer of the VAT amount from the Postponed VAT
+account to the VAT account for the purchases. These automatically
+generated records can be found in the journal and folder selected in the
+setting from item 2.8.1. After reviewing the suggested entries, you can
+post them by selecting the Post button from the relevant journal.
+
+When creating/refreshing the VAT ledger, the selected invoice will be
+displayed in the relevant ledger
+
 # Intrastat
 
 Intrastat is the system for collecting information on Intra-Community dispatches and / or arrivals of goods made between the Republic of Bulgaria and the EU Member States. Companies obliged to submit Intrastat declarations, namely, Intrastat operators, are those companies registered under the Value Added Tax Act, who carry out Intra-European Union trade with goods in annual volumes of  a value above the declaration thresholds. Intrastat operators are obliged to submit a monthly Intrastat declaration.
@@ -915,6 +1030,97 @@ In the tabs **Filter: FA Posting groups** and **Filter: Fixed asset**, filters f
 **Note:** Due to the fact that you cannot fit all columns on one page for printing, it is advisable to export the report to Excel where all required columns are visible.
 
 <img src="./media/image89.png" width="627" height="165" />
+
+# Changes in posting with Deferral Templates 
+
+In Deferral Templates two new fields were added:
+
+![A screenshot of a computer Description automatically
+generated](.\media/image208.png){width="6.531944444444444in"
+height="3.6277777777777778in"}
+
+-   **Use Account For Change** -- If there is no mark in the field, the
+    deferral process will be standard. If there is a mark in the field,
+    deferral process will use the GL account from the following field.
+
+-   **Account for change** -- field should be filled with the account
+    which deferral uses when posting the invoice transaction. Those
+    transaction are explained in details below.
+
+***[EXAMPLES in PURCHASES]{.underline}***
+
+The standard deferral process expects the expense account to be inserted
+in the purchase line. The same account will be used for deferral the
+expense in the certain schedule. In the deferral template we include the
+account for Future expenses. Transactions are as follows:
+
+-   Debit account Expenses account (starting with 60\* in BG chart of
+    account) / Credit account for vendors with the amount of 100 (posted
+    with the Posting date)
+
+-   Debit account for Deferral expense (65\* for BG chart of account) /
+    Credit account for expenses account (starting with 60\* in BG chart
+    of account) with the amount of 100 (posted with the Posting date)
+
+-   Debit Expenses account (starting with 60\* in BG chart of account) /
+    Credit Deferral account (65\* for BG chart of account) posted with
+    the dates from the schedule
+
+The change, related to this development, is as follows:
+
+-   Debit [Account for change]{.mark} (the new field in Deferral
+    Template) / Credit Vendor accountwith the amount of 100 (posted with
+    the Posting date)
+
+-   Debit Deferral Account from the Deferral Template (65\* for BG chart
+    of account) / Credit [Account for change]{.mark} (the new field in
+    Deferral Template) with the amount of 100 (posted with the Posting
+    date of the invoice)
+
+-   Debit Expenses account (starting with 60\* in BG chart of account) /
+    Credit Deferral account from the Deferral Template (65\* for BG
+    chart of account) with the dates from the Deferral schedule.
+
+When posting the invoice transaction, system uses the Account for change
+from the Deferral Template, but the actual deferral of the expense will
+use the exact Expenses account from the purchase lines and the Deferral
+account from the template.
+
+***[EXAMPLE in SALES]{.underline}***
+
+The standard deferral process expects the income account to be inserted
+in the sales line. The same account will be used for deferral the income
+in the certain schedule. In the deferral template we include the account
+for Deferral (future) income. Transactions are as follows:
+
+-   Debit Customers account / Credit Income account (703 in BG chart of
+    account) with the amount of 100 (posted with the Posting date of
+    invoice)
+
+-   Debit income account (703 in BG Chart of account) / Credit Deferral
+    account (75\* in BG Chart of account) with the amount of 100 (posted
+    with the Posting date of the invoice)
+
+-   Debit Deferral account (75\* in BG Chart of account) / Credit income
+    account (703 in BG Chart of account) with the dates from the
+    Deferral Schedule
+
+The change, related to this development, is as follows:
+
+-   Debit Customer account / Credit [Account for change]{.mark} with the
+    amount of 100 (posted with the Posting date of invoice)
+
+-   Debit [Account for change]{.mark} / Credit Deferral account (75\*
+    from BG Chart of account) with the amount of 100 (posted with the
+    Posting date of invoice)
+
+-   Debit Deferral account / Credit Income account from the lines with
+    the dates from the Deferral schedule
+
+When posting the invoice transaction, system uses the Account for change
+from the Deferral Template, but the actual deferral of the income will
+use the exact Income account from the sales lines and the Deferral
+account from the template.
 
 # Purchases -- localization settings
 
@@ -1393,3 +1599,211 @@ Code
 <img src="./media/image135.png" width="494" height="177" />
 
 Confirm with **OK** to update the data.
+
+# Inventory -- localization settings
+
+The Localization package for Bulgaria adds the following settings in the
+Inventory module.
+
+## Assembly Setup
+
+Added Default General Business Posting Group field in **Assembly
+Setup**.
+
+![A screenshot of a computer Description automatically
+generated](.\media/image144.png){width="6.166666666666667in"
+height="2.3833333333333333in"}
+
+When creating an assembly order, this group will be fill in the assembly
+order General Business Posting Group field.
+
+![A screenshot of a computer Description automatically
+generated](.\media/image145.png){width="5.725in"
+height="2.558333333333333in"}
+
+## Inventory Setup
+
+Added Gen. Bus. Posting Group (Transfer) field in **Inventory Setup**.
+When creating a transfer order, this General Business Posting Group will
+be fill in the transfer order.
+
+![A screenshot of a computer Description automatically
+generated](.\media/image146.png){width="5.683333333333334in"
+height="2.3666666666666667in"}
+
+## Item Journal
+
+Added column for Default General Business Posting Group in Item Journal
+Batches. If you fill a default group for a folder, then these General
+Business Posting Group will be fill in item journal lines of that
+folder.
+
+![A screenshot of a computer Description automatically
+generated](.\media/image147.png){width="6.108333333333333in"
+height="0.9333333333333333in"}
+
+![A screenshot of a computer Description automatically
+generated](.\media/image148.png){width="6.033333333333333in"
+height="1.6916666666666667in"}
+
+## Default Dimension in Item Category
+
+An Item Category can be assigned to each item from a defined list. Added
+the ability to place default dimensions to the item category. This
+happens to the Item Category card:
+
+![A screenshot of a computer Description automatically
+generated](.\media/image149.png){width="6.531944444444444in"
+height="2.48125in"}
+
+On the BG, VAT and VIES Setup page, a setting has been added to the
+Items tab related to copying the dimensions from the item category to
+the item itself:
+
+![A screenshot of a computer Description automatically
+generated](.\media/image150.png){width="6.531944444444444in"
+height="5.814583333333333in"}
+
+When this setting is checked, then the default dimensions from the item
+category card will be transferred to the item when the item is assigned
+to the item category.
+
+The system has another setup in case of conflict between the dimension
+values. In the Inventory Setup, there is a setup for item groups
+dimension:
+
+![A screenshot of a login screen Description automatically
+generated](.\media/image151.png){width="6.531944444444444in"
+height="3.6881944444444446in"}
+
+If an item has default dimensions for the Inventory Setup dimension, but
+fills in the Category that has no dimension value from Inventory Setup,
+then the same dimension will be removed from the item card.
+
+# Irrecoverable Receivable
+
+This point provides Dynamics 365 Business Central users with
+instructions for the required sequence of actions in the in the process
+of recording irrecoverable receivables for sales and purchases.
+
+## Irrecoverable Receivable for purchases
+
+When entering a credit note for a purchase related to an irrecoverable
+receivable, a new field **Credit Memo according to art.126b, paragraph 1
+of VAT Law** has been created in the header, where you can mark if the
+credit memo is related to an irrecoverable receivable:
+
+![A screenshot of a computer Description automatically
+generated](.\media/image152.png){width="6.130952537182852in"
+height="2.4694367891513562in"}
+
+All other details of the credit note, as well as its entry and posting,
+are in a standard way.
+
+In the List of posted credit memos, a filter can be made on the
+Irrecoverable Receivable field and only the documents issued in
+connection with an irrecoverable receivable will be visualized:
+
+![A screenshot of a computer Description automatically
+generated](.\media/image153.png){width="6.531944444444444in"
+height="1.4078423009623797in"}
+
+The same field is also transferred to the VAT records, where again a
+filter can be made on it:
+
+![A screenshot of a computer Description automatically
+generated](.\media/image154.png){width="6.152234251968504in"
+height="1.6256813210848644in"}
+
+After the purchase credit memo is posted, the document is with Document
+Type 23 in the VAT Purchase Journals:
+
+![A screenshot of a computer Description automatically
+generated](.\media/image155.png){width="5.817428915135608in"
+height="2.278911854768154in"}
+
+## Irrecoverable Receivable for sales
+
+### Sales Credit Memos for irrecoverable receivable
+
+When entering a credit note for sale related to an irrecoverable
+receivable, in the header part there is a new field **Credit Memo
+according to art.126b, paragraph 1 of VAT Law**, where you can mark if
+the credit note is related to an irrecoverable receivable:
+
+![A screenshot of a computer Description automatically
+generated](.\media/image156.png){width="5.9545384951881015in"
+height="2.387673884514436in"}
+
+All other details of the credit note, as well as its entry and posting,
+are in a standard way.
+
+After the sales credit memo is posted, the document is with Document
+Type 23 in the VAT Sales Journal.
+
+A filter can be made on the Irrecoverable Receivable field in the list
+of posted sales credit memos and VAT Entries, and only the documents
+issued in connection with an irrecoverable receivable will be
+visualized.
+
+### Debit memo for irrecoverable receivable
+
+If a credit memo has been issued in relation to irrecoverable
+receivable, but then a payment has been made for it, a debit memo should
+be issued. Two new fields have been created:
+
+![A screenshot of a computer Description automatically
+generated](.\media/image157.png){width="6.1367672790901135in"
+height="2.448905293088364in"}
+
+If the **Irrecoverable Receivable** field is checked, the system opens
+the **To sales credit memo field** for filling, where the list of sales
+credit memos is filtered by customer and **Irrecoverable Receivable**
+field. When the **Irrecoverable Receivable** field is checked in the
+invoice header, the **Debit Memo** field is also checked automatically.
+**ONLY** in the case when Debit notice and Irrecoverable Receivable are
+checked, the system does not look for mandatory To invoice number field.
+
+After the sales debit memo is posted, the document is with Document Type
+02 in the VAT Sales Journal.
+
+![A screenshot of a computer Description automatically
+generated](.\media/image158.png){width="6.021580271216098in"
+height="2.2719739720034995in"}
+
+A filter can be made on the Irrecoverable Receivable field in the list
+of posted sales invoices and VAT Entries, and only the documents issued
+in connection with an irrecoverable receivable will be visualized.
+
+### Protocol for irrecoverable receivable
+
+If you have receivables from customers who have bankrupt and you have
+irrecoverable receivable, a VAT report is issued.
+
+When you create a sales protocol for irrecoverable receivable you have
+to check the new field **Protocol according to art.126b, paragraph 2 and
+7 of VAT Law**:
+
+![A screenshot of a computer Description automatically
+generated](.\media/image159.png){width="5.9741283902012245in"
+height="2.5311286089238845in"}
+
+After posting the protocol, it is entered in the VAT journals with Type
+of document 29:
+
+![A screenshot of a computer Description automatically
+generated](.\media/image160.png){width="6.349292432195975in"
+height="2.516905074365704in"}
+
+# Service
+
+## Function Copy Document in Service Credit Memo
+
+Added new functionality - copy document in Service Credit Memo:
+
+![A screenshot of a computer Description automatically
+generated](.\media/image161.png){width="6.531944444444444in"
+height="1.801388888888889in"}
+
+The functionality allows you to select a posted service invoice whose
+data is copied to the service credit memo.
