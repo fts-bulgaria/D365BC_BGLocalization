@@ -30,7 +30,7 @@ redirect_from:
 [4.1. Автоматично създаване на аналитичности](#автоматично-създаване-на-аналитичности)\
 [4.2. Журнал свободни операции](#журнал-свободни-операции)\
 [4.3. Регистър на оборотна ведомост](#регистър-на-оборотна-ведомост)\
-[4.4. Дълготрайни активи](#дълготрайни-активи)
+[4.4. Дълготрайни активи](#дълготрайни-активи)\
 [4.5. Промени при осчетоводяване на разсрочването на приходи/разходи](#промени-при-осчетоводяване-на-разсрочването-на-приходиразходи)
 
 [5. Покупки -- настройки, свързани с локализацията](#покупки-настройки-свързани-с-локализацията)\
@@ -752,8 +752,7 @@ height="3.5381944444444446in"}
 полето Отложен ДДС:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image202.png){width="6.531944444444444in"
-height="4.520138888888889in"}
+generated](.\media/image202.png)
 
 Ако се маркира полето Отложен ДДС, автоматично се поставя и отметка в
 полето Не включвай в счетоводни книги.
@@ -773,16 +772,14 @@ height="4.520138888888889in"}
 се стартира функцията Отложи ДДС:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image203.png){width="6.531944444444444in"
-height="5.040972222222222in"}
+generated](.\media/image203.png)
 
 След това действие на екран се визуализират редовете от дневника по ДДС,
 като за фактурите, които следва да бъдат включени в ДДС дневника на
 покупките в следващ период, се поставя отметка в полето Отложи ДДС:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image204.png){width="6.531944444444444in"
-height="2.2180555555555554in"}
+generated](.\media/image204.png)
 
 Когато се маркират фактурите за отлагане, се избира функцията Одобри на
 отлагане на ДДС. При това действие се случва следното:
@@ -806,15 +803,13 @@ height="2.2180555555555554in"}
 като от бутон Търсене се избере Промяна ДДС период:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image205.png){width="4.603487532808399in"
-height="2.0633759842519686in"}
+generated](.\media/image205.png)
 
 На екран се визуализира списък с документите, маркирани с Отложено ДДС,
 които все още не са включени в Дневниците по ДДС.
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image206.png){width="6.531944444444444in"
-height="2.01875in"}
+generated](.\media/image206.png)
 
 Чрез поставяне на отметка в полето Промяна на ДДС период (първата
 колона) се избират документите, които да се включат в избран ДДС период.
@@ -822,8 +817,7 @@ height="2.01875in"}
 показва следния прозорец:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image207.png){width="6.531944444444444in"
-height="3.9930555555555554in"}
+generated](.\media/image207.png)
 
 Тук следва да се посочи първият ден от месеца, в който да се включи
 маркираната фактура.
@@ -1082,8 +1076,7 @@ height="3.9930555555555554in"}
 В Шаблони за разсрочване са добавени две нови полета:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image208.png){width="6.531944444444444in"
-height="3.734722222222222in"}
+generated](.\media/image208.png)
 
 -   **Използвай транзитна сметка** -- ако в полето няма отметка,
     разсрочването работи по стандартния начин. Ако в полето има отметка,
@@ -1390,7 +1383,7 @@ height="3.734722222222222in"}
 
 -   **Идентификационен номер** -- попълва се с единния идентификационен номер (ЕИК) на клиента
 
-![Graphical user interface, text, application, email Description automatically generated](/media/image106.png){width="6.531944444444444in" height="3.1534722222222222in"}
+![Graphical user interface, text, application, email Description automatically generated](/media/image106.png)
 
 **Хронология за продажби** -- Клиент за продажби
 
@@ -1659,16 +1652,14 @@ height="3.734722222222222in"}
 на Категорията на артикула:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image147.png){width="6.531944444444444in"
-height="2.404166666666667in"}
+generated](.\media/image147.png)
 
 В страницата за BG, ДДС и VIES Настройки е добавена настройка в таб
 Артикули, свързана с копирането на аналитичностите от категорията на
 артикула към самия артикул:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image148.png){width="6.531944444444444in"
-height="6.0680555555555555in"}
+generated](.\media/image148.png)
 
 Когато има отметка в тази настройка, тогава аналитичносттите по
 подразбиране от картата на категорията на артикула ще се пренесе в
@@ -1679,8 +1670,7 @@ height="6.0680555555555555in"}
 склад има настройка за групите артикули:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image149.png){width="6.531944444444444in"
-height="3.702777777777778in"}
+generated](.\media/image149.png)
 
 Ако даден артикул има аналитичности по подразбиране за аналитичността от
 Настройка на склад, но се попълни Категория, която няма стойност за
@@ -1701,8 +1691,7 @@ height="3.702777777777778in"}
 връзка с несъбираемо вземане:
 
 > ![A screenshot of a computer Description automatically
-> generated](.\media/image150.png){width="6.531944444444444in"
-> height="3.390972222222222in"}
+> generated](.\media/image150.png)
 
 Всички останали реквизити по кредитното известие, както и въвеждането и
 осчетоводяването му се осъществяват по стандартен начин.
@@ -1712,21 +1701,19 @@ height="3.702777777777778in"}
 документите, издадени във връзка с несъбираемо вземане:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image151.png){width="6.525in" height="2.2in"}
+generated](.\media/image151.png)
 
 Същото поле се пренася и в ДДС записите, където отново може да се
 направи филтър по него:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image152.png){width="6.531944444444444in"
-height="1.9243055555555555in"}
+generated](.\media/image152.png)
 
 След осчетоводяването на кредитното известие за покупка в ДДС Дневниците
 за покупки този документ излиза с Тип документ 23:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image153.png){width="6.531944444444444in"
-height="2.732638888888889in"}
+generated](.\media/image153.png)
 
 ## Несъбираеми вземания по продажби
 
@@ -1738,7 +1725,7 @@ height="2.732638888888889in"}
 връзка с несъбираемо вземане:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image154.png){width="6.525in" height="3.175in"}
+generated](.\media/image154.png)
 
 Всички останали реквизити по кредитното известие, както и въвеждането и
 осчетоводяването му се осъществяват по стандартен начин.
@@ -1747,8 +1734,7 @@ generated](.\media/image154.png){width="6.525in" height="3.175in"}
 Дневниците за продажби този документ влиза с Тип документ 23:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image155.png){width="6.525in"
-height="2.8583333333333334in"}
+generated](.\media/image155.png)
 
 В осчетоводените кредитни известия за продажба, както и в Записите по
 ДДС е изведено поле Несъбираеми вземания, по което може да се прави
@@ -1764,7 +1750,7 @@ height="2.8583333333333334in"}
 връзка:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image156.png){width="6.525in" height="3.4in"}
+generated](.\media/image156.png)
 
 Ако се постави отметка в полето Несъбираемо вземане, системата отваря за
 попълване полето Към кр.известие за продажба, където списъкът с кредитни
@@ -1779,8 +1765,7 @@ generated](.\media/image156.png){width="6.525in" height="3.4in"}
 за продажби въпросният документ влиза с Тип документ 02:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image157.png){width="6.525in"
-height="3.1666666666666665in"}
+generated](.\media/image157.png)
 
 В осчетоводените фактури за продажба, както и в Записите по ДДС се
 пренася при осчетоводяване полето Несъбираеми вземания, по което може да
@@ -1795,15 +1780,13 @@ height="3.1666666666666665in"}
 ал.2 и ал.7от ЗДДС:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image158.png){width="6.525in"
-height="3.4166666666666665in"}
+generated](.\media/image158.png)
 
 По този начин след осчетоводяване на протокола същият влиза в дневниците
 по ДДС като Вид документ 29:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image159.png){width="6.531944444444444in"
-height="3.232638888888889in"}
+generated](.\media/image159.png)
 
 # Сервиз
 
@@ -1813,8 +1796,7 @@ height="3.232638888888889in"}
 сервиз:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image160.png){width="6.531944444444444in"
-height="2.011111111111111in"}
+generated](.\media/image160.png)
 
 Функционалността дава възможност за избор на осчетоводена фактура за
 сервиз, чиито данни да се копират в кредитното известие за сервиз.
