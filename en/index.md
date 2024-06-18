@@ -690,8 +690,7 @@ In BG, VAT and VIES Setup, the Postponed VAT Account is replenished, as
 well as a template and batch for a general journal:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image201.png){width="5.283085083114611in"
-height="3.5396555118110236in"}
+generated](.\media/image201.png)
 
 ### Postponed VAT before posting invoice
 
@@ -699,8 +698,7 @@ Enter the invoice and place a check mark in the Postponed VAT field in
 the Invoice Details tab:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image202.png){width="6.531944444444444in"
-height="3.807638888888889in"}
+generated](.\media/image202.png)
 
 If the Postponed VAT field is marked, a check mark is automatically
 placed in the Do Not Include in VAT field.
@@ -720,16 +718,14 @@ for the selected month are generated. After generation, the Postponed
 VAT function can be started:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image203.png){width="6.531944444444444in"
-height="4.572916666666667in"}
+generated](.\media/image203.png)
 
 After this action on a screen, the VAT journal lines are displayed and
 by placing a check mark for the invoices to be included in the VAT
 ledger of purchases in the next period:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image204.png){width="6.531944444444444in"
-height="2.0881944444444445in"}
+generated](.\media/image204.png)
 
 When postponed VAT invoices are marked, the Approve Postpone VAT
 function is selected. In this action, the following occurs:
@@ -754,15 +750,13 @@ function described above, you must start the Change VAT Period page by
 selecting Change VAT Period from the Search button:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image205.png){width="4.299818460192476in"
-height="2.1255971128608926in"}
+generated](.\media/image205.png)
 
 A list of documents marked with Postponed VAT that are not yet included
 in the VAT Ledgers is displayed on the screen.
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image206.png){width="6.531944444444444in"
-height="1.8243055555555556in"}
+generated](.\media/image206.png)
 
 By placing a check mark in the Change VAT Period field (first column),
 select the documents to include in a selected VAT period. The selection
@@ -770,8 +764,7 @@ is confirmed by the Change VAT Period function in the ribbon above. The
 following window appears on the screen:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image207.png){width="6.531944444444444in"
-height="3.966666666666667in"}
+generated](.\media/image207.png)
 
 The first day of the month in which the marked invoice is to be included
 should be indicated here.
@@ -1036,8 +1029,7 @@ In the tabs **Filter: FA Posting groups** and **Filter: Fixed asset**, filters f
 In Deferral Templates two new fields were added:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image208.png){width="6.531944444444444in"
-height="3.6277777777777778in"}
+generated](.\media/image208.png)
 
 -   **Use Account For Change** -- If there is no mark in the field, the
     deferral process will be standard. If there is a mark in the field,
@@ -1611,15 +1603,13 @@ Added Default General Business Posting Group field in **Assembly
 Setup**.
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image144.png){width="6.166666666666667in"
-height="2.3833333333333333in"}
+generated](.\media/image144.png)
 
 When creating an assembly order, this group will be fill in the assembly
 order General Business Posting Group field.
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image145.png){width="5.725in"
-height="2.558333333333333in"}
+generated](.\media/image145.png)
 
 ## Inventory Setup
 
@@ -1628,8 +1618,7 @@ When creating a transfer order, this General Business Posting Group will
 be fill in the transfer order.
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image146.png){width="5.683333333333334in"
-height="2.3666666666666667in"}
+generated](.\media/image146.png)
 
 ## Item Journal
 
@@ -1639,12 +1628,10 @@ Business Posting Group will be fill in item journal lines of that
 folder.
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image147.png){width="6.108333333333333in"
-height="0.9333333333333333in"}
+generated](.\media/image147.png)
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image148.png){width="6.033333333333333in"
-height="1.6916666666666667in"}
+generated](.\media/image148.png)
 
 ## Default Dimension in Item Category
 
@@ -1653,16 +1640,14 @@ the ability to place default dimensions to the item category. This
 happens to the Item Category card:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image149.png){width="6.531944444444444in"
-height="2.48125in"}
+generated](.\media/image149.png)
 
 On the BG, VAT and VIES Setup page, a setting has been added to the
 Items tab related to copying the dimensions from the item category to
 the item itself:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image150.png){width="6.531944444444444in"
-height="5.814583333333333in"}
+generated](.\media/image150.png)
 
 When this setting is checked, then the default dimensions from the item
 category card will be transferred to the item when the item is assigned
@@ -1673,8 +1658,7 @@ values. In the Inventory Setup, there is a setup for item groups
 dimension:
 
 ![A screenshot of a login screen Description automatically
-generated](.\media/image151.png){width="6.531944444444444in"
-height="3.6881944444444446in"}
+generated](.\media/image151.png)
 
 If an item has default dimensions for the Inventory Setup dimension, but
 fills in the Category that has no dimension value from Inventory Setup,
@@ -1694,8 +1678,7 @@ of VAT Law** has been created in the header, where you can mark if the
 credit memo is related to an irrecoverable receivable:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image152.png){width="6.130952537182852in"
-height="2.4694367891513562in"}
+generated](.\media/image152.png)
 
 All other details of the credit note, as well as its entry and posting,
 are in a standard way.
@@ -1705,22 +1688,19 @@ Irrecoverable Receivable field and only the documents issued in
 connection with an irrecoverable receivable will be visualized:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image153.png){width="6.531944444444444in"
-height="1.4078423009623797in"}
+generated](.\media/image153.png)
 
 The same field is also transferred to the VAT records, where again a
 filter can be made on it:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image154.png){width="6.152234251968504in"
-height="1.6256813210848644in"}
+generated](.\media/image154.png)
 
 After the purchase credit memo is posted, the document is with Document
 Type 23 in the VAT Purchase Journals:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image155.png){width="5.817428915135608in"
-height="2.278911854768154in"}
+generated](.\media/image155.png)
 
 ## Irrecoverable Receivable for sales
 
@@ -1732,8 +1712,7 @@ according to art.126b, paragraph 1 of VAT Law**, where you can mark if
 the credit note is related to an irrecoverable receivable:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image156.png){width="5.9545384951881015in"
-height="2.387673884514436in"}
+generated](.\media/image156.png)
 
 All other details of the credit note, as well as its entry and posting,
 are in a standard way.
@@ -1753,8 +1732,7 @@ receivable, but then a payment has been made for it, a debit memo should
 be issued. Two new fields have been created:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image157.png){width="6.1367672790901135in"
-height="2.448905293088364in"}
+generated](.\media/image157.png)
 
 If the **Irrecoverable Receivable** field is checked, the system opens
 the **To sales credit memo field** for filling, where the list of sales
@@ -1768,8 +1746,7 @@ After the sales debit memo is posted, the document is with Document Type
 02 in the VAT Sales Journal.
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image158.png){width="6.021580271216098in"
-height="2.2719739720034995in"}
+generated](.\media/image158.png)
 
 A filter can be made on the Irrecoverable Receivable field in the list
 of posted sales invoices and VAT Entries, and only the documents issued
@@ -1785,15 +1762,13 @@ to check the new field **Protocol according to art.126b, paragraph 2 and
 7 of VAT Law**:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image159.png){width="5.9741283902012245in"
-height="2.5311286089238845in"}
+generated](.\media/image159.png)
 
 After posting the protocol, it is entered in the VAT journals with Type
 of document 29:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image160.png){width="6.349292432195975in"
-height="2.516905074365704in"}
+generated](.\media/image160.png)
 
 # Service
 
@@ -1802,8 +1777,7 @@ height="2.516905074365704in"}
 Added new functionality - copy document in Service Credit Memo:
 
 ![A screenshot of a computer Description automatically
-generated](.\media/image161.png){width="6.531944444444444in"
-height="1.801388888888889in"}
+generated](.\media/image161.png)
 
 The functionality allows you to select a posted service invoice whose
 data is copied to the service credit memo.
