@@ -1039,7 +1039,7 @@ generated](.\media/image208.png)
     which deferral uses when posting the invoice transaction. Those
     transaction are explained in details below.
 
-***[EXAMPLES in PURCHASES]{.underline}***
+***[EXAMPLES in PURCHASES]***
 
 The standard deferral process expects the expense account to be inserted
 in the purchase line. The same account will be used for deferral the
@@ -1060,12 +1060,12 @@ account for Future expenses. Transactions are as follows:
 
 The change, related to this development, is as follows:
 
--   Debit [Account for change]{.mark} (the new field in Deferral
+-   Debit [Account for change] (the new field in Deferral
     Template) / Credit Vendor accountwith the amount of 100 (posted with
     the Posting date)
 
 -   Debit Deferral Account from the Deferral Template (65\* for BG chart
-    of account) / Credit [Account for change]{.mark} (the new field in
+    of account) / Credit [Account for change] (the new field in
     Deferral Template) with the amount of 100 (posted with the Posting
     date of the invoice)
 
@@ -1078,7 +1078,7 @@ from the Deferral Template, but the actual deferral of the expense will
 use the exact Expenses account from the purchase lines and the Deferral
 account from the template.
 
-***[EXAMPLE in SALES]{.underline}***
+***[EXAMPLE in SALES]***
 
 The standard deferral process expects the income account to be inserted
 in the sales line. The same account will be used for deferral the income
@@ -1099,10 +1099,10 @@ for Deferral (future) income. Transactions are as follows:
 
 The change, related to this development, is as follows:
 
--   Debit Customer account / Credit [Account for change]{.mark} with the
+-   Debit Customer account / Credit [Account for change] with the
     amount of 100 (posted with the Posting date of invoice)
 
--   Debit [Account for change]{.mark} / Credit Deferral account (75\*
+-   Debit [Account for change] / Credit Deferral account (75\*
     from BG Chart of account) with the amount of 100 (posted with the
     Posting date of invoice)
 
