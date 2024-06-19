@@ -32,7 +32,7 @@ redirect_from:
 [4.2. General Journal](#general-journal)\
 [4.3. Trial Balance Register](#trial-balance-register)\
 [4.4. Fixed assets](#fixed-assets)\
-[4.5. Промени при осчетоводяване на разсрочването на приходи/разходи](#промени-при-осчетоводяване-на-разсрочването-на-приходиразходи)]
+[4.5. Changes in posting with Deferral Templates](#changes-in-posting-with-deferral-templates)
 
 [5. Purchases - localization settings](#purchases-localization-settings)\
 [5.1. Purchases & Payables Setup](#purchases-payables-setup)\
