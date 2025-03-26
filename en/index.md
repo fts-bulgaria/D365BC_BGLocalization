@@ -1016,7 +1016,7 @@ In Deferral Templates two new fields were added:
 
 -   **Account for change** -- field should be filled with the account which deferral uses when posting the invoice transaction. Those transaction are explained in details below.
 
-***[EXAMPLES in PURCHASES]{.underline}***
+***[EXAMPLES in PURCHASES].underline}***
 
 The standard deferral process expects the expense account to be inserted in the purchase line. The same account will be used for deferral the expense in the certain schedule. In the deferral template we include the account for Future expenses. Transactions are as follows:
 
@@ -1036,7 +1036,7 @@ The change, related to this development, is as follows:
 
 When posting the invoice transaction, system uses the Account for change from the Deferral Template, but the actual deferral of the expense will use the exact Expenses account from the purchase lines and the Deferral account from the template.
 
-***[EXAMPLE in SALES]{.underline}***
+***[EXAMPLE in SALES]***
 
 The standard deferral process expects the income account to be inserted in the sales line. The same account will be used for deferral the income in the certain schedule. In the deferral template we include the account for Deferral (future) income. Transactions are as follows:
 
