@@ -9,123 +9,126 @@
 [2.2. VAT protocols [13](#vat-protocols)](#vat-protocols)
 
 [2.3. VAT on customs declaration
-[21](#vat-on-customs-declaration)](#vat-on-customs-declaration)
+[22](#vat-on-customs-declaration)](#vat-on-customs-declaration)
 
 [2.4. VAT ledgers and VAT declaration
-[23](#vat-ledgers-and-vat-declaration)](#vat-ledgers-and-vat-declaration)
+[24](#vat-ledgers-and-vat-declaration)](#vat-ledgers-and-vat-declaration)
 
 [2.5. VAT for private use of assets
-[35](#vat-for-private-use-of-assets)](#vat-for-private-use-of-assets)
+[36](#vat-for-private-use-of-assets)](#vat-for-private-use-of-assets)
 
 [2.6. Set up VAT Cash Regime
-[38](#set-up-vat-cash-regime)](#set-up-vat-cash-regime)
+[39](#set-up-vat-cash-regime)](#set-up-vat-cash-regime)
 
 [2.7. VAT Setup when carrying out activities under Art. 163
-[42](#vat-setup-when-carrying-out-activities-under-art.-163)](#vat-setup-when-carrying-out-activities-under-art.-163)
+[43](#vat-setup-when-carrying-out-activities-under-art.-163)](#vat-setup-when-carrying-out-activities-under-art.-163)
 
 [2.8. Postpone tax credit within the permitted 12-month period
-[46](#postpone-tax-credit-within-the-permitted-12-month-period)](#postpone-tax-credit-within-the-permitted-12-month-period)
+[47](#postpone-tax-credit-within-the-permitted-12-month-period)](#postpone-tax-credit-within-the-permitted-12-month-period)
 
-[3. Intrastat [50](#intrastat)](#intrastat)
+[3. Intrastat [51](#intrastat)](#intrastat)
 
-[3.1. Intrastat Setup [50](#intrastat-setup)](#intrastat-setup)
+[3.1. Intrastat Setup [51](#intrastat-setup)](#intrastat-setup)
 
-[3.2. Creating a new Intrastat journal
-[57](#creating-a-new-intrastat-journal)](#creating-a-new-intrastat-journal)
+[3.2. Creating a new Intrastat declaration
+[59](#creating-a-new-intrastat-declaration)](#creating-a-new-intrastat-declaration)
+
+[3.3. Creating files for Intrastat declaration
+[61](#creating-files-for-intrastat-declaration)](#creating-files-for-intrastat-declaration)
 
 [4. Finances -- localization settings
-[61](#finances-localization-settings)](#finances-localization-settings)
+[63](#finances-localization-settings)](#finances-localization-settings)
 
 [4.1. Automatic Create Default Dimensions
-[61](#automatic-create-default-dimensions)](#automatic-create-default-dimensions)
+[63](#automatic-create-default-dimensions)](#automatic-create-default-dimensions)
 
-[4.2. General Journal [61](#general-journal)](#general-journal)
+[4.2. General Journal [63](#general-journal)](#general-journal)
 
 [4.3. Trial Balance Register
-[62](#trial-balance-register)](#trial-balance-register)
+[64](#trial-balance-register)](#trial-balance-register)
 
-[4.4. Fixed assets [64](#fixed-assets)](#fixed-assets)
+[4.4. Fixed assets [66](#fixed-assets)](#fixed-assets)
 
 [4.5. Changes in posting with Deferral Templates
-[66](#changes-in-posting-with-deferral-templates)](#changes-in-posting-with-deferral-templates)
+[68](#changes-in-posting-with-deferral-templates)](#changes-in-posting-with-deferral-templates)
 
 [5. Purchases -- localization settings
-[68](#purchases-localization-settings)](#purchases-localization-settings)
+[70](#purchases-localization-settings)](#purchases-localization-settings)
 
 [5.1. Purchases & Payables Setup
-[68](#purchases-payables-setup)](#purchases-payables-setup)
+[70](#purchases-payables-setup)](#purchases-payables-setup)
 
-[5.2. Vendor card [69](#vendor-card)](#vendor-card)
+[5.2. Vendor card [71](#vendor-card)](#vendor-card)
 
-[5.3. Purchase invoice [70](#purchase-invoice)](#purchase-invoice)
+[5.3. Purchase invoice [72](#purchase-invoice)](#purchase-invoice)
 
 [5.4. Purchase credit memos
-[73](#purchase-credit-memos)](#purchase-credit-memos)
+[75](#purchase-credit-memos)](#purchase-credit-memos)
 
 [5.5. Void posted invoices and credit memos
-[74](#void-posted-invoices-and-credit-memos)](#void-posted-invoices-and-credit-memos)
+[76](#void-posted-invoices-and-credit-memos)](#void-posted-invoices-and-credit-memos)
 
 [5.6. Change data in posted purchase documents
-[76](#change-data-in-posted-purchase-documents)](#change-data-in-posted-purchase-documents)
+[78](#change-data-in-posted-purchase-documents)](#change-data-in-posted-purchase-documents)
 
 [5.7. Void a purchase invoice in next tax period
-[78](#void-a-purchase-invoice-in-next-tax-period)](#void-a-purchase-invoice-in-next-tax-period)
+[80](#void-a-purchase-invoice-in-next-tax-period)](#void-a-purchase-invoice-in-next-tax-period)
 
 [6. Sales -- localization settings
-[79](#sales-localization-settings)](#sales-localization-settings)
+[81](#sales-localization-settings)](#sales-localization-settings)
 
-[6.1. User setup [79](#user-setup)](#user-setup)
+[6.1. User setup [81](#user-setup)](#user-setup)
 
 [6.2. Sales & Receivables Setup
-[80](#sales-receivables-setup)](#sales-receivables-setup)
+[82](#sales-receivables-setup)](#sales-receivables-setup)
 
 [6.3. Company information setup
-[81](#company-information-setup)](#company-information-setup)
+[83](#company-information-setup)](#company-information-setup)
 
-[6.4. Contact card [82](#contact-card)](#contact-card)
+[6.4. Contact card [84](#contact-card)](#contact-card)
 
-[6.5. Customer card [82](#customer-card)](#customer-card)
+[6.5. Customer card [84](#customer-card)](#customer-card)
 
-[6.6. Sales invoice [85](#sales-invoice)](#sales-invoice)
+[6.6. Sales invoice [87](#sales-invoice)](#sales-invoice)
 
-[6.7. Sales credit memos [88](#sales-credit-memos)](#sales-credit-memos)
+[6.7. Sales credit memos [90](#sales-credit-memos)](#sales-credit-memos)
 
 [6.8. Print Sales invoices and credit memos
-[90](#print-sales-invoices-and-credit-memos)](#print-sales-invoices-and-credit-memos)
+[92](#print-sales-invoices-and-credit-memos)](#print-sales-invoices-and-credit-memos)
 
-[6.9. Sales protocol [95](#sales-protocol)](#sales-protocol)
+[6.9. Sales protocol [97](#sales-protocol)](#sales-protocol)
 
 [6.10. Cancel Sales invoices or credit memos
-[96](#cancel-sales-invoices-or-credit-memos)](#cancel-sales-invoices-or-credit-memos)
+[98](#cancel-sales-invoices-or-credit-memos)](#cancel-sales-invoices-or-credit-memos)
 
 [6.11. Change data in posted sales documents
-[98](#change-data-in-posted-sales-documents)](#change-data-in-posted-sales-documents)
+[100](#change-data-in-posted-sales-documents)](#change-data-in-posted-sales-documents)
 
 [7. Inventory -- localization settings
-[100](#inventory-localization-settings)](#inventory-localization-settings)
+[102](#inventory-localization-settings)](#inventory-localization-settings)
 
-[7.1. Assembly Setup [101](#assembly-setup)](#assembly-setup)
+[7.1. Assembly Setup [103](#assembly-setup)](#assembly-setup)
 
-[7.2. Inventory Setup [101](#inventory-setup)](#inventory-setup)
+[7.2. Inventory Setup [103](#inventory-setup)](#inventory-setup)
 
-[7.3. Item Journal [102](#item-journal)](#item-journal)
+[7.3. Item Journal [104](#item-journal)](#item-journal)
 
 [7.4. Default Dimension in Item Category
-[102](#default-dimension-in-item-category)](#default-dimension-in-item-category)
+[104](#default-dimension-in-item-category)](#default-dimension-in-item-category)
 
 [8. Irrecoverable Receivable
-[105](#irrecoverable-receivable)](#irrecoverable-receivable)
+[107](#irrecoverable-receivable)](#irrecoverable-receivable)
 
 [8.1. Irrecoverable Receivable for purchases
-[105](#irrecoverable-receivable-for-purchases)](#irrecoverable-receivable-for-purchases)
+[107](#irrecoverable-receivable-for-purchases)](#irrecoverable-receivable-for-purchases)
 
 [8.2. Irrecoverable Receivable for sales
-[107](#irrecoverable-receivable-for-sales)](#irrecoverable-receivable-for-sales)
+[109](#irrecoverable-receivable-for-sales)](#irrecoverable-receivable-for-sales)
 
-[9. Service [110](#service)](#service)
+[9. Service [112](#service)](#service)
 
 [9.1. Function Copy Document in Service Credit Memo
-[110](#function-copy-document-in-service-credit-memo)](#function-copy-document-in-service-credit-memo)
+[112](#function-copy-document-in-service-credit-memo)](#function-copy-document-in-service-credit-memo)
 
 Specifies the VAT specification of the involved item or resource to link
 transactions made for this record with the appropriate general ledger
@@ -648,8 +651,7 @@ height="3.2850306211723534in"}
 After the document is selected, press OK and the data is filled in the
 protocol.
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image15.png){width="5.99496719160105in"
+![](.\/media/image15.png){width="5.99496719160105in"
 height="2.5353313648293963in"}
 
 In the VAT protocol header, fill in **Composed by** and **Ground for
@@ -670,8 +672,8 @@ height="1.6743055555555555in"}
 
 In the window that opens, fill in the following fields:
 
-![](.\/media/image17.png){width="5.169550524934383in"
-height="5.538333333333333in"}
+![](.\/media/image17.png){width="4.489583333333333in"
+height="6.54166447944007in"}
 
 -   **Document date -** enter the VAT protocol document date. Valid for
     all protocols that will be issued.
@@ -696,6 +698,16 @@ height="5.538333333333333in"}
 -   **Compress lines** -- if this option is checked, the system will
     summarize all lines of the invoice or CM in one line. Otherwise, all
     lines of the source document will be copied to the protocol.
+
+-   **Ground for Issue --** if a ground for issue is selected from the
+    list, it will be populated in the created VAT protocols.
+
+-   **Skip the EU check for creation VAT Protocol** -- if the toggle is
+    On VAT protocols for non EU vendor's documents will be created.
+
+-   **Create protocol for BG contragent** - when this option is marked
+    the tool will create VAT protocols for the selected document types
+    issued by local (bulgarian) vendors.
 
 **Vendor**, **Invoice** and **Credit Memo** help to further filter the
 documents. For example, you can specify in the Filter **Vendor,** VAT
@@ -753,13 +765,19 @@ VAT is recorded in column 12 (VAT charged for purchases on c.11 and
 ### Voiding VAT Protocol
 
 When the VAT protocol has to be voided, go to the posted VAT protocol,
-choose Actions - Functions- Void.
+choose Actions - Functions- Voiding VAT Protocol.
 
 Reversing GL entries are posted, and the protocol is included in the VAT
 ledgers with 0 amounts.
 
 ![](.\/media/image20.png){width="5.4815091863517065in"
 height="3.9985247156605426in"}
+
+Reversing GL entries are posted with the selected voiding date. If the
+voiding date is in the reporting month the protocol is included in the
+VAT ledgers with 0 amounts. But if the voiding date is in the next month
+the reversing entries will be included in the VAT ledgers for the next
+month with negative amounts.
 
 ### Reversing VAT protocol (credit protocol)
 
@@ -1511,8 +1529,7 @@ height="2.4171719160104987in"}
 In BG, VAT and VIES Setup, the Postponed VAT Account is replenished, as
 well as a template and batch for a general journal:
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image65.png){width="5.283085083114611in"
+![](.\/media/image65.png){width="5.283085083114611in"
 height="3.5396555118110236in"}
 
 ### Postponed VAT before posting invoice
@@ -1520,8 +1537,7 @@ height="3.5396555118110236in"}
 Enter the invoice and place a check mark in the Postponed VAT field in
 the Invoice Details tab:
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image66.png){width="6.531944444444444in"
+![](.\/media/image66.png){width="6.531944444444444in"
 height="3.807638888888889in"}
 
 If the Postponed VAT field is marked, a check mark is automatically
@@ -1541,16 +1557,14 @@ A purchase VAT ledger opens and the invoices that must enter the Journal
 for the selected month are generated. After generation, the Postponed
 VAT function can be started:
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image67.png){width="6.531944444444444in"
+![](.\/media/image67.png){width="6.531944444444444in"
 height="4.572916666666667in"}
 
 After this action on a screen, the VAT journal lines are displayed and
 by placing a check mark for the invoices to be included in the VAT
 ledger of purchases in the next period:
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image68.png){width="6.531944444444444in"
+![](.\/media/image68.png){width="6.531944444444444in"
 height="2.0881944444444445in"}
 
 When postponed VAT invoices are marked, the Approve Postpone VAT
@@ -1575,15 +1589,13 @@ To include a purchase invoice whose VAT has been postponed with the
 function described above, you must start the Change VAT Period page by
 selecting Change VAT Period from the Search button:
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image69.png){width="4.299818460192476in"
+![](.\/media/image69.png){width="4.299818460192476in"
 height="2.1255971128608926in"}
 
 A list of documents marked with Postponed VAT that are not yet included
 in the VAT Ledgers is displayed on the screen.
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image70.png){width="6.531944444444444in"
+![](.\/media/image70.png){width="6.531944444444444in"
 height="1.8243055555555556in"}
 
 By placing a check mark in the Change VAT Period field (first column),
@@ -1591,8 +1603,7 @@ select the documents to include in a selected VAT period. The selection
 is confirmed by the Change VAT Period function in the ribbon above. The
 following window appears on the screen:
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image71.png){width="6.531944444444444in"
+![](.\/media/image71.png){width="6.531944444444444in"
 height="3.966666666666667in"}
 
 The first day of the month in which the marked invoice is to be included
@@ -1703,18 +1714,18 @@ height="1.0638888888888889in"}
 -   **VAT Report Version** -- 2020
 
 -   **Suggest Lines Codeunit ID** -- 46026517 or 60013 (FTS Get
-    Intrastat Entries)
+    Intrastat Entries) or 46026525 (FBG Intrastat Report Get Lines)
 
 -   **Content Codeunit ID** -- 46026519 or 60015 (FTS Export Intrastat
-    XML)
+    XML) or 46026530 (FBG Intrastat Content)
 
 -   **Validate Codeunit ID --** 46026518 or 60014 (FTS Check Intrastat
-    Error)
+    Error) or 46026529 (FBG Intrastat Validate)
 
-In the **Intrastat Setup** page, the following settings are set:
+In the **Intrastat Report Setup** page, the following settings are set:
 
-![](.\/media/image76.png){width="4.544764873140857in"
-height="2.943515966754156in"}
+![](.\/media/image76.png){width="6.531944444444444in"
+height="3.2597222222222224in"}
 
 -   **Report Receipts** -- to be checked if needed to generate a
     declaration for receipts only
@@ -1733,6 +1744,11 @@ height="2.943515966754156in"}
 -   **No Item Charges in Intrastat --** if checked, the system does not
     allow the additional cost to be included in the amounts for
     Intrastat transactions
+
+-   **Default Country / Region code** - specify the default receiving
+    country code. The field is populated by default with the value of
+    the **Shipping Country/Region Code** field from **Company
+    Information**
 
 The system has built-in checks for filling in the Intrastat required
 fields when posting an EU document and the document includes an item. In
@@ -1805,40 +1821,54 @@ amount for Intrastat.
 ![](.\/media/image81.png){width="6.531944444444444in"
 height="3.2368055555555557in"}
 
-## Creating a new Intrastat journal
+### Settings for creating the Intrastat declaration
 
- 
+In **BG, VAT and VIES Setup,** a new **Intrastat** section has been
+created, where it is necessary to fill in the data of the Contact Person
+responsible for Declaration submitting. In general, the Contact person
+data must be identical to the data of the person on whose behalf the
+declaration is submitted to the NRA e-services portal.
 
-Intrastat journals are created from page **Intrastat Journals** in the
-main menu of the role center **Accountant**.
+![](.\/media/image82.png){width="3.245148731408574in"
+height="3.4355938320209973in"}
 
-![](.\/media/image82.png){width="6.531944444444444in"
-height="2.279166666666667in"}
+## Creating a new Intrastat declaration
 
-After pressing the button **New** we should fill in the name of the
-journal and the statistical period for which it is created.
+A new Intrastat declaration is created from the **Intrastat Report
+List** page.
 
-The statistical period is entered by first recording the last two digits
-of the year and then the month for which the declaration will be
-submitted. Example for Statistical period: 2011 - November 2020.
+![](.\/media/image83.png){width="6.5in"
+height="1.4926640419947506in"}
 
-![](.\/media/image83.png){width="6.519444444444445in"
-height="0.9361111111111111in"}
-
-### Generating entries in Intrastat journal
-
->  
-
-After the journal is created, the **Suggest Lines** action is selected.
-The system generates lines with items. These are the entries marked as
-\"Intrastat transaction\" and for which the Country / Region Code field
-contains codes indicated as Intrastat Code in the country table,
-regardless of the country of origin of the item.
+In the list of created declarations, select the **+New** action.
 
 ![](.\/media/image84.png){width="6.531944444444444in"
-height="1.6722222222222223in"}
+height="1.3972222222222221in"}
 
- 
+In the **General** section of the header of the declaration, the
+following fields are filled in:
+
+• **Description** -- name of the declaration
+
+• **Statistical Period** -- is entered by first writing the last two
+digits of the year and then the month for which the declaration will be
+submitted. Example of Statistical period: 2501 - January 2025
+
+• **Declaration Type** -- must be selected Original
+
+• **Subsequent Declaration No**. -- 1.
+
+![](.\/media/image85.png){width="6.531944444444444in"
+height="4.311805555555556in"}
+
+After the declaration is created, the **Suggest Lines** action is
+selected. The system generates lines with items. These are the entries
+marked as \"Intrastat transaction\" and for which the Country / Region
+Code field contains codes indicated as Intrastat Code in the country
+table, regardless of the country of origin of the item.
+
+![](.\/media/image86.png){width="6.5in"
+height="2.053472222222222in"}
 
 It is necessary to check for missing data. If there are any, they can be
 filled in manually in the journal. The other option is to fill them in
@@ -1861,42 +1891,31 @@ compared with the value of the declaration - Statistical value.
 The amount in Cost amount (actual) includes transport costs, if such are
 allocated as item charges in purchase orders.
 
-### Generating files for Intrastat declaration
+## Creating files for Intrastat declaration
 
-Once the data has been verified, the export is performed using the
-**Create File** button.
+After the data in the declaration lines have been verified, they are
+exported using the **Create file** action.
 
-![](.\/media/image85.png){width="6.531944444444444in"
-height="1.9645833333333333in"}
-
-**Contact Person** details must be entered:
-
-![](.\/media/image86.png){width="6.5256944444444445in"
-height="2.442361111111111in"}
-
-The declaration is exported in two steps:
-
-First step - in the field Declaration description select **Receipts**
-and then select the **OK** button.
-
-Second step - in the field Declaration description select **Shipments**
-and then select the **OK** button.
-
-The generated files can be found in the Downloads folder on your
-computer.
-
-![](.\/media/image87.png){width="6.641440288713911in"
-height="6.003139763779528in"}
-
-The localization also allows only transaction files to be created, which
-can be uploaded after that into the Intrastat program and the
-declaration can be submitted from there. In this case, the **Export
-transactions only** option is used. The system generates import and
-export files (in two steps) that can be imported into the software
-product of the tax administration from which to create the declaration.
+Localization allows both creating a file with a ready Intrastat
+declaration and creating only transaction files that can be loaded into
+the Intrastat program and from there the declaration can be submitted.
+In this case, the **Export transactions only** option is used.
 
 If the declarations must include a statistical value, the **Export
 Statistical Value** option is also marked.
+
+![](.\/media/image87.png){width="6.531944444444444in"
+height="2.564583333333333in"}
+
+When selecting the **Create File** action, you can choose which of the
+files to generate - for import (receipts) or for export (sends), as well
+as create both at the same time.
+
+![](.\/media/image88.png){width="6.531944444444444in"
+height="2.729861111111111in"}
+
+The generated files can be found in the Downloads folder on your
+computer.
 
 #  Finances -- localization settings
 
@@ -1921,7 +1940,7 @@ To set up this you need:
     -   **Table Vendor** in the Dimension field select Dimension for
         Vendor (it must be created in advance).
 
-![](.\/media/image88.png){width="6.5in" height="2.25in"}
+![](.\/media/image89.png){width="6.5in" height="2.25in"}
 
 When you create a new customer or vendor card, the system automatically
 generates value in dimensions with the code and name of that customer or
@@ -1945,7 +1964,7 @@ The following fields have been added to the General Journal:
     filled in with the value of **VAT description of purchases** field
     from page **BG, VAT and VIES setup**
 
-![](.\/media/image89.png){width="6.525in" height="2.033333333333333in"}
+![](.\/media/image90.png){width="6.525in" height="2.033333333333333in"}
 
 ## Trial Balance Register 
 
@@ -1957,17 +1976,17 @@ and credit) and the closing balance.
 You can start the report from the main screen of the Accountant Role
 Center:
 
-![](.\/media/image90.png){width="6.531944444444444in"
+![](.\/media/image91.png){width="6.531944444444444in"
 height="1.7944444444444445in"}
 
 or by searching the menu:
 
-![](.\/media/image91.png){width="6.531944444444444in"
+![](.\/media/image92.png){width="6.531944444444444in"
 height="2.1659722222222224in"}
 
 When the report is started, select the following options:
 
-![](.\/media/image92.png){width="4.583333333333333in"
+![](.\/media/image93.png){width="4.583333333333333in"
 height="4.753311461067367in"}
 
 -   **From Date** -- start date of the period
@@ -1998,7 +2017,8 @@ height="4.753311461067367in"}
 > Upon confirmation by pressing the View button, the report is displayed
 > on the screen:
 
-![](.\/media/image93.png){width="4.9in" height="4.483333333333333in"}
+![](.\/media/image94.png){width="4.9in"
+height="4.483333333333333in"}
 
 ## Fixed assets
 
@@ -2010,17 +2030,17 @@ The **Changes in Fixed Asset** report contains all the information
 needed for Tax depreciation plan and Accounting depreciation plan. It is
 found in the main screen of the Accountant Role Center:
 
-![](.\/media/image94.png){width="6.531944444444444in"
+![](.\/media/image95.png){width="6.531944444444444in"
 height="1.7777777777777777in"}
 
 or by searching the menu:
 
-![](.\/media/image95.png){width="4.521835083114611in"
+![](.\/media/image96.png){width="4.521835083114611in"
 height="1.5534787839020123in"}
 
 The following options in the report must be filled in:
 
-![](.\/media/image96.png){width="3.6128226159230095in"
+![](.\/media/image97.png){width="3.6128226159230095in"
 height="3.78040135608049in"}
 
 -   **Depreciation book** -- Depreciation book is selected -- accounting
@@ -2046,15 +2066,14 @@ filters for certain fixed assets or their groups can be specified.
 for printing, it is advisable to export the report to Excel where all
 required columns are visible.
 
-![](.\/media/image97.emf){width="6.531944444444444in"
+![](.\/media/image98.emf){width="6.531944444444444in"
 height="1.7201388888888889in"}
 
 ## Changes in posting with Deferral Templates 
 
 In Deferral Templates two new fields were added:
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image98.png){width="6.531944444444444in"
+![](.\/media/image99.png){width="6.531944444444444in"
 height="3.6277777777777778in"}
 
 -   **Use Account For Change** -- If there is no mark in the field, the
@@ -2073,12 +2092,13 @@ expense in the certain schedule. In the deferral template we include the
 account for Future expenses. Transactions are as follows:
 
 -   Debit account Expenses account (starting with 60\* in BG chart of
-    account) / Credit account for vendors with the amount of 100 (posted
-    with the Posting date)
+    account) / Credit account for vendors with the amount of 100
+    (posted with the Posting date)
 
 -   Debit account for Deferral expense (65\* for BG chart of account) /
-    Credit account for expenses account (starting with 60\* in BG chart
-    of account) with the amount of 100 (posted with the Posting date)
+    Credit account for expenses account (starting with 60\* in BG
+    chart of account) with the amount of 100 (posted with the Posting
+    date)
 
 -   Debit Expenses account (starting with 60\* in BG chart of account) /
     Credit Deferral account (65\* for BG chart of account) posted with
@@ -2086,14 +2106,14 @@ account for Future expenses. Transactions are as follows:
 
 The change, related to this development, is as follows:
 
--   Debit [Account for change]{.mark} (the new field in Deferral
-    Template) / Credit Vendor accountwith the amount of 100 (posted with
-    the Posting date)
+-   Debit Account for change (the new field in Deferral Template) /
+    Credit Vendor accountwith the amount of 100 (posted with the
+    Posting date)
 
 -   Debit Deferral Account from the Deferral Template (65\* for BG chart
-    of account) / Credit [Account for change]{.mark} (the new field in
-    Deferral Template) with the amount of 100 (posted with the Posting
-    date of the invoice)
+    of account) / Credit Account for change (the new field in Deferral
+    Template) with the amount of 100 (posted with the Posting date of
+    the invoice)
 
 -   Debit Expenses account (starting with 60\* in BG chart of account) /
     Credit Deferral account from the Deferral Template (65\* for BG
@@ -2118,8 +2138,8 @@ for Deferral (future) income. Transactions are as follows:
 <!-- -->
 
 -   Debit income account (703 in BG Chart of account) / Credit Deferral
-    account (75\* in BG Chart of account) with the amount of 100 (posted
-    with the Posting date of the invoice)
+    account (75\* in BG Chart of account) with the amount of 100
+    (posted with the Posting date of the invoice)
 
 -   Debit Deferral account (75\* in BG Chart of account) / Credit income
     account (703 in BG Chart of account) with the dates from the
@@ -2127,12 +2147,12 @@ for Deferral (future) income. Transactions are as follows:
 
 The change, related to this development, is as follows:
 
--   Debit Customer account / Credit [Account for change]{.mark} with the
-    amount of 100 (posted with the Posting date of invoice)
+-   Debit Customer account / Credit Account for change with the amount
+    of 100 (posted with the Posting date of invoice)
 
--   Debit [Account for change]{.mark} / Credit Deferral account (75\*
-    from BG Chart of account) with the amount of 100 (posted with the
-    Posting date of invoice)
+-   Debit Account for change / Credit Deferral account (75\* from BG
+    Chart of account) with the amount of 100 (posted with the Posting
+    date of invoice)
 
 -   Debit Deferral account / Credit Income account from the lines with
     the dates from the Deferral schedule
@@ -2153,8 +2173,7 @@ In the **Purchase & Payables Setup** there are some additional fields
 related to VAT protocols for purchases and Intrastat and also a setting
 for mandatory payment method code.
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image99.png){width="6.121825240594926in"
+![](.\/media/image100.png){width="6.121825240594926in"
 height="2.446621828521435in"}
 
 -   **EU VAT Bus. posting group** -- VAT business posting group linked
@@ -2175,7 +2194,8 @@ selecting the vendor in the purchase document, they are transferred by
 default. For more details see the Intrastat section in the present
 document.
 
-![](.\/media/image100.png){width="6.525in" height="4.5in"}
+![](.\/media/image101.png){width="6.525in"
+height="4.5in"}
 
 ## Purchase invoice
 
@@ -2186,7 +2206,7 @@ invoice as follows:
 
 -   **VAT Date** -- the date of the taxable event is filled in
 
-![](.\/media/image101.png){width="5.991666666666666in"
+![](.\/media/image102.png){width="5.991666666666666in"
 height="2.4581200787401576in"}
 
 **Invoice Details tab**
@@ -2216,7 +2236,7 @@ height="2.4581200787401576in"}
 -   **VAT Exempt Ground**-- select the ground on the basis of which VAT
     is not charged in the invoice
 
-> ![](.\/media/image102.png){width="6.4375in"
+> ![](.\/media/image103.png){width="6.4375in"
 > height="4.854166666666667in"}
 
 **Foreign Trade tab**
@@ -2231,7 +2251,7 @@ code is not present there, when posting invoices from Bulgaria the
 system requires that the fields in the **Foreign Trade** tab must be
 filled in.
 
-![](.\/media/image103.png){width="6.531944444444444in"
+![](.\/media/image104.png){width="6.531944444444444in"
 height="1.8659722222222221in"}
 
 ## Purchase credit memos
@@ -2243,7 +2263,8 @@ been added a few fields related to localization.
 
 -   **VAT Date** -- the date of the taxable event is filled in
 
-![](.\/media/image104.png){width="6.525in" height="2.75in"}
+![](.\/media/image105.png){width="6.525in"
+height="2.75in"}
 
 **Invoice Details tab**
 
@@ -2261,7 +2282,7 @@ been added a few fields related to localization.
 -   **VAT Exempt Ground** -- select the ground on the basis of which VAT
     is not charged in the invoice
 
-![](.\/media/image105.emf){width="6.531944444444444in"
+![](.\/media/image106.emf){width="6.531944444444444in"
 height="2.229861111111111in"}
 
 **Application tab**
@@ -2274,7 +2295,8 @@ height="2.229861111111111in"}
     selected from a list of posted purchase invoices or filled in
     manually if the number of the invoice was entered manually**.**
 
-![](.\/media/image106.png){width="6.5in" height="1.4166666666666667in"}
+![](.\/media/image107.png){width="6.5in"
+height="1.4166666666666667in"}
 
 ## Void posted invoices and credit memos 
 
@@ -2282,17 +2304,19 @@ If you need to void a document, you must open the posted purchase
 document. Under the **Actions -- Correct** menu you have to select
 **Voiding Invoice**.
 
-![](.\/media/image107.png){width="6.531944444444444in"
+![](.\/media/image108.png){width="6.531944444444444in"
 height="3.6326388888888888in"}
 
 The system displays a page where you must enter the **Cancellation
 date**. Confirm by pressing the **Close** button.
 
-![](.\/media/image108.png){width="6.525in" height="2.933333333333333in"}
+![](.\/media/image109.png){width="6.525in"
+height="2.933333333333333in"}
 
 The system displays the following message:
 
-![](.\/media/image109.png){width="5.091666666666667in" height="1.825in"}
+![](.\/media/image110.png){width="5.091666666666667in"
+height="1.825in"}
 
 Upon pressing the **Yes** button, the document is marked as voided by
 the system. It will appear in the VAT ledger with zero value. To reverse
@@ -2312,8 +2336,7 @@ If you need to update a document, you must open the posted purchase
 invoice. Under the **Actions -- Other** menu you have to select **Update
 Document**.
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image110.png){width="6.215738188976378in"
+![](.\/media/image111.png){width="6.215738188976378in"
 height="2.5096391076115485in"}
 
 On the Posted Purch. Invoice - Update page, you can update the data in
@@ -2336,12 +2359,13 @@ invoice
 • Do not include in VAT Ledgers - you can update the field Do not
 include in VAT Ledgers
 
+• SAD No.
+
 Shipping tab
 
 • Ship-to address code -- you can update the shipping address code
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image111.png){width="6.188976377952756in"
+![](.\/media/image112.png){width="6.188976377952756in"
 height="2.6644608486439196in"}
 
 Confirm with **OK** to update the data.
@@ -2352,8 +2376,7 @@ If you need to update a document, you must open the posted purchase
 credit memo. Under the **Actions -- Other** menu you have to select
 **Update Document**.
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image112.png){width="6.254448818897638in"
+![](.\/media/image113.png){width="6.254448818897638in"
 height="2.1739807524059493in"}
 
 In the page Posted Purch. Cr.Memo - Update the data in the following
@@ -2368,8 +2391,7 @@ fields can be updated:
 • Do not include in VAT Ledgers - you can update Do not include in VAT
 Ledgers
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image113.png){width="6.402899168853893in"
+![](.\/media/image114.png){width="6.402899168853893in"
 height="2.710022965879265in"}
 
 Confirm with **OK** to update the data.
@@ -2387,8 +2409,7 @@ check the \"Credit Memo for Invoice Voiding\".
 In this way, the posted credit memo will be reflected in the VAT ledger
 entries with code 01.
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image114.png){width="6.008562992125984in"
+![](.\/media/image115.png){width="6.008562992125984in"
 height="2.386971784776903in"}
 
 # Sales -- localization settings
@@ -2398,7 +2419,7 @@ Sales and Marketing module.
 
 ## User setup
 
-![](.\/media/image115.png){width="6.531944444444444in"
+![](.\/media/image116.png){width="6.531944444444444in"
 height="1.2270833333333333in"}
 
 In the **User setup** **-- Card** **Usersetup** page there is an
@@ -2413,7 +2434,7 @@ disabled. In this case, they can only select Item along the lines of the
 sales document. If users need to have edit rights, you must select the
 option **Full Access**.
 
-![](.\/media/image116.png){width="6.531944444444444in"
+![](.\/media/image117.png){width="6.531944444444444in"
 height="1.3166666666666667in"}
 
 ## Sales & Receivables Setup
@@ -2440,8 +2461,7 @@ They are included in the VAT Sales journal under code 81.
 -   **Payment Metod mandatory** - specifies whether the Payment Method
     Code is mandatory for posting.
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image117.png){width="6.205791776027996in"
+![](.\/media/image118.png){width="6.205791776027996in"
 height="2.9949136045494313in"}
 
 ## Company information setup
@@ -2464,7 +2484,7 @@ Information**:
 -   **Picture 2 -** option for second picture, logo when printing
     documents
 
-![](.\/media/image118.png){width="6.531944444444444in"
+![](.\/media/image119.png){width="6.531944444444444in"
 height="2.8333333333333335in"}
 
 ## Contact card
@@ -2473,7 +2493,8 @@ The **Identification No.** field has been added to the contact card.
 When creating a customer or vendor from a contact, this field is
 transferred to the corresponding customer or vendor card.
 
-![](.\/media/image119.png){width="6.531944444444444in" height="3.325in"}
+![](.\/media/image120.png){width="6.531944444444444in"
+height="3.325in"}
 
 ## Customer card
 
@@ -2484,7 +2505,7 @@ The following fields have been added to the page **Customer Card**:
 -   **Identification No. -** the unique identification number (UIC) of
     the company
 
-![](.\/media/image120.png){width="5.4145756780402445in"
+![](.\/media/image121.png){width="5.4145756780402445in"
 height="3.3531681977252843in"}
 
 **Sell-to Customer Sales History** tab
@@ -2492,7 +2513,7 @@ height="3.3531681977252843in"}
 -   **Advance Paid (LCY) -** shows the amount of the advance paid by the
     customer
 
-![](.\/media/image121.png){width="6.531944444444444in"
+![](.\/media/image122.png){width="6.531944444444444in"
 height="2.8625in"}
 
 Functionality for advance payment by customer has been added.
@@ -2503,7 +2524,8 @@ displayed in the customer card and also in the **Sales history** tab in
 **Sales order** and **Sales invoice**. The advance payment is visible in
 the Sales document too.
 
-![](.\/media/image122.png){width="6.5in" height="2.9166666666666665in"}
+![](.\/media/image123.png){width="6.5in"
+height="2.9166666666666665in"}
 
 **Shipping tab**
 
@@ -2517,7 +2539,7 @@ following:
 
 -   **Transport Method**
 
-![](.\/media/image123.png){width="6.531944444444444in"
+![](.\/media/image124.png){width="6.531944444444444in"
 height="4.429861111111111in"}
 
 ## Sales invoice
@@ -2538,7 +2560,7 @@ invoice as follows:
 -   **Advance Paid (LCY)** -- if there is an advance payment by a
     customer, it will be displayed on the FactBox of the page.
 
-![](.\/media/image124.png){width="6.531944444444444in"
+![](.\/media/image125.png){width="6.531944444444444in"
 height="2.5375in"}
 
 **Invoice Details tab**
@@ -2571,7 +2593,7 @@ height="2.5375in"}
 -   **VAT Exempt Ground**-- select the ground on the basis of which VAT
     is not charged in the invoice. Used for tax-exempt transactions.
 
-![](.\/media/image125.png){width="6.531944444444444in"
+![](.\/media/image126.png){width="6.531944444444444in"
 height="4.536111111111111in"}
 
 **Foreign Trade tab**
@@ -2581,7 +2603,7 @@ document is a sale to the EU and contains items. The system displays
 warning messages if data is not present. This data can be specified in
 the **Customer card** and populated by default in the sales invoice.
 
-![](.\/media/image126.png){width="6.525in"
+![](.\/media/image127.png){width="6.525in"
 height="1.7416666666666667in"}
 
 **Note:** In **Company information** in the **Shipping** tab **- Ship-to
@@ -2613,7 +2635,7 @@ Sales credit memo and are positioned as follows:
     selected from a list of posted sales invoices or manually filled in
     if the number of the invoice was entered manually**;**
 
-![](.\/media/image127.png){width="6.531944444444444in"
+![](.\/media/image128.png){width="6.531944444444444in"
 height="3.392361111111111in"}
 
 **Credit memo details tab**
@@ -2635,7 +2657,7 @@ height="3.392361111111111in"}
 -   **VAT Exempt Ground** -- select the ground on the basis of which VAT
     is not charged in the invoice. Used for tax-exempt transactions.
 
-![](.\/media/image128.png){width="6.531944444444444in"
+![](.\/media/image129.png){width="6.531944444444444in"
 height="4.429166666666666in"}
 
 **Foreign trade tab**
@@ -2645,7 +2667,8 @@ document is a sale to the EU and contains items. The system displays
 warning messages if data is not present. This data can be specified in
 the **Customer card** and populated by default in the sales credit memo.
 
-![](.\/media/image129.png){width="6.5in" height="1.5in"}
+![](.\/media/image130.png){width="6.5in"
+height="1.5in"}
 
 ## Print Sales invoices and credit memos
 
@@ -2655,17 +2678,18 @@ memo. In the **Report Selection - Sales** page select the option
 -- XXXXX (Sales -- Invoice). By selecting the option Credit memo, fill
 in the object XXXXX (Credit memo) in the **Report ID** field.
 
-![](.\/media/image130.png){width="6.525in" height="2.283333333333333in"}
+![](.\/media/image131.png){width="6.525in"
+height="2.283333333333333in"}
 
 The invoice or credit memo are printed by pressing the **Print** button
 in the list of posted invoices or credit memos.
 
-![](.\/media/image131.png){width="6.531944444444444in"
+![](.\/media/image132.png){width="6.531944444444444in"
 height="1.4166666666666667in"}
 
 A page opens with the following options:
 
-![](.\/media/image132.png){width="6.531944444444444in"
+![](.\/media/image133.png){width="6.531944444444444in"
 height="3.8979166666666667in"}
 
 -   **Language** -- you must select the language in which the document
@@ -2690,10 +2714,10 @@ height="3.8979166666666667in"}
 After selecting **Preview**, **Print** or **Send** **to...**, the
 invoice and credit memo are visualized in the following way:
 
-![](.\/media/image133.png){width="6.531944444444444in"
+![](.\/media/image134.png){width="6.531944444444444in"
 height="5.8805555555555555in"}
 
-![](.\/media/image134.png){width="6.531944444444444in"
+![](.\/media/image135.png){width="6.531944444444444in"
 height="5.904166666666667in"}
 
 In the table below you can find information about the fields in the
@@ -2861,7 +2885,7 @@ English:
 
 Like Sales invoices, Sales protocols have a list of unposted protocols.
 
-![](.\/media/image135.png){width="4.666666666666667in"
+![](.\/media/image136.png){width="4.666666666666667in"
 height="2.6324781277340334in"}
 
 The protocol is displayed as a sales invoice, but it is in a separate
@@ -2876,7 +2900,8 @@ type of document is presented under code 81 in the VAT sales ledger.
 The protocol is printed in a similar printed form like the Invoice, but
 is titled Sales protocol.
 
-![](.\/media/image136.png){width="6.531944444444444in" height="5.925in"}
+![](.\/media/image137.png){width="6.531944444444444in"
+height="5.925in"}
 
 ## Cancel Sales invoices or credit memos 
 
@@ -2884,18 +2909,18 @@ If you need to cancel a sales document, you must open the posted
 document and select **Voiding invoice** from the **Actions -- Voiding
 Invoice** menu**.**
 
-![](.\/media/image137.png){width="6.531944444444444in"
+![](.\/media/image138.png){width="6.531944444444444in"
 height="3.0381944444444446in"}
 
 The system displays a page where you must enter the **Cancellation
 date**. Confirm by pressing the **Close** button.
 
-![](.\/media/image138.png){width="4.316666666666666in"
+![](.\/media/image139.png){width="4.316666666666666in"
 height="1.9460837707786527in"}
 
 The system displays the following message:
 
-![](.\/media/image139.png){width="5.141666666666667in"
+![](.\/media/image140.png){width="5.141666666666667in"
 height="1.8416666666666666in"}
 
 Upon pressing the **Yes** button, the document is marked as cancelled by
@@ -2916,8 +2941,7 @@ If you need to update a document, you must open the posted sales
 invoice. Under the **Actions -- Other** menu you have to select **Update
 Document**.
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image140.png){width="5.976080489938758in"
+![](.\/media/image141.png){width="5.976080489938758in"
 height="2.5424759405074364in"}
 
 On the Posted Sales Inv.- Update page, you can update the data in the
@@ -2937,8 +2961,9 @@ Payment tab
 • Company Bank Account Code -- you can update the Company Bank Account
 Code
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image141.png){width="6.091473097112861in"
+• Bank No.
+
+![](.\/media/image142.png){width="6.091473097112861in"
 height="2.657962598425197in"}
 
 Confirm with **OK** to update the data.
@@ -2949,8 +2974,7 @@ If you need to update a document, you must open the posted sales credit
 memo. Under the **Actions -- Other** menu you have to select **Update
 Document**.
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image142.png){width="6.228659230096238in"
+![](.\/media/image143.png){width="6.228659230096238in"
 height="2.4128969816272967in"}
 
 In the page Posted Sales. Cr.Memo - Update, the data in the following
@@ -2976,8 +3000,7 @@ Code
 
 • Payment Method Code -- you can update the Payment Method Code field
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image143.png){width="6.133333333333334in"
+![](.\/media/image144.png){width="6.133333333333334in"
 height="2.591666666666667in"}
 
 Confirm with **OK** to update the data.
@@ -2992,15 +3015,13 @@ Inventory module.
 Added Default General Business Posting Group field in **Assembly
 Setup**.
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image144.png){width="6.166666666666667in"
+![](.\/media/image145.png){width="6.166666666666667in"
 height="2.3833333333333333in"}
 
 When creating an assembly order, this group will be fill in the assembly
 order General Business Posting Group field.
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image145.png){width="5.725in"
+![](.\/media/image146.png){width="5.725in"
 height="2.558333333333333in"}
 
 ## Inventory Setup
@@ -3009,8 +3030,7 @@ Added Gen. Bus. Posting Group (Transfer) field in **Inventory Setup**.
 When creating a transfer order, this General Business Posting Group will
 be fill in the transfer order.
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image146.png){width="5.683333333333334in"
+![](.\/media/image147.png){width="5.683333333333334in"
 height="2.3666666666666667in"}
 
 ## Item Journal
@@ -3020,12 +3040,10 @@ Batches. If you fill a default group for a folder, then these General
 Business Posting Group will be fill in item journal lines of that
 folder.
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image147.png){width="6.108333333333333in"
+![](.\/media/image148.png){width="6.108333333333333in"
 height="0.9333333333333333in"}
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image148.png){width="6.033333333333333in"
+![](.\/media/image149.png){width="6.033333333333333in"
 height="1.6916666666666667in"}
 
 ## Default Dimension in Item Category
@@ -3034,16 +3052,14 @@ An Item Category can be assigned to each item from a defined list. Added
 the ability to place default dimensions to the item category. This
 happens to the Item Category card:
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image149.png){width="6.531944444444444in"
+![](.\/media/image150.png){width="6.531944444444444in"
 height="2.48125in"}
 
 On the BG, VAT and VIES Setup page, a setting has been added to the
 Items tab related to copying the dimensions from the item category to
 the item itself:
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image150.png){width="6.531944444444444in"
+![](.\/media/image151.png){width="6.531944444444444in"
 height="5.814583333333333in"}
 
 When this setting is checked, then the default dimensions from the item
@@ -3055,7 +3071,7 @@ values. In the Inventory Setup, there is a setup for item groups
 dimension:
 
 ![A screenshot of a login screen Description automatically
-generated](.\/media/image151.png){width="6.531944444444444in"
+generated](.\/media/image152.png){width="6.531944444444444in"
 height="3.6881944444444446in"}
 
 If an item has default dimensions for the Inventory Setup dimension, but
@@ -3075,8 +3091,7 @@ receivable, a new field **Credit Memo according to art.126b, paragraph 1
 of VAT Law** has been created in the header, where you can mark if the
 credit memo is related to an irrecoverable receivable:
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image152.png){width="6.130952537182852in"
+![](.\/media/image153.png){width="6.130952537182852in"
 height="2.4694367891513562in"}
 
 All other details of the credit note, as well as its entry and posting,
@@ -3086,22 +3101,19 @@ In the List of posted credit memos, a filter can be made on the
 Irrecoverable Receivable field and only the documents issued in
 connection with an irrecoverable receivable will be visualized:
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image153.png){width="6.531944444444444in"
+![](.\/media/image154.png){width="6.531944444444444in"
 height="1.4078423009623797in"}
 
 The same field is also transferred to the VAT records, where again a
 filter can be made on it:
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image154.png){width="6.152234251968504in"
+![](.\/media/image155.png){width="6.152234251968504in"
 height="1.6256813210848644in"}
 
 After the purchase credit memo is posted, the document is with Document
 Type 23 in the VAT Purchase Journals:
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image155.png){width="5.817428915135608in"
+![](.\/media/image156.png){width="5.817428915135608in"
 height="2.278911854768154in"}
 
 ## Irrecoverable Receivable for sales
@@ -3113,8 +3125,7 @@ receivable, in the header part there is a new field **Credit Memo
 according to art.126b, paragraph 1 of VAT Law**, where you can mark if
 the credit note is related to an irrecoverable receivable:
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image156.png){width="5.9545384951881015in"
+![](.\/media/image157.png){width="5.9545384951881015in"
 height="2.387673884514436in"}
 
 All other details of the credit note, as well as its entry and posting,
@@ -3134,8 +3145,7 @@ If a credit memo has been issued in relation to irrecoverable
 receivable, but then a payment has been made for it, a debit memo should
 be issued. Two new fields have been created:
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image157.png){width="6.1367672790901135in"
+![](.\/media/image158.png){width="6.1367672790901135in"
 height="2.448905293088364in"}
 
 If the **Irrecoverable Receivable** field is checked, the system opens
@@ -3149,8 +3159,7 @@ checked, the system does not look for mandatory To invoice number field.
 After the sales debit memo is posted, the document is with Document Type
 02 in the VAT Sales Journal.
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image158.png){width="6.021580271216098in"
+![](.\/media/image159.png){width="6.021580271216098in"
 height="2.2719739720034995in"}
 
 A filter can be made on the Irrecoverable Receivable field in the list
@@ -3166,15 +3175,13 @@ When you create a sales protocol for irrecoverable receivable you have
 to check the new field **Protocol according to art.126b, paragraph 2 and
 7 of VAT Law**:
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image159.png){width="5.9741283902012245in"
+![](.\/media/image160.png){width="5.9741283902012245in"
 height="2.5311286089238845in"}
 
 After posting the protocol, it is entered in the VAT journals with Type
 of document 29:
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image160.png){width="6.349292432195975in"
+![](.\/media/image161.png){width="6.349292432195975in"
 height="2.516905074365704in"}
 
 # Service
@@ -3183,8 +3190,7 @@ height="2.516905074365704in"}
 
 Added new functionality - copy document in Service Credit Memo:
 
-![A screenshot of a computer Description automatically
-generated](.\/media/image161.png){width="6.531944444444444in"
+![](.\/media/image162.png){width="6.531944444444444in"
 height="1.801388888888889in"}
 
 The functionality allows you to select a posted service invoice whose
