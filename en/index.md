@@ -22,19 +22,16 @@ redirect_from:
 [2.6. Set up VAT Cash Regime](#set-up-vat-cash-regime)\
 [2.7. VAT Setup when carrying out activities under Art. 163](#vat-setup-when-carrying-out-activities-under-art.-163)\
 [2.8. Postpone tax credit within the permitted 12-month period](#postpone-tax-credit-within-the-permitted-12-month-period)\
-
 [3. Intrastat](#intrastat)\
 [3.1. Intrastat Setup](#intrastat-setup)\
 [3.2. Creating a new Intrastat declaration](#creating-a-new-intrastat-declaration)\
 [3.3. Creating files for Intrastat declaration](#creating-files-for-intrastat-declaration)\
-
 [4. Finances - localization settings](#finances-localization-settings)\
 [4.1. Automatic Create Default Dimensions](#automatic-create-default-dimensions)\
 [4.2. General Journal)](#general-journal)\
 [4.3. Trial Balance Register](#trial-balance-register)\
 [4.4. Fixed assets](#fixed-assets)\
 [4.5. Changes in posting with Deferral Templates](#changes-in-posting-with-deferral-templates)\
-
 [5. Purchases - localization settings](#purchases-localization-settings)\
 [5.1. Purchases & Payables Setup](#purchases-payables-setup)\
 [5.2. Vendor card](#vendor-card)\
@@ -43,7 +40,6 @@ redirect_from:
 [5.5. Void posted invoices and credit memos](#void-posted-invoices-and-credit-memos)\
 [5.6. Change data in posted purchase documents](#change-data-in-posted-purchase-documents)\
 [5.7. Void a purchase invoice in next tax period](#void-a-purchase-invoice-in-next-tax-period)\
-
 [6. Sales -- localization settings](#sales-localization-settings)\
 [6.1. User setup](#user-setup)\
 [6.2. Sales & Receivables Setup](#sales-receivables-setup)\
