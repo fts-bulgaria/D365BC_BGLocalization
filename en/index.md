@@ -85,7 +85,7 @@ The localization package includes the following functionalities:
 When creating a new company, it is necessary to activate the localization package for Bulgaria. Activation is performed in the **General Ledger Setup** page from the menu **Actions**, **Functions** - **Change BG Localization Activation Status**.
 After activation it is necessary to check the status in the **BG localization Settings** section.
 
-![](.\/media/image1.png)
+<img src="./media/image1.png" style="width:6.53194in;height:3.10069in" />
 
 # VAT functionality
 
@@ -93,7 +93,7 @@ The VAT functionality, as part of the localization package for Bulgaria, meets t
 
 The main menu for working with the functionality is in the role center "Accountant".
 
-![](.\/media/image2.png)
+<img src="./media/image2.png" style="width:6.53194in;height:2.39583in" />
 
 ## VAT setup
 
@@ -101,11 +101,12 @@ The main menu for working with the functionality is in the role center "Accounta
 
 The initial setup is in page **BG, VAT and VIES setup**
 
-![](.\/media/image3.png)
+<img src="./media/image3.png" style="width:6.53194in;height:2.17222in" />
 
 This table contains data on specific localization setup regarding: checks of VAT registration numbers, bank codes, VAT, VIES and INTRASTAT, setup of VAT files export (names of files), standard VAT subject for the purposes of VAT ledgers for sales and purchase documents.
 
-![](.\/media/image4.png)
+<img src="./media/image4.png" style="width:6.53194in;height:3.05625in"
+alt="A screenshot of a computer Description automatically generated with low confidence" />
 
 -   **Checks**
 -   **Skip Check for Identification No -** check this field, if the check for Identification No. should not be activated.
@@ -125,7 +126,7 @@ This table contains data on specific localization setup regarding: checks of VAT
 
 -   **VAT registration expiry date -** enter the date of termination of the registration under the VAT regime
 -   **VAT Declarations**
-![](.\/media/image5.png)
+<img src="./media/image5.png" style="width:6.53194in;height:1.10278in" />
 
 -   **Declaration signed-off -** enter the name of the company representative, submitting the VAT files. The value of this field is taken for the print form of the VAT monthly ledgers.
 -   **Job Position -** enter the job position of the company representative. The value of this field is taken for the print form of the VAT ledgers.
@@ -137,7 +138,7 @@ This table contains data on specific localization setup regarding: checks of VAT
 
 Here only the fields, related to the localization package, will be discussed.
 
-![](.\/media/image6.png)
+<img src="./media/image6.png" style="width:3.60833in;height:3.25833in" />
 
 The main fields for the setup of the VAT combinations for the Bulgarian localization are:
 
@@ -190,39 +191,39 @@ The VAT protocols are created from page „Purchase VAT protocols" and „Sales 
 
 You can see them in the **Accountant** role center:
 
-![](.\/media/image7.png)
+<img src="./media/image7.png" style="width:6.53194in;height:2.53958in" />
 
 ### VAT Protocols Setup
 
 In **General ledger setup** the number series for VAT protocols and posted VAT protocols are set up in fileds VAT Protocol Nos. and Posted VAT Protocol Nos.
 
-![](.\/media/image8.png)
+<img src="./media/image8.png" style="width:5.39986in;height:3.50251in" />
 
 In **Purchase and Payables setup** the VAT Business posting group for VAT protocols is set up in field EU VAT Bus.Posting Group
 
-![](.\/media/image9.png)
+<img src="./media/image9.png" style="width:6.19659in;height:3.77949in" />
 
 In **Sales and Receivables setup** the VAT Business posting group for VAT protocols is set up in field EU VAT Bus.Posting Group
 
-![](.\/media/image10.png)
+<img src="./media/image10.png" style="width:6.53194in;height:3.37986in" />
 
 ### Creation of VAT purchase protocols
 
 To create a new VAT purchase protocol, go to **VAT reporting- Purchase VAT protocols**
 
-![](.\/media/image11.png)
+<img src="./media/image11.png" style="width:6.53194in;height:1.1875in" />
 
 To create a new protocol, Choose **New.**
 
-![](.\/media/image12.emf)
+<img src="./media/image12.emf" style="width:6.53194in;height:1.12014in" />
 
 Choose vendor and press Enter, so that a new protocol to be created.
 
-![](.\/media/image13.png)
+<img src="./media/image13.png" style="width:6.53194in;height:4.30278in" />
 
 Choose **Copy document**, and choose the document, from which the protocol should be created. Several options are available:
 
-![](.\/media/image14.png)
+<img src="./media/image14.png" style="width:3.34754in;height:3.28503in" />
 
 -   **Posted VAT protocol** -- copy from a posted VAT protocol
 -   **Posted invoice** -- copy from a posted purchase invoice
@@ -234,7 +235,7 @@ Choose **Copy document**, and choose the document, from which the protocol shoul
 
 After the document is selected, press OK and the data is filled in the protocol.
 
-![](.\/media/image15.png)
+<img src="./media/image15.png" style="width:5.99497in;height:2.53533in" />
 
 In the VAT protocol header, fill in **Composed by** and **Ground for issue.**
 
@@ -242,11 +243,11 @@ You can also fill a **VAT description** field. The description is filled in whic
 
 VAT protocols can be created for several documents. In order to use this functionality, from the list of the protocols choose the button Create Purch. VAT protocol.
 
-![](.\/media/image16.png)
+<img src="./media/image16.png" style="width:6.53194in;height:1.67431in" />
 
 In the window that opens, fill in the following fields:
 
-![](.\/media/image17.png)
+<img src="./media/image17.png" style="width:4.48958in;height:6.54166in" />
 
 -   **Document date -** enter the VAT protocol document date. Valid for all protocols that will be issued.
 -   **Posting date** -- enter the VAT protocol posting date. Valid for all protocols that will be issued.
@@ -268,13 +269,13 @@ Once the protocols are posted, in the list of posted invoices and credit memos, 
 
 The VAT combination defines in which columns of the VAT ledgers the protocol will be included.
 
-![](.\/media/image18.png)
+<img src="./media/image18.png" style="width:6.53194in;height:1.78819in" />
 
 When the combination is with classification code 08, the protocol is included in the VAT purchase ledger in columns 10 and 11, and in VAT sales ledger in columns 9, 10, 13, 15.
 
 When the combination is with classification code 02, the protocol is included in the VAT purchase ledger in columns 10 and 11, and in VAT sales ledger in columns 9, 10, 14, 15.
 
-![](.\/media/image19.png)
+<img src="./media/image19.png" style="width:6.53194in;height:1.91458in" />
 
 When the protocol has to be included in the VAT purchase ledger with no VAT refund, and the VAT amount has to be included in this sum, it is necessary to select a combination, that has VAT classification codes 98 and 92, for which "No refund" is selected. In this case only for these two codes the amount, including the VAT amount, will be included in the VAT purchase ledger. The columns in the VAT sales ledger are similar to those for code 02 and 08.
 
@@ -290,7 +291,7 @@ When the VAT protocol has to be voided, go to the posted VAT protocol, choose Ac
 
 Reversing GL entries are posted, and the protocol is included in the VAT ledgers with 0 amounts.
 
-![](.\/media/image20.png)
+<img src="./media/image20.png" style="width:5.48151in;height:3.99852in" />
 
 Reversing GL entries are posted with the selected voiding date. If the voiding date is in the reporting month the protocol is included in the VAT ledgers with 0 amounts. But if the voiding date is in the next month the reversing entries will be included in the VAT ledgers for the next month with negative amounts.
 
@@ -298,7 +299,7 @@ Reversing GL entries are posted with the selected voiding date. If the voiding d
 
 When you create a reversing VAT protocol, the field Correction has to be marked. When the protocol is created from a posted purchase credit memo, the field is marked automatically.
 
-![](.\/media/image21.png)
+<img src="./media/image21.png" style="width:6.53194in;height:2.01528in" />
 
 ## VAT on customs declaration
 
@@ -312,7 +313,7 @@ VAT on customs declaration is posted in General Journal. In the General Journal,
 -   **VAT Business posting group**-- ZVAT MD (the VAT Business posting group for VAT on customs declarations);
 -   **VAT product posting group** -- VAT20
 
-![](.\/media/image22.png)
+<img src="./media/image22.png" style="width:6.53194in;height:1.80764in" />
 
 In the VAT Posting Setup the VAT posting groups combination has to be set up as follows:
 -   **VAT%** - 20;
@@ -321,7 +322,7 @@ In the VAT Posting Setup the VAT posting groups combination has to be set up as 
 -   **Purchase VAT refund type** -- Full refund
 -   **VAT classification code**- 00
 
-![](.\/media/image23.png)
+<img src="./media/image23.png" style="width:5.61806in;height:3.05556in" />
 
 In the VAT purchase ledger, the transaction is included as a document type 07.
 
@@ -347,19 +348,19 @@ The posting date of the document defines in which monthly VAT ledgers the transa
 
 To create a new VAT ledger, go to the main menu of role center Accountant, section VAT Reporting.
 
-![](.\/media/image24.png)
+<img src="./media/image24.png" style="width:6.53194in;height:2.54722in" />
 
 A new ledger can be created from the Purchase Ledger List or the Sales Ledger List page, and an existing ledger can also be viewed, edited, deleted, or printed.
 
-![](.\/media/image25.png)
+<img src="./media/image25.png" style="width:6.53194in;height:1.34375in" />
 
 Creating a new ledger is done by selecting the action **New**. A window opens in which it is necessary to enter the first day of the respective month for which the ledger is created - in the field **Period** **Start date.**
 
-![](.\/media/image26.png)
+<img src="./media/image26.png" style="width:6.53194in;height:2.58403in" />
 
 Then it is necessary to select **Create**. When performing this action, the data is loaded in the lines of the ledger as in the screenshot below:
 
-![](.\/media/image27.png)
+<img src="./media/image27.png" style="width:6.53194in;height:2.98403in" />
 
 The entries included in the ledger are those that are posted in the system at the time of creating the ledger and their posting date is within the period for which the ledger is created. In case, after generating a ledger, more documents for the period are posted, it is necessary to generate the ledger again with the Create button.
 
@@ -371,7 +372,7 @@ The fields in the VAT ledger that provide information about the status of the le
 
 For each VAT ledger certain actions can be performed. You can find them in menu Actions - Functions.
 
-![](.\/media/image28.png)
+<img src="./media/image28.png" style="width:6.53194in;height:2.94514in" />
 
 • **Create** - creates lines in the ledger with data from the posted documents. For one log, the action can be performed repeatedly. Each execution of the action removes the existing rows in the log and reloads them. In order for the action to be performed, the status of the ledger must be Open. Status Open for a ledger that has already acquired the status Started is obtained with the action Reopen.
 
@@ -387,62 +388,62 @@ If corrections are needed in an already exported ledger, it must be opened again
 
 When a ledger is selected, Statistics related to it is displayed on the right side of the screen, where summary information about the entries included in the ledger can be obtained.
 
-![](.\/media/image29.png)
+<img src="./media/image29.png" style="width:6.53194in;height:3.35139in" />
 
 Using the Print action, the ledger can be displayed on a screen, printed on a printer, or saved as a file:
 
-![](.\/media/image30.png)
+<img src="./media/image30.png" style="width:6.53194in;height:3.42847in" />
 
 ### VAT declaration creation
 
 The VAT declaration is created from the main menu of the Accountant role center.
 
-![](.\/media/image31.png)
+<img src="./media/image31.png" style="width:6.53194in;height:1.28403in" />
 
 A new declaration is created using the Create button. In the new line that appears in the list of declarations, the Period Start date - the first day of the declared month - must be entered. All fields for amounts in the lines of the declaration are filled in manually (not calculable), including the amounts of VAT for refund and deduction.
 
-![](.\/media/image32.png)
+<img src="./media/image32.png" style="width:6.53194in;height:0.95486in" />
 
 The declaration is generated after the purchase and sales ledgers have been generated. To display the Declaration itself, it is necessary to select the **Print** button. The data for the person responsible for preparing and submitting the declaration are entered once and after printing the document on a printer or saving it in a file, they are saved and do not need to be entered for the next printing. It is necessary to mark that this person is a Representative of the company, as well as to indicate a Confirmation of correctness of the data. After this data is filled in, select View or Print.
 
-![](.\/media/image33.png)
+<img src="./media/image33.png" style="width:4.27159in;height:5.16504in" />
 
 The report is visualized and from it you can see the amount of VAT to be paid or deducted. This amount must then be entered on the lines of the declaration (field VAT effectively paid).
 
-![](.\/media/image34.png)
+<img src="./media/image34.png" style="width:6.18611in;height:7.43681in" />
 
-![](.\/media/image35.png)
+<img src="./media/image35.png" style="width:5.37708in;height:7.42847in" />
 
 ### VIES declaration creation
 
 The VIES declaration is created from the main menu of the Accountant role center.
 
-![](.\/media/image36.png)
+<img src="./media/image36.png" style="width:6.53194in;height:1.34931in" />
 
 A new declaration is created using the **New** button.
 
-![](.\/media/image37.png)
+<img src="./media/image37.png" style="width:6.53194in;height:1.04861in" />
 
 A new line appears in the list of declarations, in which the Period Start date must be entered - the first day of the declared month, as well as data about the employee responsible for preparing and submitting the declaration - ID, Name, Position (Authorized person, Procurator), Address.
 
 The Print button opens a window in which the declaration is prepared for printing.
 
-![](.\/media/image38.png)
+<img src="./media/image38.png" style="width:3.59189in;height:3.85612in" />
 
-![](.\/media/image39.png)
+<img src="./media/image39.png" style="width:6.50469in;height:6.85495in" />
 
 ### VAT ledgers export
 
 VAT files are created on the VAT Ledgers Export page. For the role center Accountant, it is located in the main menu, in the VAT Reporting section.
 
-![](.\/media/image40.png)
+<img src="./media/image40.png" style="width:6.53194in;height:1.98403in" />
 
 In the page opened, you can specify:
 • Period - month and year for which data is exported
 • Ledgers and declarations for which files will be created
 • The names of the files to be created
 
-![](.\/media/image41.png)
+<img src="./media/image41.png" style="width:4.31667in;height:4.85in" />
 
 The fields for the file names are filled in automatically with values, according to the requirements for their submission to the tax administration:
 -   PRODAGBI.TXT -- VAT Sales ledger
@@ -452,7 +453,7 @@ The fields for the file names are filled in automatically with values, according
 
 By selecting the OK button, one archive file is created that contains all marked diaries and declarations.
 
-![](.\/media/image42.png)
+<img src="./media/image42.png" style="width:6.53194in;height:3.22361in" />
 
 Once the export files for the ledgers are generated, the system automatically marks these ledgers as Exported. Files for VAT ledgers and declarations can be generated repeatedly if necessary to correct the data.
 
@@ -486,7 +487,7 @@ When companies choose to use assets for personal needs, in Dynamics 365 Business
 
 In **VAT posting setup,** the following fields are set up:
 
-![](.\/media/image43.png)
+<img src="./media/image43.png" style="width:6.53194in;height:1.28333in" />
 
 The combination of the VAT business posting group and VAT product posting group has the following parameters:
 -   **VAT calculation type -** full VAT
@@ -497,7 +498,7 @@ The combination of the VAT business posting group and VAT product posting group 
 -   **VAT classification code --** 01;
 -   **Calculate VAT for personal use -** 
   
-![](.\/media/image44.png)
+<img src="./media/image44.png" style="width:0.21667in;height:0.23333in" />
 
 **Note:** When posting documents (VAT protocol) with this combination, the amount of VAT will be reflected in column 16 -- VAT charged for purchases of goods or services for personal needs of the Sales Ledger and in cell 23 - VAT charged for purchases of goods or services for personal needs of the VAT monthly declaration.
 
@@ -509,11 +510,11 @@ For incurring VAT for private use a VAT purchase protocol is created. In the VAT
 
 This field should be marked, if the protocol is for VAT for private use. The protocol will be included in the VAT Sales Ledger only.
 
-![](.\/media/image45.png)
+<img src="./media/image45.png" style="width:5.39744in;height:2.62952in" />
 
 In the VAT protocol lines the specific VAT Product posting group should be selected.
 
-![](.\/media/image46.png)
+<img src="./media/image46.png" style="width:5.75662in;height:1.10926in" />
 
 **Note:** the system makes the following checks:
 -   **The field "VAT for personal use" is checked in VAT posting groups combination (VAT posting setup)**;
@@ -523,11 +524,11 @@ Only if these two fields are checked, the VAT protocol for VAT for personal use 
 
 If only one of the fields is checked, the system displays a warning message for a discrepancy and does not allow posting until the discrepancy is rectified:
 
-![](.\/media/image47.png)
+<img src="./media/image47.png" style="width:3.47366in;height:1.20837in" />
 
 **Note:** When creating a **Purchase Protocol**, it is advisable that the **Copy document** function is used and the **Include Header** field is checked. Thus, the type and number of the copied document are recorded in the **Purchase Protocol** header, in the fields **Original Document Type** and **Original Document No.** The content of these fields cannot be edited subsequently. If **Copy document** does not use checking of the **Include Header** field, then the fields in the protocol remain blank and in the printed form of the protocol the field **To document / Date** remains blank as well.
 
-![](.\/media/image48.png)
+<img src="./media/image47.png" style="width:3.47366in;height:1.20837in" />
 
 ## Set up VAT Cash Regime 
 
@@ -541,7 +542,7 @@ The following steps should be followed to do the required setup in Dynamics 365 
 
 You need to search for and open the **General Ledger Setup** page.
 
-![](.\/media/image49.png)
+<img src="./media/image49.png" style="width:6.5in;height:2in" />
 
 You must check the fields **Unrealized VAT** and **Prepayment Unrealized VAT**.
 
@@ -549,17 +550,17 @@ You must check the fields **Unrealized VAT** and **Prepayment Unrealized VAT**.
 
 After **Unrealized VAT** check box is selected, the **VAT Business Posting Groups** page opens.
 
-![](.\/media/image50.png)
+<img src="./media/image50.png" style="width:6.53194in;height:2.10903in" />
 
 In the example below, the ZKasova group is created (the name is user-selectable). In the column **Article 151**, the group for cash payments must be checked.
 
-![](.\/media/image51.png)
+<img src="./media/image51.png" style="width:6.53194in;height:1.64097in" />
 
 ### Set up VAT Business Posting Groups 
 
 The Setup button is selected and a new combination is created.
 
-![](.\/media/image52.png)
+<img src="./media/image52.png" style="width:5.243in;height:1.34409in" />
 
 In the column **Unrealized VAT Type**, the option **Percent** is filled in. In the column **Purchase VAT Unrealized Account**, VAT account for unrealized VAT is filled in.
 
@@ -570,7 +571,7 @@ The rest of the fields are filled in as in the case of standard charging of VAT:
 -   **Purchase VAT Refund Type** -- Full refund
 -   **VAT Clause Code** - 00
 
-![](.\/media/image53.png)
+<img src="./media/image53.png" style="width:6.53194in;height:1.15417in" />
 
 Once the VAT combination is set up, the new VAT business posting group must be entered in the card of Cash registered suppliers. Thus, for each purchase, the invoice will automatically load this VAT Business Posting Group and the system will identify the invoice and payments on it as Cash.
 
@@ -580,17 +581,17 @@ When an invoice is entered for supply by a vendor registered under this regime, 
 
 The above change is made in the header of the Purchase Order / Purchase Invoice in the **Invoice Details** section.
 
-![](.\/media/image54.png)
+<img src="./media/image54.png" style="width:4.61544in;height:1.91307in" />
 
 From the list of **VAT Business Posting Groups** the required group is selected. After the group is changed, the program displays a warning message in which you must select \"Yes\".
 
-![](.\/media/image55.png)
+<img src="./media/image55.png" style="width:2.96258in;height:1.20671in" />
 
 **Note**: It is advisable to change the **VAT Business Posting Group** before you start populating the lines in the purchase order / invoice. If an account has already been entered along the lines, the amount will be deleted and you need to re-enter it. If an item has been entered and a manual correction has been made to the price or discount in the line, they must also be re-entered.
 
 When posting a document, the system displays a warning message to prevent accidental error when groups are changed. If it is a cash payment, reply to the message with \"No\".
 
-![](.\/media/image56.png)
+<img src="./media/image56.png" style="width:2.97452in;height:1.07156in" />
 
 ### **Reflect payments for invoices under Cash Regime** 
 
@@ -600,11 +601,11 @@ When an invoice is posted under the Cash regime, the VAT on it is posted to a se
 
 The protocol is entered from the **Vendor Ledger Entries** (**Vendor Card** - **Entries**). You must select the invoice for which a Protocol has been received. After you mark the invoice, you need to select the **Protocols input** option from the **Functions** button.
 
-![](.\/media/image57.png)
+<img src="./media/image57.png" style="width:6.52569in;height:2.73056in" />
 
 All entries for payments of the respective invoice are displayed. In the fields **Protocol Date** and **Protocol No**. the date and number of the protocol must be entered. An invoice can be paid with several protocols. The protocols entered so far to the selected invoice will also be displayed in this screen.
 
-![](.\/media/image58.png)
+<img src="./media/image58.png" style="width:6.53194in;height:1.54514in" />
 
 After you enter the date and number, you must close the screen. The protocol date must be within the month in which the entry was linked, otherwise the system will display an error message. The entry for the Protocol is reflected in the ledger in the month in which the entry is linked (date of accounting for VAT). In case of discrepancy in the months of linking and of protocol, you need to unlink the payment from the invoice and link it again with a date of the month in which the protocol was issued. The generation of the VAT ledgers and the VAT Monthly declaration is done in the standard way.
 
@@ -616,17 +617,17 @@ According to the Bulgarian legislation, special VAT reverse charge schemes have 
 
 You need to create new **VAT Product Posting Groups**. Using the search button we can find this page in the menu:
 
-![](.\/media/image59.png)
+<img src="./media/image59.png" style="width:5.72441in;height:1.73737in" />
 
 In the example below the groups VAT_GRAIN and WASTE are created.
 
-![](.\/media/image60.png)
+<img src="./media/image60.png" style="width:6.52569in;height:1.73056in" />
 
 ### Set up a combination of VAT groups in Sales
 
 In **Posting Setup**, the following settings are made for the new groups:
 
-![](.\/media/image61.png)
+<img src="./media/image61.png" style="width:6.51944in;height:1.23056in" />
 
 A combination of a **VAT Business Posting Group** of customers from Bulgaria and the new **VAT Product Posting Groups** is selected. The fields are filled in as follows:
 -   **VAT calculation type --** VAT
@@ -653,7 +654,7 @@ Reverse charge is not applied to Intra-Community supplies and acquisitions (supp
 
 In the **VAT Posting Setup menu**, the following settings are made for the new groups:
 
-![](.\/media/image62.png)
+<img src="./media/image62.png" style="width:6.5in;height:1.25in" />
 
 A combination of **VAT Business Posting Group** of suppliers from Bulgaria and the new **VAT Product Posting Groups** is selected. The fields are filled in as follows:
 -   **VAT Business Posting Group --** Supplier from Bulgaria**;**
@@ -675,7 +676,7 @@ For reverse charge protocols, a new combination needs to be added that includes 
 
 In the **VAT Posting Setup**, the following settings are made for the new groups:
 
-![](.\/media/image63.png)
+<img src="./media/image63.png" style="width:6.52569in;height:1.22431in" />
 
 A combination of **VAT Business Posting Group** for VAT protocols and the new **VAT Product Posting Groups** is selected. The fields are filled in as follows:
 -   **VAT calculation type --** Full VAT**;**
@@ -691,7 +692,7 @@ A new **\"Ground for Issue\"** of a reverse charge protocol is entered - **\"VAT
 
 **Note:** When posting a Protocol for waste or cereals, you need to change the **VAT Product Posting Group** along the lines. If not changed, the protocol will be displayed in the ledger without the required details.
 
-![](.\/media/image64.png)
+<img src="./media/image64.png" style="width:4.96159in;height:2.41717in" />
 
 ## Postpone tax credit within the permitted 12-month period
 
@@ -700,14 +701,14 @@ A new **\"Ground for Issue\"** of a reverse charge protocol is entered - **\"VAT
 In BG, VAT and VIES Setup, the Postponed VAT Account is replenished, as
 well as a template and batch for a general journal:
 
-![](.\/media/image65.png)
+<img src="./media/image65.png" style="width:5.28309in;height:3.53966in" />
 
 ### Postponed VAT before posting invoice
 
 Enter the invoice and place a check mark in the Postponed VAT field in
 the Invoice Details tab:
 
-![](.\/media/image66.png)
+<img src="./media/image66.png" style="width:6.53194in;height:3.80764in" />
 
 If the Postponed VAT field is marked, a check mark is automatically placed in the Do Not Include in VAT field.
 
@@ -719,11 +720,11 @@ When the invoice is posted, the tax credit will be reflected in the G/L account 
 
 A purchase VAT ledger opens and the invoices that must enter the Journal for the selected month are generated. After generation, the Postponed VAT function can be started:
 
-![](.\/media/image67.png)
+<img src="./media/image67.png" style="width:6.53194in;height:4.57292in" />
 
 After this action on a screen, the VAT journal lines are displayed and by placing a check mark for the invoices to be included in the VAT ledger of purchases in the next period:
 
-![](.\/media/image68.png)
+<img src="./media/image68.png" style="width:6.53194in;height:2.08819in" />
 
 When postponed VAT invoices are marked, the Approve Postpone VAT function is selected. In this action, the following occurs:
 
@@ -738,15 +739,15 @@ When postponed VAT invoices are marked, the Approve Postpone VAT function is sel
 
 To include a purchase invoice whose VAT has been postponed with the function described above, you must start the Change VAT Period page by selecting Change VAT Period from the Search button:
 
-![](.\/media/image69.png)
+<img src="./media/image69.png" style="width:4.29982in;height:2.1256in" />
 
 A list of documents marked with Postponed VAT that are not yet included in the VAT Ledgers is displayed on the screen.
 
-![](.\/media/image70.png)
+<img src="./media/image70.png" style="width:6.53194in;height:1.82431in" />
 
 By placing a check mark in the Change VAT Period field (first column), select the documents to include in a selected VAT period. The selection is confirmed by the Change VAT Period function in the ribbon above. The following window appears on the screen:
 
-![](.\/media/image71.png)
+<img src="./media/image71.png" style="width:6.53194in;height:3.96667in" />
 
 The first day of the month in which the marked invoice is to be included should be indicated here.
 
@@ -778,7 +779,7 @@ The following fields are entered in advance in the **Vendor card**:
 -   **Transaction Type**
 -   **Transport Method**
 
-![](.\/media/image72.png)
+<img src="./media/image72.png" style="width:6.53194in;height:3.40625in" />
 
 They are transferred to the purchase order if they have been entered for the respective vendor selected in the order.
 
@@ -787,7 +788,7 @@ In the **Item** card, the following fields are filled in:
 -   **Net Weight**
 -   **Tariff No.**
 
-![](.\/media/image73.png)
+<img src="./media/image73.png" style="width:6.53194in;height:3.325in" />
 
 In the **Purchase Order**, the following fields are filled in:
 -   **Area** -- for arrivals, this is a region (district) in Bulgaria
@@ -796,12 +797,12 @@ In the **Purchase Order**, the following fields are filled in:
 It is advisable that these fields be filled in the purchase order before its posting. The data can be found in the **Foreign Trade** tab of the Purchase Order.
 
 
-![](.\/media/image74.png)
+<img src="./media/image74.png" style="width:6.53194in;height:4.22986in" />
 
 
 In the **VAT Reports Configuration** page, you need to set the relevant settings once.
 
-![](.\/media/image75.png)
+<img src="./media/image75.png" style="width:6.53194in;height:1.06389in" />
 
 -   **VAT Report Type** -- Intrastat Report
 -   **VAT Report Version** -- 2020
@@ -811,7 +812,7 @@ In the **VAT Reports Configuration** page, you need to set the relevant settings
 
 In the **Intrastat Report Setup** page, the following settings are set:
 
-![](.\/media/image76.png)
+<img src="./media/image76.png" style="width:6.53194in;height:3.25972in" />
 
 -   **Report Receipts** -- to be checked if needed to generate a declaration for receipts only
 -   **Report Shipments** -- to be checked if needed to generate a declaration for shipments only
@@ -830,7 +831,7 @@ When filling in an Intrastat declaration, a nomenclature of countries and territ
 
 In Dynamics 365 Business central in the page **Countries/Regions** against each country you must fill in the corresponding code for Intrastat.
 
-![](.\/media/image77.png)
+<img src="./media/image77.png" style="width:6.53194in;height:1.39722in" />
 
 Subject to Intrastat declaration are the entries for items that are delivered / sold to counterparties of a country with an Intrastat code in the table of countries (regardless of the country of origin of the items).
 
@@ -840,7 +841,7 @@ In Finance - Setup - Intrastat, there are all specific nomenclatures that are us
 
 These nomenclatures can also be found by typing part of the name in the Search field on the main menu.
 
-![](.\/media/image78.png)
+<img src="./media/image78.png" style="width:5.27056in;height:4.17902in" />
 
 ### Setup of Item charges included in the amounts of Intrastat declaration
 
@@ -848,34 +849,34 @@ The Localization package for Bulgaria allows you to set the item charge as part 
 
 On the Item Charge page, the following columns should be marked:
 
-![](.\/media/image79.png)
+<img src="./media/image79.png" style="width:5.80719in;height:2.53625in" />
 
 -   **Include in Intrastat amount** -- must be checked if we want the item charge to be included in the column Amount
 -   **Include in Intrastat statistic value** -- must be checked if we want the item charge to be included in column Statistical value
 
 On the **Shipment Methods** page, check this method, for which the cost of transport is included in the amount for Intrastat.
 
-![](.\/media/image80.png)
+<img src="./media/image80.png" style="width:6.53194in;height:1.92917in" />
 
 In Purchases & payables setup the field **Intrastat Journal incl. Item charge**, must be marked if we want the item charge to be added to the amount for Intrastat.
 
-![](.\/media/image81.png)
+<img src="./media/image81.png" style="width:6.53194in;height:3.23681in" />
 
 ### Settings for creating the Intrastat declaration
 
 In **BG, VAT and VIES Setup,** a new **Intrastat** section has been created, where it is necessary to fill in the data of the Contact Person responsible for Declaration submitting. In general, the Contact person data must be identical to the data of the person on whose behalf the declaration is submitted to the NRA e-services portal.
 
-![](.\/media/image82.png)
+<img src="./media/image82.png" style="width:3.24515in;height:3.43559in" />
 
 ## Creating a new Intrastat declaration
 
 A new Intrastat declaration is created from the **Intrastat Report List** page.
 
-![](.\/media/image83.png)
+<img src="./media/image83.png" style="width:6.5in;height:1.49266in" />
 
 In the list of created declarations, select the **+New** action.
 
-![](.\/media/image84.png)
+<img src="./media/image84.png" style="width:6.53194in;height:1.39722in" />
 
 In the **General** section of the header of the declaration, the following fields are filled in:
 
@@ -887,11 +888,11 @@ In the **General** section of the header of the declaration, the following field
 
 • **Subsequent Declaration No**. -- 1.
 
-![](.\/media/image85.png)
+<img src="./media/image85.png" style="width:6.53194in;height:4.31181in" />
 
 After the declaration is created, the **Suggest Lines** action is selected. The system generates lines with items. These are the entries marked as \"Intrastat transaction\" and for which the Country / Region Code field contains codes indicated as Intrastat Code in the country table, regardless of the country of origin of the item.
 
-![](.\/media/image86.png)
+<img src="./media/image86.png" style="width:6.5in;height:2.05347in" />
 
 It is necessary to check for missing data. If there are any, they can be filled in manually in the journal. The other option is to fill them in the relevant cards (items, vendors, etc.), and then run the Suggest Line action again. It is recommended for the items to be filled in with net weights and tariff numbers (in their cards) in advance. Without these fields, the declaration will not be submitted correctly.
 
@@ -909,11 +910,11 @@ Localization allows both creating a file with a ready Intrastat declaration and 
 
 If the declarations must include a statistical value, the **Export Statistical Value** option is also marked.
 
-![](.\/media/image87.png)
+<img src="./media/image87.png" style="width:6.53194in;height:2.56458in" />
 
 When selecting the **Create File** action, you can choose which of the files to generate - for import (receipts) or for export (sends), as well as create both at the same time.
 
-![](.\/media/image88.png)
+<img src="./media/image88.png" style="width:6.53194in;height:2.72986in" />
 
 The generated files can be found in the Downloads folder on your computer.
 
@@ -931,7 +932,7 @@ To set up this you need:
  -   **Table Customer** - in the Dimension field select Dimension for Customer (it must be created in advance).
  -   **Table Vendor** in the Dimension field select Dimension for Vendor (it must be created in advance).
 
-![](.\/media/image89.png)
+<img src="./media/image89.png" style="width:6.5in;height:2.25in" />
 
 When you create a new customer or vendor card, the system automatically generates value in dimensions with the code and name of that customer or vendor. When you change the name in customer / vendor card, it also changes in the dimensions.
 
@@ -944,7 +945,7 @@ The following fields have been added to the General Journal:
 -   SAD No. -- related to the option to post customs declarations;
 -   **VAT Subject** -- the description of the transaction (good or service) is filled in which is reflected in the **VAT Purch. Ledger List** in the column **VAT description**. If left blank, it will be filled in with the value of **VAT description of purchases** field from page **BG, VAT and VIES setup**
 
-![](.\/media/image90.png)
+<img src="./media/image90.png" style="width:6.525in;height:2.03333in" />
 
 ## Trial Balance Register 
 
@@ -952,15 +953,15 @@ The Trial Balance Register report is a further developed report, which serves to
 
 You can start the report from the main screen of the Accountant Role Center:
 
-![](.\/media/image91.png)
+<img src="./media/image91.png" style="width:6.53194in;height:1.79444in" />
 
 or by searching the menu:
 
-![](.\/media/image92.png)
+<img src="./media/image92.png" style="width:6.53194in;height:2.16597in" />
 
 When the report is started, select the following options:
 
-![](.\/media/image93.png)
+<img src="./media/image93.png" style="width:4.58333in;height:4.75331in" />
 
 -   **From Date** -- start date of the period
 -   **To Date** -- end date of the period
@@ -972,7 +973,7 @@ When the report is started, select the following options:
 > Additionally, selected accounts can be specified in the **Filter: Account** section.
 > Upon confirmation by pressing the View button, the report is displayed on the screen:
 
-![](.\/media/image94.png)
+<img src="./media/image94.png" style="width:4.9in;height:4.48333in" />
 
 ## Fixed assets
 
@@ -980,15 +981,15 @@ In addition to the reports in the Fixed Asset module, the Localization package f
 
 The **Changes in Fixed Asset** report contains all the information needed for Tax depreciation plan and Accounting depreciation plan. It is found in the main screen of the Accountant Role Center:
 
-![](.\/media/image95.png)
+<img src="./media/image95.png" style="width:6.53194in;height:1.77778in" />
 
 or by searching the menu:
 
-![](.\/media/image96.png)
+<img src="./media/image96.png" style="width:4.52184in;height:1.55348in" />
 
 The following options in the report must be filled in:
 
-![](.\/media/image97.png)
+<img src="./media/image97.png" style="width:3.61282in;height:3.7804in" />
 
 -   **Depreciation book** -- Depreciation book is selected -- accounting or tax;
 -   **Start Date** -- start date of the period;
@@ -1000,13 +1001,13 @@ In the tabs **Filter: FA Posting groups** and **Filter: Fixed asset**, filters f
 
 **Note:** Due to the fact that you cannot fit all columns on one page for printing, it is advisable to export the report to Excel where all required columns are visible.
 
-![](.\/media/image98.emf)
+<img src="./media/image98.emf" style="width:6.53194in;height:1.72014in" />
 
 ## Changes in posting with Deferral Templates 
 
 In Deferral Templates two new fields were added:
 
-![](.\/media/image99.png)
+<img src="./media/image99.png" style="width:6.53194in;height:3.62778in" />
 
 -   **Use Account For Change** -- If there is no mark in the field, the deferral process will be standard. If there is a mark in the field, deferral process will use the GL account from the following field.
 
@@ -1062,7 +1063,7 @@ The localization package for Bulgaria has some additional settings in the Purcha
 
 In the **Purchase & Payables Setup** there are some additional fields related to VAT protocols for purchases and Intrastat and also a setting for mandatory payment method code.
 
-![](.\/media/image100.png)
+<img src="./media/image100.png" style="width:6.12183in;height:2.44662in" />
 
 -   **EU VAT Bus. posting group** -- VAT business posting group linked to VAT protocols is filled in;
 -   **Intr. Jnl. Incl. Item charges** -- it has to be checked if you want to include the additional charges in the Intrastat declaration
@@ -1072,7 +1073,7 @@ In the **Purchase & Payables Setup** there are some additional fields related to
 
 In the Vendor card there have been added some fields related to Intrastat transactions (Transport method, Transaction specification, etc.). When filling in these fields in the vendor card and upon selecting the vendor in the purchase document, they are transferred by default. For more details see the Intrastat section in the present document.
 
-![](.\/media/image101.png)
+<img src="./media/image101.png" style="width:6.525in;height:4.5in" />
 
 ## Purchase invoice
 
@@ -1082,7 +1083,7 @@ The localization fields are displayed in the Purchase order and Purchase invoice
 
 -   **VAT Date** -- the date of the taxable event is filled in
 
-![](.\/media/image102.png)
+<img src="./media/image102.png" style="width:5.99167in;height:2.45812in" />
 
 **Invoice Details tab**
 
@@ -1094,7 +1095,7 @@ The localization fields are displayed in the Purchase order and Purchase invoice
 -   **Do Not include in VAT ledger** -- to be checked if the invoice should not be reflected in the VAT ledger;
 -   **VAT Exempt Ground**-- select the ground on the basis of which VAT is not charged in the invoice
 
-![](.\/media/image103.png)
+<img src="./media/image103.png" style="width:6.4375in;height:4.85417in" />
 
 **Foreign Trade tab**
 
@@ -1102,7 +1103,7 @@ In this tab you must fill in data for the Intrastat transactions if the document
 
 **Note:** In **Company information** in the **Shipping** tab - **Ship-to Country/Region Code** field must be filled in with the BG code. If BG code is not present there, when posting invoices from Bulgaria the system requires that the fields in the **Foreign Trade** tab must be filled in.
 
-![](.\/media/image104.png)
+<img src="./media/image104.png" style="width:6.53194in;height:1.86597in" />
 
 ## Purchase credit memos
 
@@ -1112,7 +1113,7 @@ In the Purchase credit memo and Purchase return order pages there have been adde
 
 -   **VAT Date** -- the date of the taxable event is filled in
 
-![](.\/media/image105.png)
+<img src="./media/image105.png" style="width:6.525in;height:2.75in" />
 
 **Invoice Details tab**
 
@@ -1121,29 +1122,29 @@ In the Purchase credit memo and Purchase return order pages there have been adde
 -   **Do Not include in VAT ledger** -- to be checked if the invoice should not be reflected in the VAT journal;
 -   **VAT Exempt Ground** -- select the ground on the basis of which VAT is not charged in the invoice
 
-![](.\/media/image106.emf)
+<img src="./media/image106.emf" style="width:6.53194in;height:2.22986in" />
 
 **Application tab**
 
 -   **To Invoice No.** -- select the invoice from a list of posted purchase invoices or enter manually the number of the invoice to which the credit memo is issued;
 -   **To Invoice Date --** filled in automatically if the invoice is selected from a list of posted purchase invoices or filled in manually if the number of the invoice was entered manually**.**
 
-![](.\/media/image107.png)
+<img src="./media/image107.png" style="width:6.5in;height:1.41667in" />
 
 ## Void posted invoices and credit memos 
 
 If you need to void a document, you must open the posted purchase document. Under the **Actions -- Correct** menu you have to select
 **Voiding Invoice**.
 
-![](.\/media/image108.png)
+<img src="./media/image108.png" style="width:6.53194in;height:3.63264in" />
 
 The system displays a page where you must enter the **Cancellation date**. Confirm by pressing the **Close** button.
 
-![](.\/media/image109.png)
+<img src="./media/image109.png" style="width:6.525in;height:2.93333in" />
 
 The system displays the following message:
 
-![](.\/media/image110.png)
+<img src="./media/image110.png" style="width:5.09167in;height:1.825in" />
 
 Upon pressing the **Yes** button, the document is marked as voided by the system. It will appear in the VAT ledger with zero value. To reverse the G/L postings, you must issue a Credit memo or Invoice which you must also void.
 
@@ -1160,7 +1161,7 @@ If you need to update a document, you must open the posted purchase
 invoice. Under the **Actions -- Other** menu you have to select **Update
 Document**.
 
-![](.\/media/image111.png)
+<img src="./media/image111.png" style="width:6.21574in;height:2.50964in" />
 
 On the Posted Purch. Invoice - Update page, you can update the data in
 the following fields:
@@ -1188,7 +1189,7 @@ Shipping tab
 
 • Ship-to address code -- you can update the shipping address code
 
-![](.\/media/image112.png)
+<img src="./media/image112.png" style="width:6.18898in;height:2.66446in" />
 
 Confirm with **OK** to update the data.
 
@@ -1198,7 +1199,7 @@ If you need to update a document, you must open the posted purchase
 credit memo. Under the **Actions -- Other** menu you have to select
 **Update Document**.
 
-![](.\/media/image113.png)
+<img src="./media/image113.png" style="width:6.25445in;height:2.17398in" />
 
 In the page Posted Purch. Cr.Memo - Update the data in the following
 fields can be updated:
@@ -1212,7 +1213,7 @@ fields can be updated:
 • Do not include in VAT Ledgers - you can update Do not include in VAT
 Ledgers
 
-![](.\/media/image114.png)
+<img src="./media/image114.png" style="width:6.4029in;height:2.71002in" />
 
 Confirm with **OK** to update the data.
 
@@ -1229,7 +1230,7 @@ check the \"Credit Memo for Invoice Voiding\".
 In this way, the posted credit memo will be reflected in the VAT ledger
 entries with code 01.
 
-![](.\/media/image115.png)
+<img src="./media/image115.png" style="width:6.00856in;height:2.38697in" />
 
 # Sales -- localization settings
 
@@ -1237,13 +1238,13 @@ The Localization package for Bulgaria adds the following settings in the Sales a
 
 ## User setup
 
-![](.\/media/image116.png)
+<img src="./media/image116.png" style="width:6.53194in;height:1.22708in" />
 
 In the **User setup** **-- Card** **Usersetup** page there is an additional field called **Posting date** **\<\>** **Work date**. If this field is checked, the system will not check for differences between the posting date and work date when an order or a sales invoice is posted.
 
 The **Edit Sales document\`s price and discounts** field allows you to restrict a user from editing prices and discounts along the lines of the sales document. By default, users are created with their edit rights disabled. In this case, they can only select Item along the lines of the sales document. If users need to have edit rights, you must select the option **Full Access**.
 
-![](.\/media/image117.png)
+<img src="./media/image117.png" style="width:6.53194in;height:1.31667in" />
 
 ## Sales & Receivables Setup
 
@@ -1261,7 +1262,7 @@ They are included in the VAT Sales journal under code 81.
 -   **Intr. Jnl. Incl. Item charges**. - If item charges need to be included in the Intrastat journal for shipments, you must check this option
 -   **Payment Metod mandatory** - specifies whether the Payment Method Code is mandatory for posting.
 
-![](.\/media/image118.png)
+<img src="./media/image118.png" style="width:6.20579in;height:2.99491in" />
 
 ## Company information setup
 
@@ -1272,13 +1273,13 @@ The following fields have been added to the page **Company Information**:
 -   **City in English** - the city from the address of the company, written in Latin symbols. Used when printing documents.
 -   **Picture 2 -** option for second picture, logo when printing documents
 
-![](.\/media/image119.png)
+<img src="./media/image119.png" style="width:6.53194in;height:2.83333in" />
 
 ## Contact card
 
 The **Identification No.** field has been added to the contact card. When creating a customer or vendor from a contact, this field is transferred to the corresponding customer or vendor card.
 
-![](.\/media/image120.png)
+<img src="./media/image120.png" style="width:6.53194in;height:3.325in" />
 
 ## Customer card
 
@@ -1288,19 +1289,19 @@ The following fields have been added to the page **Customer Card**:
 
 -   **Identification No. -** the unique identification number (UIC) of the company
 
-![](.\/media/image121.png)
+<img src="./media/image121.png" style="width:5.41458in;height:3.35317in" />
 
 **Sell-to Customer Sales History** tab
 
 -   **Advance Paid (LCY) -** shows the amount of the advance paid by the customer
 
-![](.\/media/image122.png)
+<img src="./media/image122.png" style="width:6.53194in;height:2.8625in" />
 
 Functionality for advance payment by customer has been added.
 
 When under an advance account set in the **General posting setup** an amount is posted for the given **General business posting group**, it is displayed in the customer card and also in the **Sales history** tab in **Sales order** and **Sales invoice**. The advance payment is visible in the Sales document too.
 
-![](.\/media/image123.png)
+<img src="./media/image123.png" style="width:6.5in;height:2.91667in" />
 
 **Shipping tab**
 
@@ -1309,7 +1310,7 @@ Some fields related to Intrastat have been added, which are transferred to the s
 -   **Transaction Specification**
 -   **Transport Method**
 
-![](.\/media/image124.png)
+<img src="./media/image124.png" style="width:6.53194in;height:4.42986in" />
 
 ## Sales invoice
 
@@ -1321,7 +1322,7 @@ The localization fields are displayed in the Sales order and Sales invoice as fo
 -   **Composed By** -- filled in manually by the user name;
 -   **Advance Paid (LCY)** -- if there is an advance payment by a customer, it will be displayed on the FactBox of the page.
 
-![](.\/media/image125.png)
+<img src="./media/image125.png" style="width:6.53194in;height:2.5375in" />
 
 **Invoice Details tab**
 -   **Bank No.** -- by default, the bank account details frоm **Company information** are displayed on the printed sales document. If you want to specify another bank account for a sale, you must select in this field the Bank from the Bank Accounts list;
@@ -1332,13 +1333,13 @@ The localization fields are displayed in the Sales order and Sales invoice as fo
 -   **Do not include in VAT ledgers** -- to be checked if the document is for internal consumption;
 -   **VAT Exempt Ground**-- select the ground on the basis of which VAT is not charged in the invoice. Used for tax-exempt transactions.
 
-![](.\/media/image126.png)
+<img src="./media/image126.png" style="width:6.53194in;height:4.53611in" />
 
 **Foreign Trade tab**
 
 In this tab you must fill in data for the Intrastat transactions if the document is a sale to the EU and contains items. The system displays warning messages if data is not present. This data can be specified in the **Customer card** and populated by default in the sales invoice.
 
-![](.\/media/image127.png)
+<img src="./media/image127.png" style="width:6.525in;height:1.74167in" />
 
 **Note:** In **Company information** in the **Shipping** tab **- Ship-to Country/Region Code** field must be filled in with the BG code. If BG code is not present there, when posting invoices from Bulgaria the system requires that the fields in the **Foreign Trade** tab are filled in.
 
@@ -1353,7 +1354,7 @@ The localization fields are displayed in the Sales return order and Sales credit
 -   **To Invoice No.** -- select the invoice from a list of posted sales invoices or enter manually the number of the invoice to which the credit memo is issued;
 -   **To Invoice date --** automatically populated if the invoice is selected from a list of posted sales invoices or manually filled in if the number of the invoice was entered manually**;**
 
-![](.\/media/image128.png)
+<img src="./media/image128.png" style="width:6.53194in;height:3.39236in" />
 
 **Credit memo details tab**
 -   **Bank No.** -- by default, the bank account details frоm **Company information** are displayed on the printed sales document. If you want to specify another bank account for a sale, you must select in this field the Cash from the cash list;
@@ -1361,27 +1362,27 @@ The localization fields are displayed in the Sales return order and Sales credit
 -   **Do not include in VAT ledgers** -- to be checked if the document must not be included in the VAT Sales ledger;
 -   **VAT Exempt Ground** -- select the ground on the basis of which VAT is not charged in the invoice. Used for tax-exempt transactions.
 
-![](.\/media/image129.png)
+<img src="./media/image129.png" style="width:6.53194in;height:4.42917in" />
 
 **Foreign trade tab**
 
 In this tab you must fill in data for the Intrastat transactions if the document is a sale to the EU and contains items. The system displays warning messages if data is not present. This data can be specified in the **Customer card** and populated by default in the sales credit memo.
 
-![](.\/media/image130.png)
+<img src="./media/image130.png" style="width:6.5in;height:1.5in" />
 
 ## Print Sales invoices and credit memos
 
 The following setup is required before printing an invoice or credit memo. In the **Report Selection - Sales** page select the option **Invoice** (as shown below) and the object responsible for the invoice -- XXXXX (Sales -- Invoice). By selecting the option Credit memo, fill in the object XXXXX (Credit memo) in the **Report ID** field.
 
-![](.\/media/image131.png)
+<img src="./media/image131.png" style="width:6.525in;height:2.28333in" />
 
 The invoice or credit memo are printed by pressing the **Print** button in the list of posted invoices or credit memos.
 
-![](.\/media/image132.png)
+<img src="./media/image132.png" style="width:6.53194in;height:1.41667in" />
 
 A page opens with the following options:
 
-![](.\/media/image133.png)
+<img src="./media/image133.png" style="width:6.53194in;height:3.89792in" />
 
 -   **Language** -- you must select the language in which the document will be printed -- for English select ENU;
 -   **No. of Copies** -- specify the number of copies to be printed in addition to the original document;
@@ -1391,9 +1392,9 @@ A page opens with the following options:
 
 After selecting **Preview**, **Print** or **Send** **to...**, the invoice and credit memo are visualized in the following way:
 
-![](.\/media/image134.png)
+<img src="./media/image134.png" style="width:6.53194in;height:5.88056in" />
 
-![](.\/media/image135.png)
+<img src="./media/image135.png" style="width:6.53194in;height:5.90417in" />
 
 In the table below you can find information about the fields in the documents and their source fields for printing in Bulgarian and in English:
 
@@ -1440,28 +1441,28 @@ In the table below you can find information about the fields in the documents an
 
 Like Sales invoices, Sales protocols have a list of unposted protocols.
 
-![](.\/media/image136.png)
+<img src="./media/image136.png" style="width:4.66667in;height:2.63248in" />
 
 The protocol is displayed as a sales invoice, but it is in a separate list and is marked as protocol.
 
 Once posted the protocols are stored in the list of posted invoices and can be identified as Sales protocols by the check in the Sales Protocol field. Their number series for posting must not coincide with these of invoices. Filling them in is similar to filling in a Sales invoice. This type of document is presented under code 81 in the VAT sales ledger.
 The protocol is printed in a similar printed form like the Invoice, but is titled Sales protocol.
 
-![](.\/media/image137.png)
+<img src="./media/image137.png" style="width:6.53194in;height:5.925in" />
 
 ## Cancel Sales invoices or credit memos 
 
 If you need to cancel a sales document, you must open the posted document and select **Voiding invoice** from the **Actions -- Voiding Invoice** menu**.**
 
-![](.\/media/image138.png)
+<img src="./media/image138.png" style="width:6.53194in;height:3.03819in" />
 
 The system displays a page where you must enter the **Cancellation date**. Confirm by pressing the **Close** button.
 
-![](.\/media/image139.png)
+<img src="./media/image139.png" style="width:4.31667in;height:1.94608in" />
 
 The system displays the following message:
 
-![](.\/media/image140.png)
+<img src="./media/image140.png" style="width:5.14167in;height:1.84167in" />
 
 Upon pressing the **Yes** button, the document is marked as cancelled by the system. It will appear in the VAT Sales Ledger with zero value. To reverse the G/L postings, you must issue a Credit memo or Invoice which you must also cancel.
 
@@ -1478,7 +1479,7 @@ If you need to update a document, you must open the posted sales
 invoice. Under the **Actions -- Other** menu you have to select **Update
 Document**.
 
-![](.\/media/image141.png)
+<img src="./media/image141.png" style="width:5.97608in;height:2.54248in" />
 
 On the Posted Sales Inv.- Update page, you can update the data in the
 following fields:
@@ -1499,7 +1500,7 @@ Code
 
 • Bank No.
 
-![](.\/media/image142.png)
+<img src="./media/image142.png" style="width:6.09147in;height:2.65796in" />
 
 Confirm with **OK** to update the data.
 
@@ -1509,7 +1510,7 @@ If you need to update a document, you must open the posted sales credit
 memo. Under the **Actions -- Other** menu you have to select **Update
 Document**.
 
-![](.\/media/image143.png)
+<img src="./media/image143.png" style="width:6.22866in;height:2.4129in" />
 
 In the page Posted Sales. Cr.Memo - Update, the data in the following
 fields can be updated:
@@ -1534,7 +1535,7 @@ Code
 
 • Payment Method Code -- you can update the Payment Method Code field
 
-![](.\/media/image144.png)
+<img src="./media/image144.png" style="width:6.13333in;height:2.59167in" />
 
 Confirm with **OK** to update the data.
 
@@ -1548,12 +1549,12 @@ Inventory module.
 Added Default General Business Posting Group field in **Assembly
 Setup**.
 
-![](.\/media/image145.png)
+<img src="./media/image145.png" style="width:6.16667in;height:2.38333in" />
 
 When creating an assembly order, this group will be fill in the assembly
 order General Business Posting Group field.
 
-![](.\/media/image146.png)
+<img src="./media/image146.png" style="width:5.725in;height:2.55833in" />
 
 ## Inventory Setup
 
@@ -1561,7 +1562,7 @@ Added Gen. Bus. Posting Group (Transfer) field in **Inventory Setup**.
 When creating a transfer order, this General Business Posting Group will
 be fill in the transfer order.
 
-![](.\/media/image147.png)
+<img src="./media/image147.png" style="width:5.68333in;height:2.36667in" />
 
 ## Item Journal
 
@@ -1570,9 +1571,9 @@ Batches. If you fill a default group for a folder, then these General
 Business Posting Group will be fill in item journal lines of that
 folder.
 
-![](.\/media/image148.png)
+<img src="./media/image148.png" style="width:6.10833in;height:0.93333in" />
 
-![](.\/media/image149.png)
+<img src="./media/image149.png" style="width:6.03333in;height:1.69167in" />
 
 ## Default Dimension in Item Category
 
@@ -1580,13 +1581,13 @@ An Item Category can be assigned to each item from a defined list. Added
 the ability to place default dimensions to the item category. This
 happens to the Item Category card:
 
-![](.\/media/image150.png)
+<img src="./media/image150.png" style="width:6.53194in;height:2.48125in" />
 
 On the BG, VAT and VIES Setup page, a setting has been added to the
 Items tab related to copying the dimensions from the item category to
 the item itself:
 
-![](.\/media/image151.png)
+<img src="./media/image151.png" style="width:6.53194in;height:5.81458in" />
 
 When this setting is checked, then the default dimensions from the item
 category card will be transferred to the item when the item is assigned
@@ -1596,7 +1597,8 @@ The system has another setup in case of conflict between the dimension
 values. In the Inventory Setup, there is a setup for item groups
 dimension:
 
-![](.\/media/image152.png)
+<img src="./media/image152.png" style="width:6.53194in;height:3.68819in"
+alt="A screenshot of a login screen Description automatically generated" />
 
 If an item has default dimensions for the Inventory Setup dimension, but
 fills in the Category that has no dimension value from Inventory Setup,
@@ -1615,7 +1617,7 @@ receivable, a new field **Credit Memo according to art.126b, paragraph 1
 of VAT Law** has been created in the header, where you can mark if the
 credit memo is related to an irrecoverable receivable:
 
-![](.\/media/image153.png)
+<img src="./media/image153.png" style="width:6.13095in;height:2.46944in" />
 
 All other details of the credit note, as well as its entry and posting,
 are in a standard way.
@@ -1624,17 +1626,17 @@ In the List of posted credit memos, a filter can be made on the
 Irrecoverable Receivable field and only the documents issued in
 connection with an irrecoverable receivable will be visualized:
 
-![](.\/media/image154.png)
+<img src="./media/image154.png" style="width:6.53194in;height:1.40784in" />
 
 The same field is also transferred to the VAT records, where again a
 filter can be made on it:
 
-![](.\/media/image155.png)
+<img src="./media/image155.png" style="width:6.15223in;height:1.62568in" />
 
 After the purchase credit memo is posted, the document is with Document
 Type 23 in the VAT Purchase Journals:
 
-![](.\/media/image156.png)
+<img src="./media/image156.png" style="width:5.81743in;height:2.27891in" />
 
 ## Irrecoverable Receivable for sales
 
@@ -1645,7 +1647,7 @@ receivable, in the header part there is a new field **Credit Memo
 according to art.126b, paragraph 1 of VAT Law**, where you can mark if
 the credit note is related to an irrecoverable receivable:
 
-![](.\/media/image157.png)
+<img src="./media/image157.png" style="width:5.95454in;height:2.38767in" />
 
 All other details of the credit note, as well as its entry and posting,
 are in a standard way.
@@ -1664,7 +1666,7 @@ If a credit memo has been issued in relation to irrecoverable
 receivable, but then a payment has been made for it, a debit memo should
 be issued. Two new fields have been created:
 
-![](.\/media/image158.png)
+<img src="./media/image158.png" style="width:6.13677in;height:2.44891in" />
 
 If the **Irrecoverable Receivable** field is checked, the system opens
 the **To sales credit memo field** for filling, where the list of sales
@@ -1677,7 +1679,7 @@ checked, the system does not look for mandatory To invoice number field.
 After the sales debit memo is posted, the document is with Document Type
 02 in the VAT Sales Journal.
 
-![](.\/media/image159.png)
+<img src="./media/image159.png" style="width:6.02158in;height:2.27197in" />
 
 A filter can be made on the Irrecoverable Receivable field in the list
 of posted sales invoices and VAT Entries, and only the documents issued
@@ -1692,12 +1694,12 @@ When you create a sales protocol for irrecoverable receivable you have
 to check the new field **Protocol according to art.126b, paragraph 2 and
 7 of VAT Law**:
 
-![](.\/media/image160.png)
+<img src="./media/image160.png" style="width:5.97413in;height:2.53113in" />
 
 After posting the protocol, it is entered in the VAT journals with Type
 of document 29:
 
-![](.\/media/image161.png)
+<img src="./media/image161.png" style="width:6.34929in;height:2.51691in" />
 
 # Service
 
@@ -1705,7 +1707,7 @@ of document 29:
 
 Added new functionality - copy document in Service Credit Memo:
 
-![](.\/media/image162.png)
+<img src="./media/image162.png" style="width:6.53194in;height:1.80139in" />
 
 The functionality allows you to select a posted service invoice whose
 data is copied to the service credit memo.
