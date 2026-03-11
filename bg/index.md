@@ -2,7 +2,7 @@
 title: Пакет локализация за България на Microsoft Dynamics 365 Business Central
 owner: ФТС България
 redirect_from:
-
+  - /
 ---
 [Условия за ползване](../FTS Standard Agreement.pdf)<br/>
 [Цялата Версия на PDF](../FTS Bulgarian Basic Localization Package.pdf)<br/>
