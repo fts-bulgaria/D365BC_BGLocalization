@@ -19,7 +19,7 @@ redirect_from:
 [2.4. VAT ledgers and VAT declaration](#vat-ledgers-and-vat-declaration)\
 [2.5. VAT for private use of assets](#vat-for-private-use-of-assets)\
 [2.6. Set up VAT Cash Regime](#set-up-vat-cash-regime)\
-[2.7. VAT Setup when carrying out activities under Art. 163](#vat-setup-when-carrying-out-activities-under-art.-163)\
+[2.7. VAT Setup when carrying out activities under Art. 163](#vat-setup-when-carrying-out-activities-under-art-163)\
 [2.8. Postpone tax credit within the permitted 12-month period](#postpone-tax-credit-within-the-permitted-12-month-period)\
 [3. Intrastat](#intrastat)\
 [3.1. Intrastat Setup](#intrastat-setup)\
