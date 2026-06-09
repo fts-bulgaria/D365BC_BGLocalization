@@ -31,6 +31,7 @@ redirect_from:
 [4.3. Trial Balance Register](#trial-balance-register)\
 [4.4. Fixed assets](#fixed-assets)\
 [4.5. Changes in posting with Deferral Templates](#changes-in-posting-with-deferral-templates)\
+[4.6. Customs declaration data table](#customs-declaration-data-table)\
 [5. Purchases – localization settings](#purchases-localization-settings)\
 [5.1. Purchases & Payables Setup](#purchases-payables-setup)\
 [5.2. Vendor card](#vendor-card)\
@@ -1249,6 +1250,29 @@ from the Deferral Template, but the actual deferral of the income will
 use the exact Income account from the sales lines and the Deferral
 account from the template.
 
+## Customs declaration data table 
+
+To store data for customs declarations, a table has been created with
+the following fields:
+
+<img src="./media/image105.png" style="width:6.3in;height:0.87986in" />
+
+- **SAD No** - Customs Declaration Number
+- **Vendor No** - vendor number that is used in the document with the posted amount of VAT for the respective supply
+- **Vendor Name** – Vendor Name
+- **Purchase invoice No.** - number of the purchase invoice to which the customs declaration relates. It is selected from the list of posted purchase invoices, and the list is filtered by the vendor number from the field **Vendor No.**
+- **Update purchase invoice** - when marked, the SAD number will be recorded in the specified posted purchase invoice.
+
+Features:
+- The table can be accessed through field **SAD No.** on the General Journal Line
+- In the records for SADs, it is possible to fill in a vendor invoice number – in the field **Purchase Invoice No**. When filling in this field and marking the box **Update Purchase Invoice**, the number of the customs declaration is filled in field **SAD No.** of the respective posting invoice.
+- The number of the customs declaration specified in the purchase document is recorded in the data table for customs declarations when the document is posted, together with the number of the corresponding purchase invoice.
+- When updating data in a posted purchase invoice, you can add or change the SAD number. In this case, the list of entered SADs is opened, and the list is filtered by the vendor number from the posted invoice. If a customs declaration number has already been entered in the invoice, the system displays a warning message when you try to change it.
+- The customs declaration table does not store data on SADs that were reflected before the new table was implemented. If necessary, data on them can be additionally imported into the system.
+**Important**: The method of posting a customs declaration depends on
+the settings in the system and is not subject to consideration in this
+documentation.
+
 # Purchases – localization settings
 
 The localization package for Bulgaria has some additional settings in the Purchasing module.
@@ -1257,7 +1281,7 @@ The localization package for Bulgaria has some additional settings in the Purcha
 
 In the **Purchase & Payables Setup** there are some additional fields related to VAT protocols for purchases and Intrastat and also a setting for mandatory payment method code.
 
-<img src="./media/image105.png" style="width:6.12183in;height:2.44662in" />
+<img src="./media/image106.png" style="width:6.12183in;height:2.44662in" />
 
 - **EU VAT Bus. posting group** – VAT business posting group linked to VAT protocols is filled in;
 - **Intr. Jnl. Incl. Item charges** – it has to be checked if you want to include the additional charges in the Intrastat declaration
@@ -1267,7 +1291,7 @@ In the **Purchase & Payables Setup** there are some additional fields related to
 
 In the Vendor card there have been added some fields related to Intrastat transactions (Transport method, Transaction specification, etc.). When filling in these fields in the vendor card and upon selecting the vendor in the purchase document, they are transferred by default. For more details see the Intrastat section in the present document.
 
-<img src="./media/image106.png" style="width:6.525in;height:4.5in" />
+<img src="./media/image107.png" style="width:6.525in;height:4.5in" />
 
 ## Purchase invoice
 
@@ -1277,7 +1301,7 @@ The localization fields are displayed in the Purchase order and Purchase invoice
 
 - **VAT Date** – the date of the taxable event is filled in
 
-<img src="./media/image107.png" style="width:5.99167in;height:2.45812in" />
+<img src="./media/image108.png" style="width:5.99167in;height:2.45812in" />
 
 **Invoice Details tab**
 
@@ -1289,7 +1313,7 @@ The localization fields are displayed in the Purchase order and Purchase invoice
 - **Do Not include in VAT ledger** – to be checked if the invoice should not be reflected in the VAT ledger;
 - **VAT Exempt Ground**– select the ground on the basis of which VAT is not charged in the invoice
 
-<img src="./media/image108.png" style="width:6.4375in;height:4.85417in" />
+> <img src="./media/image109.png" style="width:6.4375in;height:4.85417in" />
 
 **Foreign Trade tab**
 
@@ -1297,7 +1321,7 @@ In this tab you must fill in data for the Intrastat transactions if the document
 
 **Note:** In **Company information** in the **Shipping** tab - **Ship-to Country/Region Code** field must be filled in with the BG code. If BG code is not present there, when posting invoices from Bulgaria the system requires that the fields in the **Foreign Trade** tab must be filled in.
 
-<img src="./media/image109.png" style="width:6.53194in;height:1.86597in" />
+<img src="./media/image110.png" style="width:6.53194in;height:1.86597in" />
 
 ## Purchase credit memos
 
@@ -1307,7 +1331,7 @@ In the Purchase credit memo and Purchase return order pages there have been adde
 
 - **VAT Date** – the date of the taxable event is filled in
 
-<img src="./media/image110.png" style="width:6.525in;height:2.75in" />
+<img src="./media/image111.png" style="width:6.525in;height:2.75in" />
 
 **Invoice Details tab**
 
@@ -1316,14 +1340,14 @@ In the Purchase credit memo and Purchase return order pages there have been adde
 - **Do Not include in VAT ledger** – to be checked if the invoice should not be reflected in the VAT journal;
 - **VAT Exempt Ground** – select the ground on the basis of which VAT is not charged in the invoice
 
-<img src="./media/image111.png" style="width:6.53194in;height:2.22986in" />
+<img src="./media/image112.png" style="width:6.53194in;height:2.22986in" />
 
 **Application tab**
 
 - **To Invoice No.** – select the invoice from a list of posted purchase invoices or enter manually the number of the invoice to which the credit memo is issued.
 - **To Invoice Date –** filled in automatically if the invoice is selected from a list of posted purchase invoices or filled in manually if the number of the invoice was entered manually**.**
 
-<img src="./media/image112.png" style="width:6.5in;height:1.41667in" />
+<img src="./media/image113.png" style="width:6.5in;height:1.41667in" />
 
 ## Void posted invoices and credit memos 
 
@@ -1331,15 +1355,15 @@ In the Purchase credit memo and Purchase return order pages there have been adde
 
 If you need to void a document, you must open the posted purchase document. Under the **Actions – Correct** menu you must select **Voiding Invoice**.
 
-<img src="./media/image113.png" style="width:6.53194in;height:3.63264in" />
+<img src="./media/image114.png" style="width:6.53194in;height:3.63264in" />
 
 The system displays a page where you must enter the **Cancellation date**. Confirm by pressing the **Close** button.
 
-<img src="./media/image114.png" style="width:6.525in;height:2.93333in" />
+<img src="./media/image115.png" style="width:6.525in;height:2.93333in" />
 
 The system displays the following message:
 
-<img src="./media/image115.png" style="width:5.09167in;height:1.825in" />
+<img src="./media/image116.png" style="width:5.09167in;height:1.825in" />
 
 Upon pressing the **Yes** button, the document is marked as voided by the system. It will appear in the VAT ledger with zero value. To reverse the G/L postings, you must issue a Credit memo or Invoice which you must also void.
 
@@ -1347,21 +1371,21 @@ Upon pressing the **Yes** button, the document is marked as voided by the system
 
 If you need to void a document, you must open the posted purchase document. Under the **Home – Correct** menu you must select **Cancel**.
 
-<img src="./media/image116.png" style="width:6.3in;height:2.39653in" />
+<img src="./media/image117.png" style="width:6.3in;height:2.39653in" />
 
 A warning message is displayed that the respective document will be canceled, and a corrective document will be created and posted. When an invoice is canceled, a corrective credit note is created and posted, and when a credit note is canceled, a corrective invoice is created and posted.
 
-<img src="./media/image117.png" style="width:6.3in;height:2.10764in" />
+<img src="./media/image118.png" style="width:6.3in;height:2.10764in" />
 
 After confirming the action with the **Yes** button, opens a page in which the voiding date must be entered. The **Date** field is mandatory. The entered cancellation date is used as the date of posting the corrective document.
 
-<img src="./media/image118.png" style="width:6.3in;height:2.52361in" />
+<img src="./media/image119.png" style="width:6.3in;height:2.52361in" />
 
 By selecting the **Close** button the creation and posting of the corrective document is performed.
 
 Тhe canceled documents are marked **Yes** in the **Canceled** field, and the corrective documents are marked **Yes** in the **Corrective** field.
 
-<img src="./media/image119.png" style="width:6.3in;height:1.22917in" />
+<img src="./media/image120.png" style="width:6.3in;height:1.22917in" />
 
 If there is an error when creating and posting a corrective document, a message is displayed and no document is created.
 
@@ -1399,7 +1423,7 @@ If you need to update a document, you must open the posted purchase
 invoice. Under the **Actions – Other** menu you must select **Update
 Document**.
 
-<img src="./media/image120.png" style="width:6.21574in;height:2.50964in" />
+<img src="./media/image121.png" style="width:6.21574in;height:2.50964in" />
 
 On the Posted Purch. Invoice - Update page, you can update the data in
 the following fields:
@@ -1424,7 +1448,7 @@ Shipping tab
 
 • Ship-to address code – you can update the shipping address code
 
-<img src="./media/image121.png" style="width:6.18898in;height:2.66446in" />
+<img src="./media/image122.png" style="width:6.18898in;height:2.66446in" />
 
 Confirm with **OK** to update the data.
 
@@ -1432,7 +1456,7 @@ Confirm with **OK** to update the data.
 
 If you need to update a document, you must open the posted purchase credit memo. Under the **Actions – Other** menu you must select **Update Document**.
 
-<img src="./media/image122.png" style="width:6.25445in;height:2.17398in" />
+<img src="./media/image123.png" style="width:6.25445in;height:2.17398in" />
 
 In the page Posted Purch. Cr.Memo - Update the data in the following fields can be updated:
 
@@ -1444,7 +1468,7 @@ In the page Posted Purch. Cr.Memo - Update the data in the following fields can 
 
 • Do not include in VAT Ledgers - you can update Do not include in VAT Ledgers
 
-<img src="./media/image123.png" style="width:6.4029in;height:2.71002in" />
+<img src="./media/image124.png" style="width:6.4029in;height:2.71002in" />
 
 Confirm with **OK** to update the data.
 
@@ -1456,7 +1480,7 @@ It is necessary to issue a new Purchase Credit Memo. Enter the number of the pos
 
 In this way, the posted credit memo will be reflected in the VAT ledger entries with code 01.
 
-<img src="./media/image124.png" style="width:6.00856in;height:2.38697in" />
+<img src="./media/image125.png" style="width:6.00856in;height:2.38697in" />
 
 # Sales – localization settings
 
@@ -1464,13 +1488,13 @@ The Localization package for Bulgaria adds the following settings in the Sales a
 
 ## User setup
 
-<img src="./media/image125.png" style="width:6.53194in;height:1.22708in" />
+<img src="./media/image126.png" style="width:6.53194in;height:1.22708in" />
 
 In the **User setup** **– Card** **Usersetup** page there is an additional field called **Posting date** **\<\>** **Work date**. If this field is checked, the system will not check for differences between the posting date and work date when an order or a sales invoice is posted.
 
 The **Edit Sales document\`s price and discounts** field allows you to restrict a user from editing prices and discounts along the lines of the sales document. By default, users are created with their edit rights disabled. In this case, they can only select Item along the lines of the sales document. If users need to have edit rights, you must select the option **Full Access**.
 
-<img src="./media/image126.png" style="width:6.53194in;height:1.31667in" />
+<img src="./media/image127.png" style="width:6.53194in;height:1.31667in" />
 
 ## Sales & Receivables Setup
 
@@ -1488,7 +1512,7 @@ They are included in the VAT Sales journal under code 81.
 - **Intr. Jnl. Incl. Item charges**. - If item charges need to be included in the Intrastat journal for shipments, you must check this option
 - **Payment Metod mandatory** - specifies whether the Payment Method Code is mandatory for posting.
 
-<img src="./media/image127.png" style="width:6.20579in;height:2.99491in" />
+<img src="./media/image128.png" style="width:6.20579in;height:2.99491in" />
 
 ## Company information setup
 
@@ -1499,13 +1523,13 @@ The following fields have been added to the page **Company Information**:
 - **City in English** - the city from the address of the company, written in Latin symbols. Used when printing documents.
 - **Picture 2 -** option for second picture, logo when printing documents
 
-<img src="./media/image128.png" style="width:6.53194in;height:2.83333in" />
+<img src="./media/image129.png" style="width:6.53194in;height:2.83333in" />
 
 ## Contact card
 
 The **Identification No.** field has been added to the contact card. When creating a customer or vendor from a contact, this field is transferred to the corresponding customer or vendor card.
 
-<img src="./media/image129.png" style="width:6.53194in;height:3.325in" />
+<img src="./media/image130.png" style="width:6.53194in;height:3.325in" />
 
 ## Customer card
 
@@ -1515,19 +1539,19 @@ The following fields have been added to the page **Customer Card**:
 
 - **Identification No. -** the unique identification number (UIC) of the company
 
-<img src="./media/image130.png" style="width:5.41458in;height:3.35317in" />
+<img src="./media/image131.png" style="width:5.41458in;height:3.35317in" />
 
 **Sell-to Customer Sales History** tab
 
 - **Advance Paid (LCY) -** shows the amount of the advance paid by the customer
 
-<img src="./media/image131.png" style="width:6.53194in;height:2.8625in" />
+<img src="./media/image132.png" style="width:6.53194in;height:2.8625in" />
 
 Functionality for advance payment by customer has been added.
 
 When under an advance account set in the **General posting setup** an amount is posted for the given **General business posting group**, it is displayed in the customer card and also in the **Sales history** tab in **Sales order** and **Sales invoice**. The advance payment is visible in the Sales document too.
 
-<img src="./media/image132.png" style="width:6.5in;height:2.91667in" />
+<img src="./media/image133.png" style="width:6.5in;height:2.91667in" />
 
 **Shipping tab**
 
@@ -1536,7 +1560,7 @@ Some fields related to Intrastat have been added, which are transferred to the s
 - **Transaction Specification**
 - **Transport Method**
 
-<img src="./media/image133.png" style="width:6.53194in;height:4.42986in" />
+<img src="./media/image134.png" style="width:6.53194in;height:4.42986in" />
 
 ## Sales invoice
 
@@ -1548,7 +1572,7 @@ The localization fields are displayed in the Sales order and Sales invoice as fo
 - **Composed By** – filled in manually by the user name;
 - **Advance Paid (LCY)** – if there is an advance payment by a customer, it will be displayed on the FactBox of the page.
 
-<img src="./media/image134.png" style="width:6.53194in;height:2.5375in" />
+<img src="./media/image135.png" style="width:6.53194in;height:2.5375in" />
 
 **Invoice Details tab**
 - **Bank No.** – by default, the bank account details frоm **Company information** are displayed on the printed sales document. If you want to specify another bank account for a sale, you must select in this field the Bank from the Bank Accounts list;
@@ -1559,13 +1583,13 @@ The localization fields are displayed in the Sales order and Sales invoice as fo
 - **Do not include in VAT ledgers** – to be checked if the document is for internal consumption;
 - **VAT Exempt Ground**– select the ground on the basis of which VAT is not charged in the invoice. Used for tax-exempt transactions.
 
-<img src="./media/image135.png" style="width:6.53194in;height:4.53611in" />
+<img src="./media/image136.png" style="width:6.53194in;height:4.53611in" />
 
 **Foreign Trade tab**
 
 In this tab you must fill in data for the Intrastat transactions if the document is a sale to the EU and contains items. The system displays warning messages if data is not present. This data can be specified in the **Customer card** and populated by default in the sales invoice.
 
-<img src="./media/image136.png" style="width:6.525in;height:1.74167in" />
+<img src="./media/image137.png" style="width:6.525in;height:1.74167in" />
 
 **Note:** In **Company information** in the **Shipping** tab **- Ship-to Country/Region Code** field must be filled in with the BG code. If BG code is not present there, when posting invoices from Bulgaria the system requires that the fields in the **Foreign Trade** tab are filled in.
 
@@ -1580,7 +1604,7 @@ The localization fields are displayed in the Sales return order and Sales credit
 - **To Invoice No.** – select the invoice from a list of posted sales invoices or enter manually the number of the invoice to which the credit memo is issued;
 - **To Invoice date –** automatically populated if the invoice is selected from a list of posted sales invoices or manually filled in if the number of the invoice was entered manually**;**
 
-<img src="./media/image137.png" style="width:6.53194in;height:3.39236in" />
+<img src="./media/image138.png" style="width:6.53194in;height:3.39236in" />
 
 **Credit memo details tab**
 - **Bank No.** – by default, the bank account details frоm **Company information** are displayed on the printed sales document. If you want to specify another bank account for a sale, you must select in this field the Cash from the cash list;
@@ -1588,27 +1612,27 @@ The localization fields are displayed in the Sales return order and Sales credit
 - **Do not include in VAT ledgers** – to be checked if the document must not be included in the VAT Sales ledger;
 - **VAT Exempt Ground** – select the ground on the basis of which VAT is not charged in the invoice. Used for tax-exempt transactions.
 
-<img src="./media/image138.png" style="width:6.53194in;height:4.42917in" />
+<img src="./media/image139.png" style="width:6.53194in;height:4.42917in" />
 
 **Foreign trade tab**
 
 In this tab you must fill in data for the Intrastat transactions if the document is a sale to the EU and contains items. The system displays warning messages if data is not present. This data can be specified in the **Customer card** and populated by default in the sales credit memo.
 
-<img src="./media/image139.png" style="width:6.5in;height:1.5in" />
+<img src="./media/image140.png" style="width:6.5in;height:1.5in" />
 
 ## Print Sales invoices and credit memos
 
 The following setup is required before printing an invoice or credit memo. In the **Report Selection - Sales** page select the option **Invoice** (as shown below) and the object responsible for the invoice – XXXXX (Sales – Invoice). By selecting the option Credit memo, fill in the object XXXXX (Credit memo) in the **Report ID** field.
 
-<img src="./media/image140.png" style="width:6.525in;height:2.28333in" />
+<img src="./media/image141.png" style="width:6.525in;height:2.28333in" />
 
 The invoice or credit memo are printed by pressing the **Print** button in the list of posted invoices or credit memos.
 
-<img src="./media/image141.png" style="width:6.53194in;height:1.41667in" />
+<img src="./media/image142.png" style="width:6.53194in;height:1.41667in" />
 
 A page opens with the following options:
 
-<img src="./media/image142.png" style="width:6.53194in;height:3.89792in" />
+<img src="./media/image143.png" style="width:6.53194in;height:3.89792in" />
 
 - **Language** – you must select the language in which the document will be printed – for English select ENU;
 - **No. of Copies** – specify the number of copies to be printed in addition to the original document;
@@ -1618,9 +1642,9 @@ A page opens with the following options:
 
 After selecting **Preview**, **Print** or **Send** **to…**, the invoice and credit memo are visualized in the following way:
 
-<img src="./media/image143.png" style="width:6.53194in;height:5.88056in" />
+<img src="./media/image144.png" style="width:6.53194in;height:5.88056in" />
 
-<img src="./media/image144.png" style="width:6.53194in;height:5.90417in" />
+<img src="./media/image145.png" style="width:6.53194in;height:5.90417in" />
 
 In the table below you can find information about the fields in the documents and their source fields for printing in Bulgarian and in English:
 
@@ -1665,14 +1689,14 @@ In the table below you can find information about the fields in the documents an
 
 Like Sales invoices, Sales protocols have a list of unposted protocols.
 
-<img src="./media/image145.png" style="width:4.66667in;height:2.63248in" />
+<img src="./media/image146.png" style="width:4.66667in;height:2.63248in" />
 
 The protocol is displayed as a sales invoice, but it is in a separate list and is marked as protocol.
 
 Once posted the protocols are stored in the list of posted invoices and can be identified as Sales protocols by the check in the Sales Protocol field. Their number series for posting must not coincide with these of invoices. Filling them in is similar to filling in a Sales invoice. This type of document is presented under code 81 in the VAT sales ledger.
 The protocol is printed in a similar printed form like the Invoice, but is titled Sales protocol.
 
-<img src="./media/image146.png" style="width:6.53194in;height:5.925in" />
+<img src="./media/image147.png" style="width:6.53194in;height:5.925in" />
 
 ## Cancel Sales invoices or credit memos 
 
@@ -1680,15 +1704,15 @@ The protocol is printed in a similar printed form like the Invoice, but is title
 
 If you need to cancel a sales document, you must open the posted document and select **Voiding invoice** from the **Actions – Voiding Invoice** menu**.**
 
-<img src="./media/image147.png" style="width:6.53194in;height:3.03819in" />
+<img src="./media/image148.png" style="width:6.53194in;height:3.03819in" />
 
 The system displays a page where you must enter the **Cancellation date**. Confirm by pressing the **Close** button.
 
-<img src="./media/image148.png" style="width:4.31667in;height:1.94608in" />
+<img src="./media/image149.png" style="width:4.31667in;height:1.94608in" />
 
 The system displays the following message:
 
-<img src="./media/image149.png" style="width:5.14167in;height:1.84167in" />
+<img src="./media/image150.png" style="width:5.14167in;height:1.84167in" />
 
 Upon pressing the **Yes** button, the document is marked as cancelled by the system. It will appear in the VAT Sales Ledger with zero value. To reverse the G/L postings, you must issue a Credit memo or Invoice which you must also cancel.
 
@@ -1696,21 +1720,21 @@ Upon pressing the **Yes** button, the document is marked as cancelled by the sys
 
 If you need to void a document, you must open the posted sales document. Under the **Home – Correct** menu you must select **Cancel**.
 
-<img src="./media/image150.png" style="width:6.3in;height:1.71528in" />
+<img src="./media/image151.png" style="width:6.3in;height:1.71528in" />
 
 The system displays a page where you must enter the **Cancellation date**. The **Date** field is required. The entered cancellation date is used as the date of posting the corrective document.
 
-<img src="./media/image118.png" style="width:6.3in;height:2.52361in" />
+<img src="./media/image119.png" style="width:6.3in;height:2.52361in" />
 
 By selecting the **Close** button, a warning message is displayed that the respective document will be canceled and a corrective document will be created and posted. When an invoice is canceled, a corrective credit note is created and posted, and when a credit note is canceled, a corrective invoice is created and posted.
 
-<img src="./media/image151.png" style="width:6.3in;height:2.18472in" />
+<img src="./media/image152.png" style="width:6.3in;height:2.18472in" />
 
 After confirmation with the **Yes** button the creation and posting of the corrective document is performed.
 
 Тhe canceled documents are marked **Yes** in the **Canceled** field, and the corrective documents are marked **Yes** in the **Corrective** field.
 
-<img src="./media/image119.png" style="width:6.3in;height:1.22917in" />
+<img src="./media/image120.png" style="width:6.3in;height:1.22917in" />
 
 If there is an error when creating and posting a corrective document, a message is displayed and no document is created.
 
@@ -1748,7 +1772,7 @@ The change is made from the posted document page.
 If you need to update a document, you must open the posted sales invoice. Under the **Actions – Other** menu you must select **Update
 Document**.
 
-<img src="./media/image152.png" style="width:5.97608in;height:2.54248in" />
+<img src="./media/image153.png" style="width:5.97608in;height:2.54248in" />
 
 On the Posted Sales Inv.- Update page, you can update the data in the following fields:
 
@@ -1767,7 +1791,7 @@ Code
 
 • Bank No.
 
-<img src="./media/image153.png" style="width:6.09147in;height:2.65796in" />
+<img src="./media/image154.png" style="width:6.09147in;height:2.65796in" />
 
 Confirm with **OK** to update the data.
 
@@ -1775,7 +1799,7 @@ Confirm with **OK** to update the data.
 
 If you need to update a document, you must open the posted sales credit memo. Under the **Actions – Other** menu you must select **Update Document**.
 
-<img src="./media/image154.png" style="width:6.22866in;height:2.4129in" />
+<img src="./media/image155.png" style="width:6.22866in;height:2.4129in" />
 
 In the page Posted Sales. Cr.Memo - Update, the data in the following fields can be updated:
 
@@ -1797,7 +1821,7 @@ Payment tab
 
 • Payment Method Code – you can update the Payment Method Code field
 
-<img src="./media/image155.png" style="width:6.13333in;height:2.59167in" />
+<img src="./media/image156.png" style="width:6.13333in;height:2.59167in" />
 
 Confirm with **OK** to update the data.
 
@@ -1811,41 +1835,41 @@ Inventory module.
 Added Default General Business Posting Group field in **Assembly
 Setup**.
 
-<img src="./media/image156.png" style="width:6.16667in;height:2.38333in" />
+<img src="./media/image157.png" style="width:6.16667in;height:2.38333in" />
 
 When creating an assembly order, this group will be fill in the assembly
 order General Business Posting Group field.
 
-<img src="./media/image157.png" style="width:5.725in;height:2.55833in" />
+<img src="./media/image158.png" style="width:5.725in;height:2.55833in" />
 
 ## Inventory Setup
 
 Added Gen. Bus. Posting Group (Transfer) field in **Inventory Setup**. When creating a transfer order, this General Business Posting Group will be fill in the transfer order.
 
-<img src="./media/image158.png" style="width:5.68333in;height:2.36667in" />
+<img src="./media/image159.png" style="width:5.68333in;height:2.36667in" />
 
 ## Item Journal
 
 Added column for Default General Business Posting Group in Item Journal Batches. If you fill a default group for a folder, then these General Business Posting Group will be fill in item journal lines of that folder.
 
-<img src="./media/image159.png" style="width:6.10833in;height:0.93333in" />
+<img src="./media/image160.png" style="width:6.10833in;height:0.93333in" />
 
-<img src="./media/image160.png" style="width:6.03333in;height:1.69167in" />
+<img src="./media/image161.png" style="width:6.03333in;height:1.69167in" />
 
 ## Default Dimension in Item Category
 
 An Item Category can be assigned to each item from a defined list. Added the ability to place default dimensions to the item category. This happens to the Item Category card:
 
-<img src="./media/image161.png" style="width:6.53194in;height:2.48125in" />
+<img src="./media/image162.png" style="width:6.53194in;height:2.48125in" />
 
 On the BG, VAT and VIES Setup page, a setting has been added to the Items tab related to copying the dimensions from the item category to the item itself:
 
-<img src="./media/image162.png" style="width:6.53194in;height:5.81458in" />
+<img src="./media/image163.png" style="width:6.53194in;height:5.81458in" />
 
 When this setting is checked, then the default dimensions from the item category card will be transferred to the item when the item is assigned to the item category.
 The system has another setup in case of conflict between the dimension values. In the Inventory Setup, there is a setup for item groups dimension:
 
-<img src="./media/image163.png" style="width:6.53194in;height:3.68819in" />
+<img src="./media/image164.png" style="width:6.53194in;height:3.68819in" />
 
 If an item has default dimensions for the Inventory Setup dimension, but fills in the Category that has no dimension value from Inventory Setup, then the same dimension will be removed from the item card.
 
@@ -1857,23 +1881,22 @@ This point provides Dynamics 365 Business Central users with instructions for th
 
 When entering a credit note for a purchase related to an irrecoverable receivable, a new field **Credit Memo according to art.126b, paragraph 1 of VAT Law** has been created in the header, where you can mark if the credit memo is related to an irrecoverable receivable:
 
-<img src="./media/image164.png" style="width:6.13095in;height:2.46944in" />
+<img src="./media/image165.png" style="width:6.13095in;height:2.46944in" />
 
 All other details of the credit note, as well as its entry and posting, are in a standard way.
 
 In the List of posted credit memos, a filter can be made on the Irrecoverable Receivable field and only the documents issued in connection with an irrecoverable receivable will be visualized:
 
-<img src="./media/image165.png" style="width:6.53194in;height:1.40784in" />
+<img src="./media/image166.png" style="width:6.53194in;height:1.40784in" />
 
 The same field is also transferred to the VAT records, where again a
 filter can be made on it:
 
-<img src="./media/image166.png" style="width:6.15223in;height:1.62568in"
- />
+<img src="./media/image167.png" style="width:6.15223in;height:1.62568in" />
 
 After the purchase credit memo is posted, the document is with Document Type 23 in the VAT Purchase Journals:
 
-<img src="./media/image167.png" style="width:5.81743in;height:2.27891in" />
+<img src="./media/image168.png" style="width:5.81743in;height:2.27891in" />
 
 ## Irrecoverable Receivable for sales
 
@@ -1881,7 +1904,7 @@ After the purchase credit memo is posted, the document is with Document Type 23 
 
 When entering a credit note for sale related to an irrecoverable receivable, in the header part there is a new field **Credit Memo according to art.126b, paragraph 1 of VAT Law**, where you can mark if the credit note is related to an irrecoverable receivable:
 
-<img src="./media/image168.png" style="width:5.95454in;height:2.38767in" />
+<img src="./media/image169.png" style="width:5.95454in;height:2.38767in" />
 
 All other details of the credit note, as well as its entry and posting, are in a standard way. After the sales credit memo is posted, the document is with Document Type 23 in the VAT Sales Journal. A filter can be made on the Irrecoverable Receivable field in the list of posted sales credit memos and VAT Entries, and only the documents issued in connection with an irrecoverable receivable will be visualized.
 
@@ -1889,11 +1912,11 @@ All other details of the credit note, as well as its entry and posting, are in a
 
 If a credit memo has been issued in relation to irrecoverable receivable, but then a payment has been made for it, a debit memo should be issued. Two new fields have been created:
 
-<img src="./media/image169.png" style="width:6.13677in;height:2.44891in" />
+<img src="./media/image170.png" style="width:6.13677in;height:2.44891in" />
 
 If the **Irrecoverable Receivable** field is checked, the system opens the **To sales credit memo field** for filling, where the list of sales credit memos is filtered by customer and **Irrecoverable Receivable** field. When the **Irrecoverable Receivable** field is checked in the invoice header, the **Debit Memo** field is also checked automatically. **ONLY** in the case when Debit notice and Irrecoverable Receivable are checked, the system does not look for mandatory To invoice number field. After the sales debit memo is posted, the document is with Document Type 02 in the VAT Sales Journal.
 
-<img src="./media/image170.png" style="width:6.02158in;height:2.27197in" />
+<img src="./media/image171.png" style="width:6.02158in;height:2.27197in" />
 
 A filter can be made on the Irrecoverable Receivable field in the list of posted sales invoices and VAT Entries, and only the documents issued in connection with an irrecoverable receivable will be visualized.
 
@@ -1903,11 +1926,11 @@ If you have receivables from customers who have bankrupt and you have irrecovera
 
 When you create a sales protocol for irrecoverable receivable you have to check the new field **Protocol according to art.126b, paragraph 2 and 7 of VAT Law**:
 
-<img src="./media/image171.png" style="width:5.97413in;height:2.53113in" />
+<img src="./media/image172.png" style="width:5.97413in;height:2.53113in" />
 
 After posting the protocol, it is entered in the VAT journals with Type of document 29:
 
-<img src="./media/image172.png" style="width:6.34929in;height:2.51691in" />
+<img src="./media/image173.png" style="width:6.34929in;height:2.51691in" />
 
 # Receipt and expense cash receiptts
 
@@ -1917,13 +1940,13 @@ The functionality for issuing Income Cash Receipts (PKO) and Expense Cash Receip
 
 The **Bank Account**, using which PKOs or RKOs will be issued, must be previously determined and marked. For this purpose, on the **Bank Account Card** page, in the **General** section, the field **Cash** must be marked.
 
-<img src="./media/image173.png" style="width:6.53194in;height:1.87431in" />
+<img src="./media/image174.png" style="width:6.53194in;height:1.87431in" />
 
 ## Journal Batches Settings
 
 On the page **Jeneral Journal Batches** of **General Journals**, for the batch in which cash payment records will be posted and Income Cash Receipts or Expense Cash Receipts will be issued, the field **Print PKO or RKO** must be marked:
 
-<img src="./media/image174.png" style="width:6.53194in;height:1.00417in" />
+<img src="./media/image175.png" style="width:6.53194in;height:1.00417in" />
 
 ## Expense Cash Receipt
 
@@ -1945,11 +1968,11 @@ The contents of these fields are used in the printed form of the cash order.
 
 If there is already a posted purchase invoice that reflects the payment in the journal, you can use the action **Apply Entries** and specify the corresponding invoice.
 
-<img src="./media/image175.png" style="width:3.92514in;height:0.78846in" />
+<img src="./media/image176.png" style="width:3.92514in;height:0.78846in" />
 
 On the page **Apply Vendor Entries**, on the line of the document to which the payment will be linked, click the field **Applies-to ID** and then select **Set Applies-to ID** action. Then select the OK button.
 
-<img src="./media/image176.png" style="width:6.52917in;height:1.48056in" />
+<img src="./media/image177.png" style="width:6.52917in;height:1.48056in" />
 
 Data will be extracted from the selected related document, which will be entered in the report – the printed form of the cash receipt:
 - Document Type
@@ -1961,13 +1984,13 @@ Data will be extracted from the selected related document, which will be entered
 
 After filling in the data in the journal lines, during the **Posting** action, the system will automatically suggest that the receipt be printed.
 
-<img src="./media/image177.png" style="width:4.13862in;height:4.93346in" />
+<img src="./media/image178.png" style="width:4.13862in;height:4.93346in" />
 
 In case it is not printed immediately, this can be done subsequently from the **Expense Cash Receipt** page.
 
 The printed form of the **Expense Cash Receipt** is as follows:
 
-![](./media/image178.png)
+![](./media/image179.png)
 
 Note: In case when posting the payment, a Bank Account is specified instead of a vendor, then in the printed form of the RKO in the field **Reason:** different information will be displayed. In this case, if the document is printed separately, it must be done from the **Expense Cash Receipt (Cash)** page.
 
@@ -2007,7 +2030,7 @@ In case it is not printed immediately, this can be done subsequently from the **
 
 The printed form of the **Income Cash Receipt** is as follows:
 
-![](./media/image179.png)
+![](./media/image180.png)
 
 Note: In case when posting the payment and a Bank Account is specified instead of a customer, then in the printed form of the PKO in the field **Per Contra:** different information will be displayed. In this case, if the document is printed separately, it must be done from the I**ncome Cash Receipt (Cash)** page.
 
@@ -2017,6 +2040,6 @@ Note: In case when posting the payment and a Bank Account is specified instead o
 
 Added new functionality - copy document in Service Credit Memo:
 
-<img src="./media/image180.png" style="width:6.53194in;height:1.80139in" />
+<img src="./media/image181.png" style="width:6.53194in;height:1.80139in" />
 
 The functionality allows you to select a posted service invoice whose data is copied to the service credit memo.
