@@ -157,8 +157,12 @@ The main fields for the setup of the VAT combinations for the Bulgarian localiza
 >
 > **Partial refund –** when **Partial refund** is selected, the sums will be included in the columns for transactions with **Partial VAT credit.**
 >
-> **Annual correction-** used for column for transactions under art. 73, p. 8 in the purchase VAT ledger.
-- **Calculate VAT for Personal Use** - used for protocols for private use of assets. The document is included in the VAT sales ledger.
+> **Annual correction-** used for column for transactions under art. 73,
+> p. 8 in the purchase VAT ledger.
+
+- **Calculate VAT for Personal Use** - used for protocols for private
+  use of assets. The document is included in the VAT sales ledger.
+
 - **Vat classification code** – if no code is entered, enter code 00.
 
 <table style="width:100%;">
