@@ -15,3 +15,7 @@ https://www.docstomarkdown.pro/convert-word-to-markdown/
 (2026.06.09)
 >pandoc -t gfm "D:\AL\D365BC_BGLocalization\Source\BG-Full.2026.05\05.2026 FTS Bulgarian Basic Localization Package.docx" -o D:\AL\D365BC_BGLocalization\bg\index.md --extract-media D:\AL\D365BC_BGLocalization\bg
 >pandoc -t gfm "D:\AL\D365BC_BGLocalization\Source\EN-Full.2026.05\05.2026 FTS Bulgarian Basic Localization Package_ENU.docx" -o D:\AL\D365BC_BGLocalization\en\index.md --extract-media D:\AL\D365BC_BGLocalization\en
+
+(2026.09.09)
+>pandoc -t gfm "D:\AL\D365BC_BGLocalization\Source\BG-Full.2026.07\08.2026 FTS Bulgarian Basic Localization Package.docx" -o D:\AL\D365BC_BGLocalization\bg\index.md --extract-media D:\AL\D365BC_BGLocalization\bg
+>pandoc -t gfm "D:\AL\D365BC_BGLocalization\Source\EN-Full.2026.07\08.2026 FTS Bulgarian Basic Localization Package_ENU.docx" -o D:\AL\D365BC_BGLocalization\en\index.md --extract-media D:\AL\D365BC_BGLocalization\en
