@@ -69,7 +69,7 @@ redirect_from:
 [9.3. Expense Cash Receipt](#expense-cash-receipt)\
 [9.4. Income Cash Receipt](#income-cash-receipt)\
 [10. Service](#service)\
-[10.1. Function Copy Document in Service Credit Memo](#function-copy-document-in-service-credit-memo)\
+[10.1. Function Copy Document in Service Credit Memo](#function-copy-document-in-service-credit-memo)
 
 # Executive summary
 
